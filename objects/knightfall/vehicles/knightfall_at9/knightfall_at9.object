@@ -1,0 +1,46 @@
+{
+  "objectName": "knightfall_at9",
+  "colonyTags": ["knightfall", "decorative", "knightfall_vehicle"],
+  "rarity": "Rare",
+  "category": "decorative",
+  "printable": false,
+  "price": 500,
+  "description": "Knightfall's premier tank destroyer. Outfitted with a shield projector for defensive purposes.",
+  "shortdescription": "AT-9",
+  "race": "generic",
+  "apexDescription": "A heavily armored vehicle with a big gun.",
+  "avianDescription": "Looks like an armored vehicle with a big gun.",
+  "floranDescription": "Floran wantsss to drive big machine!",
+  "glitchDescription": "Fascinated. This tank looks sophisticated and slightly altered.",
+  "humanDescription": "A military tank destroyer. Looks very high-tech.",
+  "hylotlDescription": "A machine built and designed for taking out tanks.",
+  "inventoryIcon": "icon.png",
+  "orientations": [
+    {
+      "imageLayers": [
+        {"image": "knightfall_at9.png:<color>", "fullbright": true},
+        {"image": "knightfall_at9lit.png:<color>"}
+      ],
+      "imagePosition": [-96, 0],
+      "frames": 1,
+      "animationCycle": 0.5,
+      "spaceScan": 0.1,
+      "flipImages": true,
+      "direction": "left",
+      "anchors": ["bottom"]
+    },
+    {
+      "imageLayers": [
+        {"image": "knightfall_at9.png:<color>", "fullbright": true},
+        {"image": "knightfall_at9lit.png:<color>"}
+      ],
+      "imagePosition": [-96, 0],
+      "frames": 1,
+      "animationCycle": 0.5,
+      "spaceScan": 0.1,
+      "direction": "right",
+      "anchors": ["bottom"]
+    }
+  ],
+  "tooltipKind": "knightfall_base"
+}
