@@ -1,0 +1,35 @@
+{
+  "objectName": "knightfall_HErailgunshell_front",
+  "colonyTags": ["knightfall", "knightfall_military"],
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 5000,
+  "description": "A large delayed high explosive shell fired from large railguns, capable of decimating large ships.",
+  "shortdescription": "Railgun HE shell - Front",
+  "race": "generic",
+  "apexDescription": "A huge shell. Oh how the Miniknog threatens my race with such weapons.",
+  "avianDescription": "A huge shell. How do you move this around?",
+  "floranDescription": "Floran doesss not like big metal thing.",
+  "glitchDescription": "Wondering. How do you move this huge shell?",
+  "humanDescription": "Where can I find a gun to fire this shell from?",
+  "hylotlDescription": "A huge shell meant to be fired from equally huge guns.",
+  "inventoryIcon": "knightfall_HErailgunshell_front.png",
+  "orientations": [
+    {
+      "image": "knightfall_HErailgunshell_front.png:<color>",
+      "imagePosition": [-8, -8],
+      "direction": "left",
+      "flipImages": true,
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    },
+    {
+      "image": "knightfall_HErailgunshell_front.png:<color>",
+      "imagePosition": [-8, -8],
+      "direction": "right",
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    }
+  ],
+  "tooltipKind": "knightfall_base"
+}
