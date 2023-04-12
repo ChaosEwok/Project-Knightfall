@@ -82,7 +82,7 @@
 
 						"buffer": {
 							"properties": {
-								"image": "<partImage>:default.<frame><paletteSwaps>"
+								"image": "<partImage>:buffer.<frame><paletteSwaps>"
 							}
 						},
 						
@@ -119,7 +119,7 @@
 
 						"buffer": {
 							"properties": {
-								"image": "<partImage>:default.<frame><paletteSwaps>"
+								"image": "<partImage>:buffer.<frame><paletteSwaps>"
 							}
 						},
 						
