@@ -6,9 +6,9 @@
    "rarityLabelKind":"knightfall",
    "description":"A simple and reliable flamethrower issued to Knightfall GIs for clearing out cave networks and enemy defenses.",
    "warning":"FRIENDLY FIRE ENABLED",
-   "shortdescription":"Scorcher",
+   "shortdescription":"^2;Scorcher",
    "tooltipKind":"knightfall_weapon_warningbox",
-   "category":"^orange;Flamethrower^reset;",
+   "category":"^red;Flamethrower^reset;",
    "twoHanded":true,
    "itemTags":[
       "weapon",

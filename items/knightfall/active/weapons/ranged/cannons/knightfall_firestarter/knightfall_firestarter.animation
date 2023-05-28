@@ -29,7 +29,7 @@
 					
 					"fire": {
 						"frames": 4,
-						"cycle": 0.1,
+						"cycle": 0.2,
 						"mode": "transition",
 						"transition": "reload"
 					},
@@ -191,7 +191,7 @@
 		"muzzleFlash": {
 			"active": false,
 			"position": [0, 0],
-			"color": [0, 50, 90]
+			"color": [234, 130, 6]
 		}
 	},
 
