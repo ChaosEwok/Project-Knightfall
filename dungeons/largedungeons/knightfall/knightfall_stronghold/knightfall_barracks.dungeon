@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "name" : "knightfall_barracks",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "knightfall_barracks" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 20,
+    "extendSurfaceFreeSpace" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "knightfall_barracks",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "knightfall_barracks.json" ]
+    }
+  ]
+}

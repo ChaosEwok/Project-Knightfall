@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "name" : "knightfall_landingpad",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "knightfall_landingpad" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 20,
+    "extendSurfaceFreeSpace" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "knightfall_landingpad",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "knightfall_landingpad.json" ]
+    }
+  ]
+}

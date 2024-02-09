@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "name" : "knightfall_gateright",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "knightfall_gateright" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 20,
+    "extendSurfaceFreeSpace" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "knightfall_gateright",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "knightfall_gateright.json" ]
+    }
+  ]
+}
