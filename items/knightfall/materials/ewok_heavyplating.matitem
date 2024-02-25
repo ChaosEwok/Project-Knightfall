@@ -1,0 +1,15 @@
+{
+  "itemName" : "ewok_heavyplating",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "ewok_heavyplating.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Heavy Plating",
+  
+  "description" : "A smooth, dark metal plate.",
+  "glitchDescription" : "Statement. A strong metal plate.",
+  "floranDescription" : "Dark metal platesss...",
+
+  "materialId" : 4704
+}
