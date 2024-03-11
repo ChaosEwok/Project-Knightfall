@@ -1,0 +1,8 @@
+{
+  "input" : [
+	{ "item" : "money", "count" : 150 }
+  ],
+  "output" : { "item" : "knightfall_roofdetail01", "count" : 1 },
+  "duration" : 0,
+  "groups" : [ "knightfall_furniturecatalogue", "knightfall_decorative", "all" ]
+}
