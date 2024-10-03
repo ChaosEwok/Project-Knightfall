@@ -1,0 +1,10 @@
+{
+  "name" : "knightfall_augmentedgleap",
+  "category" : "knightfall_augmentedgleap",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "knightfall_augmentedgleap.png",
+	"bodynobright" : "knightfall_augmentedgleapnobright.png"
+  }
+}
