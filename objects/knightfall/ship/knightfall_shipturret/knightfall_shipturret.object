@@ -1,0 +1,46 @@
+{
+  "objectName": "knightfall_shipturret",
+  "colonyTags": ["knightfall", "decorative", "knightfall_ship"],
+  "rarity": "Rare",
+  "category": "decorative",
+  "printable": false,
+  "price": 500,
+  "description": "Knightfall's prototype Shipturret. Outfitted with a railgun and quad rocketlauncher.",
+  "shortdescription": "Knightfall Shipturret",
+  "race": "generic",
+  "apexDescription": "A heavy shipturret with a railgun.",
+  "avianDescription": "Looks like a shipturret with a railgun.",
+  "floranDescription": "Floran wantsss that big turret!",
+  "glitchDescription": "Fascinated. This turret looks high-tech and powerful.",
+  "humanDescription": "A military shipturret. Looks very high-tech.",
+  "hylotlDescription": "A Turret built and designed for piercing the hull of enemy ships.",
+  "inventoryIcon": "icon.png",
+  "orientations": [
+    {
+      "imageLayers": [
+        {"image": "knightfall_shipturret.png:<color>", "fullbright": true},
+        {"image": "knightfall_shipturretlit.png:<color>"}
+      ],
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 0.5,
+      "flipImages": true,
+      "direction": "left",
+      "metaBoundBox" : [-32, -32, 32, 32],
+	  "anchors": ["bottom"]
+    },
+    {
+      "imageLayers": [
+        {"image": "knightfall_shipturret.png:<color>", "fullbright": true},
+        {"image": "knightfall_shipturretlit.png:<color>"}
+      ],
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 0.5,
+      "direction": "right",
+      "metaBoundBox" : [-32, -32, 32, 32],
+	  "anchors": ["bottom"]
+    }
+  ],
+  "tooltipKind": "knightfall_base"
+}
