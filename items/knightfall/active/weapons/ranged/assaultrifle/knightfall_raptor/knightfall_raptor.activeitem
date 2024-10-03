@@ -2,7 +2,7 @@
 	"itemName": "knightfall_raptor",
 	"shortdescription": "^3;Raptor",
 	"category": "^#66ccff;Plasma Assault Rifle^reset;",
-	"description": "^#66ccff;PRIMARY^reset; - Medium Plasma Bolts\n^#66ccff;ALTFIRE^reset; - Plasma Grenade\n\n^#559fd3;Fielded commonly by Knightfall's elite GIs, the Raptor is known for being a strong and reliable service weapon.\n\nIt's a post-war era weapon based on the Gyrfalcon, introduced just after Knightfall's independence from the Protectorate.^reset;",
+	"description": "^#66ccff;PRIMARY^reset; - Medium Plasma Bolts\n^#66ccff;ALTFIRE^reset; - Plasma Grenade\n\n^#559fd3;Nicknamed the 'Stormbringer', the Raptor's powerful plasma bolts has made it the favored weapon of choice for Knightfall's Knightframes. It demands frequent maintenance however, a problem caused by its hefty build and complex engineering.^reset;",
   
 	"level": 7,
 	"price": 4000,

@@ -2,7 +2,7 @@
 	"itemName": "knightfall_blitzhunter",
 	"shortdescription": "^2;Blitzhunter",
 	"category": "^orange;Assault Rifle^reset;",
-	"description": "^#66ccff;PRIMARY^reset; - Rifle Bullets\n^#66ccff;ALTFIRE^reset; - Flechette Grenade\n\n^#559fd3;Known as the heavier cousin of the Foxhound, the Blitzhunter is a largely forgotten service weapon due to the popularity of the Raptor.\n\nIt's a favorite among gun collectors, and certain divisions in Knightfall's army use them over the more expensive Raptor.^reset;",
+	"description": "^#66ccff;PRIMARY^reset; - Rifle Bullets\n^#66ccff;ALTFIRE^reset; - Flechette Grenade\n\n^#559fd3;Although less favored compared to the Raptor, the Blitzhunter has made a name for itself by being more cost-efficient to produce and easier to maintain. Its larger caliber rounds is a bite that's not to be underestimated.^reset;",
   
 	"level": 7,
 	"price": 4000,
