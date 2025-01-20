@@ -1,0 +1,42 @@
+{
+  "objectName": "ewok_supercredit",
+  "colonyTags": ["knightfall","decorative"],
+  "rarity": "Legendary",
+  "description": "A stack of Supercredits.",
+  "shortdescription": "Supercredit Stack",
+  "race": "generic",
+  "category": "decorative",
+  "price": 60,
+  "apexDescription": "Reminds me of how we fought on Malavon Creek.",
+  "avianDescription": "Looks like a lot of human credits.",
+  "floranDescription": "Floran wants to gamble.",
+  "glitchDescription": "Hungry. These credits look tasty.",
+  "humanDescription": "I hope it is worth as much as it shines.",
+  "hylotlDescription": "Not as well made as Hylotl credits, but just enough to buy me some goods.",
+  "novakidDescription": "Just enough to buy me a new Gun.",
+  "inventoryIcon": "icon.png",
+  "orientations": [
+    {
+      "imageLayers": [{"image": "ewok_supercredit.png:<color>"}],
+      "flipImages": true,
+      "direction": "left",
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 1,
+	  "metaBoundBox" : [-32, -32, 32, 32],
+      "anchors": ["bottom"],
+	  "collision": "platform"
+    },
+    {
+      "imageLayers": [{"image": "ewok_supercredit.png:<color>"}],
+      "direction": "right",
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 1,
+	  "metaBoundBox" : [-32, -32, 32, 32],
+      "anchors": ["bottom"],
+	  "collision": "platform"
+    }
+  ],
+  "tooltipKind": "knightfall_base"
+}
