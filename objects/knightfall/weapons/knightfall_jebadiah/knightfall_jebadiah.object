@@ -1,0 +1,44 @@
+{
+  "objectName": "knightfall_jebadiah",
+  "colonyTags": ["knightfall", "knightfall_military"],
+ "rarity" : "rare",
+  "category" : "decorative",
+  "price" : 50,
+  "scannable" : true,
+  "printable" : true,
+  "description": "A Veteran Commander.",
+  "shortdescription": "Jebadiah",
+  "race": "human",
+  "apexDescription": "Sir!",
+  "avianDescription": "Commander!",
+  "floranDescription": "Sssssir!",
+  "glitchDescription": "Attention, Commander on deck!",
+  "humanDescription": "ATTENTION! High Ranking Officer Present!",
+  "hylotlDescription": "Sir yes Sir!",
+  "inventoryIcon": "knightfall_jebadiah.png",
+  "orientations": [
+    {
+      "image" : "knightfall_jebadiah.png:<color>",
+      "flipImages": true,
+      "direction": "left",
+	  "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "metaBoundBox" : [-32, -32, 32, 32],
+	  "anchors" : []
+    }
+	,
+    {
+      "image": "knightfall_jebadiah.png:<color>",
+      "direction": "right",
+	  "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "metaBoundBox" : [-32, -32, 32, 32],
+	  "anchors" : []
+  }
+  ],
+  "tooltipKind": "knightfall_base"
+}

@@ -1,0 +1,44 @@
+{
+  "objectName": "knightfall_penguin",
+  "colonyTags": ["knightfall", "knightfall_military"],
+  "rarity" : "rare",
+  "category" : "decorative",
+  "price" : 50,
+  "scannable" : true,
+  "printable" : true,
+  "description": "A Penguin that joined Knightfall and became a Soldier.",
+  "shortdescription": "Penguin Soldier",
+  "race": "human",
+  "apexDescription": "You are a small one.",
+  "avianDescription": "Aw look at him, so small.",
+  "floranDescription": "Cute little Bird.",
+  "glitchDescription": "A Penguin? Stay away from me.",
+  "humanDescription": "We got even Special Forces, look at that.",
+  "hylotlDescription": "Your size gives you an advantage against the Syndicate but not against the Horde.",
+  "inventoryIcon": "knightfall_penguin.png",
+  "orientations": [
+    {
+      "image" : "knightfall_penguin.png:<color>",
+      "flipImages": true,
+      "direction": "left",
+	  "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "metaBoundBox" : [-32, -32, 32, 32],
+	  "anchors" : []
+    }
+	,
+    {
+      "image": "knightfall_penguin.png:<color>",
+      "direction": "right",
+	  "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "metaBoundBox" : [-32, -32, 32, 32],
+	  "anchors" : []
+  }
+  ],
+  "tooltipKind": "knightfall_base"
+}

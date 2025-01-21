@@ -1,0 +1,44 @@
+{
+  "objectName": "knightfall_mk13_berserkerdrone",
+  "colonyTags": ["knightfall", "knightfall_military"],
+  "rarity" : "rare",
+  "category" : "decorative",
+  "price" : 50,
+  "scannable" : true,
+  "printable" : true,
+  "description": "A Knightfall Security Drone modified for close-quarter-combat.",
+  "shortdescription": "MK 13 Berserker Drone",
+  "race": "human",
+  "apexDescription": "Dont hurt me.",
+  "avianDescription": "Dont look at me i did nothing.",
+  "floranDescription": "Tall Tin Can.",
+  "glitchDescription": "A good day to you too sir.",
+  "humanDescription": "I feel way more secure when these guys are around.",
+  "hylotlDescription": "Brutal Killing machine.",
+  "inventoryIcon": "knightfall_mk13_berserkerdrone.png",
+  "orientations": [
+    {
+      "image" : "knightfall_mk13_berserkerdrone.png:<color>",
+      "flipImages": true,
+      "direction": "left",
+	  "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "metaBoundBox" : [-32, -32, 32, 32],
+	  "anchors" : []
+    }
+	,
+    {
+      "image": "knightfall_mk13_berserkerdrone.png:<color>",
+      "direction": "right",
+	  "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "metaBoundBox" : [-32, -32, 32, 32],
+	  "anchors" : []
+  }
+  ],
+  "tooltipKind": "knightfall_base"
+}

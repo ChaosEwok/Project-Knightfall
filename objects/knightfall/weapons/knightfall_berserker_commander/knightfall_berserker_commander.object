@@ -1,0 +1,44 @@
+{
+  "objectName": "knightfall_berserker_commander",
+  "colonyTags": ["knightfall", "knightfall_military"],
+  "rarity" : "rare",
+  "category" : "decorative",
+  "price" : 50,
+  "scannable" : true,
+  "printable" : true,
+  "description": "A Veteran Commander with Berserker Equipment.",
+  "shortdescription": "Berserker Commander",
+  "race": "human",
+  "apexDescription": "Sir!",
+  "avianDescription": "Commander!",
+  "floranDescription": "Sssssir!",
+  "glitchDescription": "Attention, Commander on deck!",
+  "humanDescription": "ATTENTION! High Ranking Officer Present!",
+  "hylotlDescription": "Sir yes Sir!",
+  "inventoryIcon": "knightfall_berserker_commander.png",
+  "orientations": [
+    {
+      "image" : "knightfall_berserker_commander.png:<color>",
+      "flipImages": true,
+      "direction": "left",
+	  "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "metaBoundBox" : [-32, -32, 32, 32],
+	  "anchors" : []
+    }
+	,
+    {
+      "image": "knightfall_berserker_commander.png:<color>",
+      "direction": "right",
+	  "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "metaBoundBox" : [-32, -32, 32, 32],
+	  "anchors" : []
+  }
+  ],
+  "tooltipKind": "knightfall_base"
+}

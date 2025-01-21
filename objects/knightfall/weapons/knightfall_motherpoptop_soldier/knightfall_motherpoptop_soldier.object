@@ -1,0 +1,47 @@
+{
+  "objectName" : "knightfall_motherpoptop_soldier",
+  "rarity" : "rare",
+  "category" : "decorative",
+  "price" : 50,
+  "scannable" : true,
+  "printable" : true,
+
+  "description" : "An augmented Motherpoptop from the Knightfall Augment Project that aimed to gain the strenght of these Wild animals and use them for their own purpose. Designed to kill what ever stands in its way to complete the Objective.",
+  "shortdescription" : "Augmented Motherpoptop Soldier",
+  "race" : "generic",
+
+  "apexDescription" : "Some sort of augmented Motherpoptop.",
+  "avianDescription" : "This is an augmented Motherpoptop.",
+  "floranDescription" : "Thisss thing is killingmachine.",
+  "glitchDescription" : "Interested. An augmented Motherpoptop.",
+  "humanDescription" : "I think it's an augmented Motherpoptop. Wonder who did that.",
+  "hylotlDescription" : "An augmented Motherpoptop.",
+  "novakidDescription" : "Looks like an augmented Motherpoptop.",
+
+  "inventoryIcon" : "knightfall_motherpoptop_soldiericon.png",
+  "orientations" : [
+    {
+      "image" : "knightfall_motherpoptop_soldier.png:<color>",
+      "flipImages": true,
+      "direction": "left",
+	  "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "metaBoundBox" : [-32, -32, 32, 32],
+	  "anchors" : []
+    }
+	,
+    {
+      "image": "knightfall_motherpoptop_soldier.png:<color>",
+      "direction": "right",
+	  "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "metaBoundBox" : [-32, -32, 32, 32],
+	  "anchors" : []
+  }
+ ],
+ "tooltipKind": "knightfall_base"
+}

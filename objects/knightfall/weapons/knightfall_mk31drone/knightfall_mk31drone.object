@@ -1,0 +1,44 @@
+{
+  "objectName": "knightfall_mk31drone",
+  "colonyTags": ["knightfall", "knightfall_military"],
+  "rarity" : "rare",
+  "category" : "decorative",
+  "price" : 50,
+  "scannable" : true,
+  "printable" : true,
+  "description": "A Knightfall Security Drone for all sorts of tasks.",
+  "shortdescription": "Mk31 Security Drone",
+  "race": "human",
+  "apexDescription": "The new Model looks good.",
+  "avianDescription": "Got an Upgrade it seems hm?.",
+  "floranDescription": "Tall Tin Can.",
+  "glitchDescription": "A good day to you too sir.",
+  "humanDescription": "I feel way more secure when these guys are around.",
+  "hylotlDescription": "Nothing wrong with a little Order, ey?.",
+  "inventoryIcon": "knightfall_mk31drone.png",
+  "orientations": [
+    {
+      "image" : "knightfall_mk31drone.png:<color>",
+      "flipImages": true,
+      "direction": "left",
+	  "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "metaBoundBox" : [-32, -32, 32, 32],
+	  "anchors" : []
+    }
+	,
+    {
+      "image": "knightfall_mk31drone.png:<color>",
+      "direction": "right",
+	  "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "metaBoundBox" : [-32, -32, 32, 32],
+	  "anchors" : []
+  }
+  ],
+  "tooltipKind": "knightfall_base"
+}
