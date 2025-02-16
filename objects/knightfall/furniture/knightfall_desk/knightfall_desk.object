@@ -9,7 +9,6 @@
   "race": "generic",
   "category": "storage",
   "price": 120,
-  "lightColor": [0, 70, 110],
   "health": 1.5,
   "apexDescription": "A desk. It seems functional.",
   "avianDescription": "A nice enough looking desk.",
@@ -22,8 +21,8 @@
   "orientations": [
     {
       "imageLayers": [
-        {"image": "knightfall_desk.png:<color>", "fullbright": true},
-        {"image": "knightfall_desklit.png:<color>"}
+        { "image": "image.png:<color>.<key>", "fullbright": true },
+        { "image": "lit.png:<color>.<key>" }
       ],
       "flipImages": true,
       "direction": "left",
@@ -36,8 +35,8 @@
     },
     {
       "imageLayers": [
-        {"image": "knightfall_desk.png:<color>", "fullbright": true},
-        {"image": "knightfall_desklit.png:<color>"}
+        { "image": "image.png:<color>.<key>", "fullbright": true },
+        { "image": "lit.png:<color>.<key>" }
       ],
       "direction": "right",
       "imagePosition": [-16, 0],
@@ -50,8 +49,9 @@
   ],
   "openSounds": ["/sfx/objects/bunkercabinet_open.ogg"],
   "closeSounds": ["/sfx/objects/bunkercabinet_close.ogg"],
-  "slotCount": 9,
+  "slotCount": 24,
   "uiConfig": "/interface/chests/chest<slots>.config",
   "frameCooldown": 5,
+  "openFrameIndex": 3,
   "autoCloseCooldown": 3600
 }
