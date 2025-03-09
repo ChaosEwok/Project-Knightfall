@@ -4,480 +4,575 @@
 		"species" : "generic",
 		"rules" : [
 		],
-		"anchor" : [ "syndicate_firebase" ],
+		"anchor" : [ "base" ],
 		"gravity" : 80,
 		"maxRadius" : 1000000,
 		"maxParts" : 100,
         "extendSurfaceFreeSpace" : 200,
-		"protected" : false
+		"protected" : true
 	},
 
 	"parts" : [
 		{
-			"name" : "syndicate_firebase",
+			"name" : "base",
 			"rules" : [
 				[ "maxSpawnCount", [1] ]
 			],
-			"def" : [ "tmx", "syndicate_firebase.json" ],
+			"def" : [ "tmx", "base.json" ],
 			"chance" : 2.0
 		},
 		{
-			"name" : "sector-a-1",
+			"name" : "start1",
+			"rules" : [
+			    [ "ignorePartMaximumRule" ],
+				[ "maxSpawnCount", [1] ],
+				[ "doNotCombineWith", 
+					[ 
+						"start2"
+					] 
+				]
+			],
+			"def" : [ "tmx", "start1.json" ],
+			"chance" : 0
+		},
+		{
+			"name" : "start2",
+			"rules" : [
+			    [ "ignorePartMaximumRule" ],
+				[ "maxSpawnCount", [1] ],
+				[ "doNotCombineWith", 
+					[ 
+						"start1"
+					] 
+				]
+			],
+			"def" : [ "tmx", "start2.json" ],
+			"chance" : 0
+		},
+		{
+			"name" : "openfield1",
+			"rules" : [
+			    [ "ignorePartMaximumRule" ],
+				[ "maxSpawnCount", [1] ],
+				[ "doNotCombineWith", 
+					[ 
+						"openfield1"
+					] 
+				]
+			],
+			"def" : [ "tmx", "openfield1.json" ],
+			"chance" : 0
+		},
+		{
+			"name" : "openfield2",
+			"rules" : [
+			    [ "ignorePartMaximumRule" ],
+				[ "maxSpawnCount", [1] ],
+				[ "doNotCombineWith", 
+					[ 
+						"openfield2"
+					] 
+				]
+			],
+			"def" : [ "tmx", "openfield2.json" ],
+			"chance" : 0
+		},
+		{
+			"name" : "openfield3",
+			"rules" : [
+			    [ "ignorePartMaximumRule" ],
+				[ "maxSpawnCount", [1] ],
+				[ "doNotCombineWith", 
+					[ 
+						"openfield3"
+					] 
+				]
+			],
+			"def" : [ "tmx", "openfield3.json" ],
+			"chance" : 0
+		},
+		{
+			"name" : "openfield4",
+			"rules" : [
+			    [ "ignorePartMaximumRule" ],
+				[ "maxSpawnCount", [1] ],
+				[ "doNotCombineWith", 
+					[ 
+						"openfield4"
+					] 
+				]
+			],
+			"def" : [ "tmx", "openfield4.json" ],
+			"chance" : 0
+		},
+		{
+			"name" : "openfield5",
+			"rules" : [
+			    [ "ignorePartMaximumRule" ],
+				[ "maxSpawnCount", [1] ],
+				[ "doNotCombineWith", 
+					[ 
+						"openfield5"
+					] 
+				]
+			],
+			"def" : [ "tmx", "openfield5.json" ],
+			"chance" : 0
+		},
+		{
+			"name" : "cliffside-entrance1",
+			"rules" : [
+			    [ "ignorePartMaximumRule" ],
+				[ "maxSpawnCount", [1] ],
+				[ "doNotCombineWith", 
+					[ 
+						"cliffside-entrance2"
+					] 
+				]
+			],
+			"def" : [ "tmx", "cliffside-entrance1.json" ],
+			"chance" : 0
+		},
+		{
+			"name" : "cliffside-entrance2",
+			"rules" : [
+			    [ "ignorePartMaximumRule" ],
+				[ "maxSpawnCount", [1] ],
+				[ "doNotCombineWith", 
+					[ 
+						"cliffside-entrance1"
+					] 
+				]
+			],
+			"def" : [ "tmx", "cliffside-entrance2.json" ],
+			"chance" : 0
+		},
+		{
+			"name" : "cliffside-under1",
+			"rules" : [
+			    [ "ignorePartMaximumRule" ],
+				[ "maxSpawnCount", [1] ],
+				[ "doNotCombineWith", 
+					[ 
+						"cliffside-under2" 
+					] 
+				]
+			],
+			"def" : [ "tmx", "cliffside-under1.json" ],
+			"chance" : 0
+		},
+		{
+			"name" : "cliffside-under2",
+			"rules" : [
+			    [ "ignorePartMaximumRule" ],
+				[ "maxSpawnCount", [1] ],
+				[ "doNotCombineWith", 
+					[ 
+						"cliffside-under1" 
+					] 
+				]
+			],
+			"def" : [ "tmx", "cliffside-under2.json" ],
+			"chance" : 0
+		},
+		{
+			"name" : "cliffside-top1",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
 				[ "maxSpawnCount", [1] ]
 			],
-			"def" : [ "tmx", "sector-a-1.json" ],
-			"chance" : 1.0
-		},
-		{
-			"name" : "artillery-site-a-1",
-			"rules" : [
-			    [ "ignorePartMaximumRule" ],
-				[ "maxSpawnCount", [1] ],
-				[ "doNotCombineWith", 
-					[ 
-						"artillery-site-a-2",
-						"artillery-site-a-3" 
-					] 
-				]
-			],
-			"def" : [ "tmx", "artillery-site-a-1.json" ],
+			"def" : [ "tmx", "cliffside-top1.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "artillery-site-a-2",
+			"name" : "cliffside-adjacent1",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
-				[ "maxSpawnCount", [1] ],
-				[ "doNotCombineWith", 
-					[ 
-						"artillery-site-a-1",
-						"artillery-site-a-3" 
-					] 
-				]
+				[ "maxSpawnCount", [1] ]
 			],
-			"def" : [ "tmx", "artillery-site-a-2.json" ],
+			"def" : [ "tmx", "cliffside-adjacent1.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "artillery-site-a-3",
+			"name" : "freesect1",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
 				[ "maxSpawnCount", [1] ],
 				[ "doNotCombineWith", 
 					[ 
-						"artillery-site-a-1",
-						"artillery-site-a-2" 
+						"freesect1"
 					] 
 				]
 			],
-			"def" : [ "tmx", "artillery-site-a-3.json" ],
+			"def" : [ "tmx", "freesect1.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "artillery-site-b-1",
+			"name" : "freesect2",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
 				[ "maxSpawnCount", [1] ],
 				[ "doNotCombineWith", 
 					[ 
-						"artillery-site-b-2",
-						"artillery-site-b-3" 
+						"freesect2"
 					] 
 				]
 			],
-			"def" : [ "tmx", "artillery-site-b-1.json" ],
+			"def" : [ "tmx", "freesect2.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "artillery-site-b-2",
+			"name" : "freesect3",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
 				[ "maxSpawnCount", [1] ],
 				[ "doNotCombineWith", 
 					[ 
-						"artillery-site-b-1",
-						"artillery-site-b-3" 
+						"freesect3"
 					] 
 				]
 			],
-			"def" : [ "tmx", "artillery-site-b-2.json" ],
+			"def" : [ "tmx", "freesect3.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "artillery-site-b-3",
+			"name" : "freesect4",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
 				[ "maxSpawnCount", [1] ],
 				[ "doNotCombineWith", 
 					[ 
-						"artillery-site-b-1",
-						"artillery-site-b-2" 
+						"freesect4"
 					] 
 				]
 			],
-			"def" : [ "tmx", "artillery-site-b-3.json" ],
+			"def" : [ "tmx", "freesect4.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "sector-a-room-a-1",
+			"name" : "village1",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
 				[ "maxSpawnCount", [1] ],
 				[ "doNotCombineWith", 
 					[ 
-						"sector-a-room-a-2",
-						"sector-a-room-a-3" 
+						"village1"
 					] 
 				]
 			],
-			"def" : [ "tmx", "sector-a-room-a-1.json" ],
+			"def" : [ "tmx", "village1.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "sector-a-room-a-2",
+			"name" : "village2",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
 				[ "maxSpawnCount", [1] ],
 				[ "doNotCombineWith", 
 					[ 
-						"sector-a-room-a-1",
-						"sector-a-room-a-3" 
+						"village2"
 					] 
 				]
 			],
-			"def" : [ "tmx", "sector-a-room-a-2.json" ],
+			"def" : [ "tmx", "village2.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "sector-a-room-a-3",
+			"name" : "filler1",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
 				[ "maxSpawnCount", [1] ],
 				[ "doNotCombineWith", 
 					[ 
-						"sector-a-room-a-1",
-						"sector-a-room-a-2" 
+						"filler1"
 					] 
 				]
 			],
-			"def" : [ "tmx", "sector-a-room-a-3.json" ],
+			"def" : [ "tmx", "filler1.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "sector-a-room-b-1",
+			"name" : "filler2",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
 				[ "maxSpawnCount", [1] ],
 				[ "doNotCombineWith", 
 					[ 
-						"sector-a-room-b-2",
-						"sector-a-room-b-3" 
+						"filler2"
 					] 
 				]
 			],
-			"def" : [ "tmx", "sector-a-room-b-1.json" ],
+			"def" : [ "tmx", "filler2.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "sector-a-room-b-2",
+			"name" : "filler3",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
 				[ "maxSpawnCount", [1] ],
 				[ "doNotCombineWith", 
 					[ 
-						"sector-a-room-b-1",
-						"sector-a-room-b-3" 
+						"filler3"
 					] 
 				]
 			],
-			"def" : [ "tmx", "sector-a-room-b-2.json" ],
+			"def" : [ "tmx", "filler3.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "sector-a-room-b-3",
+			"name" : "mountain-opening1",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
 				[ "maxSpawnCount", [1] ],
 				[ "doNotCombineWith", 
 					[ 
-						"sector-a-room-b-1",
-						"sector-a-room-b-2" 
+						"mountain-opening1"
 					] 
 				]
 			],
-			"def" : [ "tmx", "sector-a-room-b-3.json" ],
+			"def" : [ "tmx", "mountain-opening1.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "sector-a-room-c-1",
+			"name" : "mountain-opening2",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
 				[ "maxSpawnCount", [1] ],
 				[ "doNotCombineWith", 
 					[ 
-						"sector-a-room-c-2",
-						"sector-a-room-c-3" 
+						"mountain-opening2"
 					] 
 				]
 			],
-			"def" : [ "tmx", "sector-a-room-c-1.json" ],
+			"def" : [ "tmx", "mountain-opening2.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "sector-a-room-c-2",
+			"name" : "mountain-opening3",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
 				[ "maxSpawnCount", [1] ],
 				[ "doNotCombineWith", 
 					[ 
-						"sector-a-room-c-1",
-						"sector-a-room-c-3" 
+						"mountain-opening3"
 					] 
 				]
 			],
-			"def" : [ "tmx", "sector-a-room-c-2.json" ],
+			"def" : [ "tmx", "mountain-opening3.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "sector-a-room-c-3",
+			"name" : "challenge-room1",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
 				[ "maxSpawnCount", [1] ],
 				[ "doNotCombineWith", 
 					[ 
-						"sector-a-room-c-1",
-						"sector-a-room-c-2" 
+						"challenge-room1"
 					] 
 				]
 			],
-			"def" : [ "tmx", "sector-a-room-c-3.json" ],
+			"def" : [ "tmx", "challenge-room1.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "sector-a-room-d-1",
+			"name" : "mountain-room-a1",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
 				[ "maxSpawnCount", [1] ],
 				[ "doNotCombineWith", 
 					[ 
-						"sector-a-room-d-2",
-						"sector-a-room-d-3" 
+						"mountain-room-a1"
 					] 
 				]
 			],
-			"def" : [ "tmx", "sector-a-room-d-1.json" ],
+			"def" : [ "tmx", "mountain-room-a1.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "sector-a-room-d-2",
+			"name" : "mountain-room-b1",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
 				[ "maxSpawnCount", [1] ],
 				[ "doNotCombineWith", 
 					[ 
-						"sector-a-room-d-1",
-						"sector-a-room-d-3" 
+						"mountain-room-b1"
 					] 
 				]
 			],
-			"def" : [ "tmx", "sector-a-room-d-2.json" ],
+			"def" : [ "tmx", "mountain-room-b1.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "sector-a-room-d-3",
+			"name" : "mountain-elevator1",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
 				[ "maxSpawnCount", [1] ],
 				[ "doNotCombineWith", 
 					[ 
-						"sector-a-room-d-1",
-						"sector-a-room-d-2" 
+						"mountain-elevator1"
 					] 
 				]
 			],
-			"def" : [ "tmx", "sector-a-room-d-3.json" ],
+			"def" : [ "tmx", "mountain-elevator1.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "sector-a-room-e-1",
+			"name" : "mountain-v-corridor1",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
 				[ "maxSpawnCount", [1] ],
 				[ "doNotCombineWith", 
 					[ 
-						"sector-a-room-e-2",
-						"sector-a-room-e-3" 
+						"mountain-v-corridor1"
 					] 
 				]
 			],
-			"def" : [ "tmx", "sector-a-room-e-1.json" ],
+			"def" : [ "tmx", "mountain-v-corridor1.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "sector-a-room-e-2",
+			"name" : "v-corridor1",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
-				[ "maxSpawnCount", [1] ],
-				[ "doNotCombineWith", 
-					[ 
-						"sector-a-room-e-1",
-						"sector-a-room-e-3" 
-					] 
-				]
+				[ "maxSpawnCount", [1] ]
 			],
-			"def" : [ "tmx", "sector-a-room-e-2.json" ],
+			"def" : [ "tmx", "v-corridor1.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "sector-a-room-e-3",
+			"name" : "artillery-site-a1",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
 				[ "maxSpawnCount", [1] ],
 				[ "doNotCombineWith", 
 					[ 
-						"sector-a-room-e-1",
-						"sector-a-room-e-2" 
+						"artillery-site-a2",
+						"artillery-site-a3" 
 					] 
 				]
 			],
-			"def" : [ "tmx", "sector-a-room-e-3.json" ],
+			"def" : [ "tmx", "artillery-site-a1.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "sector-a-room-f-1",
+			"name" : "artillery-site-a2",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
 				[ "maxSpawnCount", [1] ],
 				[ "doNotCombineWith", 
 					[ 
-						"sector-a-room-f-2",
-						"sector-a-room-f-3"
+						"artillery-site-a1",
+						"artillery-site-a3" 
 					] 
 				]
 			],
-			"def" : [ "tmx", "sector-a-room-f-1.json" ],
+			"def" : [ "tmx", "artillery-site-a2.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "sector-a-room-f-2",
+			"name" : "artillery-site-a3",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
 				[ "maxSpawnCount", [1] ],
 				[ "doNotCombineWith", 
 					[ 
-						"sector-a-room-f-1",
-						"sector-a-room-f-3"
+						"artillery-site-a1",
+						"artillery-site-a2" 
 					] 
 				]
 			],
-			"def" : [ "tmx", "sector-a-room-f-2.json" ],
+			"def" : [ "tmx", "artillery-site-a3.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "sector-a-room-f-3",
+			"name" : "artillery-site-b1",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
 				[ "maxSpawnCount", [1] ],
 				[ "doNotCombineWith", 
 					[ 
-						"sector-a-room-f-1",
-						"sector-a-room-f-2"
+						"artillery-site-b2",
+						"artillery-site-b3" 
 					] 
 				]
 			],
-			"def" : [ "tmx", "sector-a-room-f-3.json" ],
+			"def" : [ "tmx", "artillery-site-b1.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "sector-a-room-g-1",
+			"name" : "artillery-site-b2",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
 				[ "maxSpawnCount", [1] ],
 				[ "doNotCombineWith", 
 					[ 
-						"sector-a-room-g-2",
-						"sector-a-room-g-3"
+						"artillery-site-b1",
+						"artillery-site-b3" 
 					] 
 				]
 			],
-			"def" : [ "tmx", "sector-a-room-g-1.json" ],
+			"def" : [ "tmx", "artillery-site-b2.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "sector-a-room-g-2",
+			"name" : "artillery-site-b3",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
 				[ "maxSpawnCount", [1] ],
 				[ "doNotCombineWith", 
 					[ 
-						"sector-a-room-g-1",
-						"sector-a-room-g-3"
+						"artillery-site-b1",
+						"artillery-site-b2" 
 					] 
 				]
 			],
-			"def" : [ "tmx", "sector-a-room-g-2.json" ],
+			"def" : [ "tmx", "artillery-site-b3.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "sector-a-room-g-3",
+			"name" : "artillery-site-c1",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
 				[ "maxSpawnCount", [1] ],
 				[ "doNotCombineWith", 
 					[ 
-						"sector-a-room-g-1",
-						"sector-a-room-g-2"
+						"artillery-site-c2",
+						"artillery-site-c3"
 					] 
 				]
 			],
-			"def" : [ "tmx", "sector-a-room-g-3.json" ],
+			"def" : [ "tmx", "artillery-site-c1.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "sector-a-room-h-1",
+			"name" : "artillery-site-c2",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
 				[ "maxSpawnCount", [1] ],
 				[ "doNotCombineWith", 
 					[ 
-						"sector-a-room-h-2",
-						"sector-a-room-h-3"
+						"artillery-site-c1",
+						"artillery-site-c3"
 					] 
 				]
 			],
-			"def" : [ "tmx", "sector-a-room-h-1.json" ],
+			"def" : [ "tmx", "artillery-site-c2.json" ],
 			"chance" : 0
 		},
 		{
-			"name" : "sector-a-room-h-2",
+			"name" : "artillery-site-c3",
 			"rules" : [
 			    [ "ignorePartMaximumRule" ],
 				[ "maxSpawnCount", [1] ],
 				[ "doNotCombineWith", 
 					[ 
-						"sector-a-room-h-1",
-						"sector-a-room-h-3"
+						"artillery-site-c1",
+						"artillery-site-c2"
 					] 
 				]
 			],
-			"def" : [ "tmx", "sector-a-room-h-2.json" ],
-			"chance" : 0
-		},
-		{
-			"name" : "sector-a-room-h-3",
-			"rules" : [
-			    [ "ignorePartMaximumRule" ],
-				[ "maxSpawnCount", [1] ],
-				[ "doNotCombineWith", 
-					[ 
-						"sector-a-room-h-1",
-						"sector-a-room-h-2"
-					] 
-				]
-			],
-			"def" : [ "tmx", "sector-a-room-h-3.json" ],
+			"def" : [ "tmx", "artillery-site-c3.json" ],
 			"chance" : 0
 		}
 	]
