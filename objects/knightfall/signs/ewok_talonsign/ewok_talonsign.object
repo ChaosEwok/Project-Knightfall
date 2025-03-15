@@ -1,0 +1,28 @@
+{
+  "objectName": "ewok_talonsign",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 100,
+  "description": "A name for a Destroyer Class Ship in Aurebesh.",
+  "shortdescription": "Talon Sign",
+  "race": "generic",
+  "apexDescription": "Looks like I'm near a workshop.",
+  "avianDescription": "Seems like a workshop is nearby.",
+  "floranDescription": "Floran can finally make a weapon!",
+  "glitchDescription": "Observant. This sign says a workshop is nearby.",
+  "humanDescription": "A sign. There must be a workshop nearby.",
+  "hylotlDescription": "A sign. A workshop is nearby.",
+  "inventoryIcon": "ewok_talonsign.png",
+  "orientations": [
+    {
+      "imageLayers": [{"image": "ewok_talonsign.png:<color>"}],
+      "imagePosition": [-16, 0],
+      "frames": 1,
+      "animationCycle": 0.5,
+      "metaBoundBox" : [-32, -32, 32, 32],
+      "direction": "right",
+      "anchors": ["background"]
+    }
+  ],
+  "tooltipKind": "knightfall_base"
+}
