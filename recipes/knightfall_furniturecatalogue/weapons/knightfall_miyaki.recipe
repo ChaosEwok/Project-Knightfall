@@ -1,8 +1,8 @@
 {
   "input" : [
-	{ "item" : "money", "count" : 1300 }
+	{ "item" : "money", "count" : 300 }
   ],
-  "output" : { "item" : "knightfall_artillery", "count" : 1 },
+  "output" : { "item" : "knightfall_miyaki", "count" : 1 },
   "duration" : 0,
   "groups" : [ "knightfall_furniturecatalogue", "knightfall_weapons", "all" ]
 }
