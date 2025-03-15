@@ -1,0 +1,44 @@
+{
+  "objectName": "knightfall_wirepanel4",
+  "colonyTags": ["knightfall", "knightfall_military"],
+  "rarity" : "rare",
+  "category" : "decorative",
+  "price" : 50,
+  "scannable" : true,
+  "printable" : true,
+  "description": "Wirepanel.",
+  "shortdescription": "A Wirepanel for maintanence:",
+  "race": "human",
+  "apexDescription": "Careful with the yellow one.",
+  "avianDescription": "What wire should i cut now?",
+  "floranDescription": "Floran wants to know where they lead to.",
+  "glitchDescription": "I should rewire the 3rd one to the 5th input for better performance.",
+  "humanDescription": "Someone should cover this up",
+  "hylotlDescription": "At least the wires are not open on the floor.",
+  "inventoryIcon": "knightfall_wirepanel4.png",
+  "orientations": [
+    {
+      "image" : "knightfall_wirepanel4.png:<color>",
+      "flipImages": true,
+      "direction": "left",
+	  "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "metaBoundBox" : [-32, -32, 32, 32],
+	  "anchors" : []
+    }
+	,
+    {
+      "image": "knightfall_wirepanel4.png:<color>",
+      "direction": "right",
+	  "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "metaBoundBox" : [-32, -32, 32, 32],
+	  "anchors" : []
+  }
+  ],
+  "tooltipKind": "knightfall_base"
+}
