@@ -1,0 +1,44 @@
+{
+  "objectName": "knightfall_medic",
+  "colonyTags": ["knightfall", "knightfall_military"],
+  "rarity" : "rare",
+  "category" : "decorative",
+  "price" : 50,
+  "scannable" : true,
+  "printable" : true,
+  "description": "Knightfall Medic.",
+  "shortdescription": "Knightfall Medic fully equipped",
+  "race": "human",
+  "apexDescription": "A good day to you too Sir.",
+  "avianDescription": "How is it goin?",
+  "floranDescription": "Floran wants some medicine.",
+  "glitchDescription": "I am afraid this one cant help me.",
+  "humanDescription": "Good to see you.",
+  "hylotlDescription": "Did someone get hurt?",
+  "inventoryIcon": "knightfall_medic.png",
+  "orientations": [
+    {
+      "image" : "knightfall_medic.png:<color>",
+      "flipImages": true,
+      "direction": "left",
+	  "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "metaBoundBox" : [-32, -32, 32, 32],
+	  "anchors" : []
+    }
+	,
+    {
+      "image": "knightfall_medic.png:<color>",
+      "direction": "right",
+	  "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "metaBoundBox" : [-32, -32, 32, 32],
+	  "anchors" : []
+  }
+  ],
+  "tooltipKind": "knightfall_base"
+}

@@ -1,0 +1,44 @@
+{
+  "objectName": "knightfall_guard",
+  "colonyTags": ["knightfall", "knightfall_military"],
+  "rarity" : "rare",
+  "category" : "decorative",
+  "price" : 50,
+  "scannable" : true,
+  "printable" : true,
+  "description": "Knightfall Guard.",
+  "shortdescription": "Knightfall Soldier Positioned to Guard Something",
+  "race": "human",
+  "apexDescription": "A good day to you too Sir.",
+  "avianDescription": "How is it goin?",
+  "floranDescription": "Floran wants to know what this one is Guarding.",
+  "glitchDescription": "What ever he is guarding must be important.",
+  "humanDescription": "Good to see you.",
+  "hylotlDescription": "Security seems to be very serious around here.",
+  "inventoryIcon": "knightfall_guard.png",
+  "orientations": [
+    {
+      "image" : "knightfall_guard.png:<color>",
+      "flipImages": true,
+      "direction": "left",
+	  "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "metaBoundBox" : [-32, -32, 32, 32],
+	  "anchors" : []
+    }
+	,
+    {
+      "image": "knightfall_guard.png:<color>",
+      "direction": "right",
+	  "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "metaBoundBox" : [-32, -32, 32, 32],
+	  "anchors" : []
+  }
+  ],
+  "tooltipKind": "knightfall_base"
+}

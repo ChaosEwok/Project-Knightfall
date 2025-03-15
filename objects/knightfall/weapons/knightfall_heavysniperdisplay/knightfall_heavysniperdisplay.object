@@ -1,0 +1,46 @@
+{
+  "objectName": "knightfall_heavysniperdisplay",
+  "colonyTags": ["knightfall", "knightfall_military"],
+  "rarity": "Rare",
+  "description": "A Knightfall heavy sniper rifle.",
+  "shortdescription": "Heavysniper Display",
+  "race": "generic",
+  "category": "decorative",
+  "price": 1500,
+  "apexDescription": "Looks to be a high-tech looking sniper rifle.",
+  "avianDescription": "A dark and sleek looking sniper rifle.",
+  "floranDescription": "Floran likesss ssshooting!",
+  "glitchDescription": "Observant. The magazine is detached from this weapon.",
+  "humanDescription": "Perfect for hunting!",
+  "hylotlDescription": "A precise weapon perfect for a marksman.",
+  "novakidDescription": "Now this is my type of gun!",
+  "inventoryIcon": "icon.png",
+  "orientations": [
+    {
+      "imageLayers": [
+        {"image": "knightfall_heavysniperdisplay.png:<color>", "fullbright": true},
+        {"image": "knightfall_heavysniperdisplaylit.png:<color>"}
+      ],
+      "flipImages": true,
+      "direction": "left",
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "metaBoundBox" : [-32, -32, 32, 32],
+      "anchors": ["bottom"]
+    },
+    {
+      "imageLayers": [
+        {"image": "knightfall_heavysniperdisplay.png:<color>", "fullbright": true},
+        {"image": "knightfall_heavysniperdisplaylit.png:<color>"}
+      ],
+      "direction": "right",
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "metaBoundBox" : [-32, -32, 32, 32],
+      "anchors": ["bottom"]
+    }
+  ],
+  "tooltipKind": "knightfall_base"
+}
