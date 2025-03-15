@@ -1,8 +1,8 @@
 {
-  "materialId" : 4701,
-  "materialName" : "knightfallglowpanelred",
+  "materialId" : 4702,
+  "materialName" : "knightfallglowpanelold",
   "particleColor" : [55, 55, 55, 255],
-  "itemDrop" : "knightfallglowpanelred",
+  "itemDrop" : "knightfallglowpanelold",
   
   "shortdescription" : "Glow Panel",
   "description" : "A metal panel with power cables inside the plating.",
@@ -13,7 +13,7 @@
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "knightfallglowpanelred.png",
+    "texture" : "knightfallglowpanelold.png",
     "variants" : 1,
     "lightTransparent" : false,
     "multiColored" : true,

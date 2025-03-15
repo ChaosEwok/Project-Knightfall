@@ -1,8 +1,8 @@
 {
-  "materialId" : 4704,
-  "materialName" : "ewok_heavyplating",
+  "materialId" : 4705,
+  "materialName" : "ewok_knightfallheavyplatingblank",
   "particleColor" : [85, 85, 85, 255],
-  "itemDrop" : "ewok_heavyplating", 
+  "itemDrop" : "ewok_knightfallheavyplatingblank", 
   "shortdescription" : "Heavy Plating",
   
   "description" : "A smooth, dark metal plate.",
@@ -18,7 +18,7 @@
   
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "ewok_heavyplating.png",
+    "texture" : "ewok_knightfallheavyplatingblank.png",
     "variants" : 4,
     "lightTransparent" : false,
     "occludesBelow" : true,
