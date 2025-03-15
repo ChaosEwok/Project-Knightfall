@@ -1,0 +1,12 @@
+{
+  "itemName" : "knightfallsmoothpanelthin",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Rare",
+  "inventoryIcon" : "knightfallsmoothpanelthin.png",
+
+  "shortdescription" : "Alumenite Wall Panel",
+  "description" : "Sleek wall panels commonly used in interior spaces.",
+
+  "materialId" : 4708
+}

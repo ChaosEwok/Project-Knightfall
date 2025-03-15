@@ -1,9 +1,9 @@
 {
-  "itemName" : "ewok_knightfallheavyplating",
+  "itemName" : "ewok_knightfallheavyplatingblank",
   "price" : 0,
   "category" : "block",
   "rarity" : "Rare",
-  "inventoryIcon" : "ewok_knightfallheavyplating.png",
+  "inventoryIcon" : "ewok_knightfallheavyplatingblank.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Heavy Plating",
   
@@ -11,5 +11,5 @@
   "glitchDescription" : "Statement. A strong metal plate.",
   "floranDescription" : "Dark metal platesss...",
 
-  "materialId" : 4703
+  "materialId" : 4705
 }

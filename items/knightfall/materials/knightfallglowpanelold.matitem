@@ -1,15 +1,15 @@
 {
-  "itemName" : "ewok_knightfallheavyplating",
+  "itemName" : "knightfallglowpanelold",
   "price" : 0,
   "category" : "block",
   "rarity" : "Rare",
-  "inventoryIcon" : "ewok_knightfallheavyplating.png",
+  "inventoryIcon" : "knightfallglowpanelold.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
-  "shortdescription" : "Heavy Plating",
+  "shortdescription" : "Glow Panel",
   
   "description" : "A smooth, dark metal plate.",
   "glitchDescription" : "Statement. A strong metal plate.",
   "floranDescription" : "Dark metal platesss...",
 
-  "materialId" : 4703
+  "materialId" : 4702
 }

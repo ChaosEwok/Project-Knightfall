@@ -2,7 +2,7 @@
   "itemName" : "ewok_heavyplating",
   "price" : 0,
   "category" : "block",
-  "rarity" : "Common",
+  "rarity" : "Rare",
   "inventoryIcon" : "ewok_heavyplating.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Heavy Plating",
