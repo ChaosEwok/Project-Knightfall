@@ -1,0 +1,77 @@
+{
+  "objectName": "knightfall_hologramconsoletable1",
+  "colonyTags": ["knightfall"],
+  "rarity": "Rare",
+  "description": "A robust table with a built-in console and holographic display board.",
+  "shortdescription": "Table Console",
+  "race": "generic",
+  "category": "wire",
+  "price": 70,
+  "pointLight" : true,
+  "pointBeam" : 1.0,
+  "beamAmbience" : 0.7,
+  "lightColor": [36, 77, 139],
+  "flickerPeriod": 0.5,
+  "flickerMinIntensity": 0.875,
+  "flickerMaxIntensity": 1,
+  "flickerPeriodVariance": 0,
+  "flickerIntensityVariance": 0,
+  "apexDescription": "A table with a holographic projector screen.",
+  "avianDescription": "This table has an interactive projector screen.",
+  "floranDescription": "Floran wantsss to touch sscreen, it makes fun sssymbols.",
+  "glitchDescription": "Interested. I've never seen such a console design before.",
+  "humanDescription": "Gotta love them touch screen interfaces.",
+  "hylotlDescription": "This console displays its screens through a projector.",
+  "novakidDescription": "Where the heck are the damn buttons?",
+  "inventoryIcon": "knightfall_hologramconsoletable1.png",
+  "orientations": [
+    {
+      "image" : "image.png",
+      "flipImages": true,
+      "direction": "left",
+      "lightPosition": [0, 1],
+      "imagePosition": [-16, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform",
+	  "beamAngle" : 90
+    },
+    {
+      "image" : "image.png",
+      "direction": "right",
+      "lightPosition": [0, 1],
+      "imagePosition": [-16, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform",
+	  "beamAngle" : 90
+    }
+  ],
+  "scripts": ["/objects/wired/switch/switch.lua", "/scripts/npcToyObject.lua"],
+  "scriptDelta": 5,
+  "animation": "knightfall_hologramconsoletable1.animation",
+  "animationCustom": {
+    "sounds": {
+      "on": ["/sfx/objects/console_button.ogg"],
+      "off": ["/sfx/objects/console_button.ogg"]
+    }
+  },
+  "animationParts": {
+    "bg": "knightfall_hologramconsoletable1.png",
+    "fg": "knightfall_hologramconsoletablelit1.png"
+  },
+  "animationPosition": [-16, 0],
+  "outputNodes": [[0, 0]],
+  "npcToy": {
+    "influence": ["console"],
+    "defaultReactions": {},
+    "preciseStandPositionLeft": [-0.5, 0],
+    "preciseStandPositionRight": [2, 0],
+    "maxNpcs": 1
+  },
+  "tooltipKind": "knightfall_base"
+}
