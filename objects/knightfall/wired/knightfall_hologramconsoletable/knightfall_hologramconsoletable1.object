@@ -33,7 +33,7 @@
       "imagePosition": [-16, 0],
       "frames": 1,
       "animationCycle": 1,
-      "spaceScan": 0.1,
+      "metaBoundBox" : [-32, -32, 32, 32],
       "anchors": ["bottom"],
       "collision": "platform",
 	  "beamAngle" : 90
@@ -45,7 +45,7 @@
       "imagePosition": [-16, 0],
       "frames": 1,
       "animationCycle": 1,
-      "spaceScan": 0.1,
+      "metaBoundBox" : [-32, -32, 32, 32],
       "anchors": ["bottom"],
       "collision": "platform",
 	  "beamAngle" : 90
