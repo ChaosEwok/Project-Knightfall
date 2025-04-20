@@ -1,15 +1,14 @@
 {
   "objectName": "knightfall_smallercrate",
-  "colonyTags": ["knightfall", "storage", "commerce"],
+  "colonyTags": [ "knightfall", "storage" ],
   "rarity": "Rare",
-  "objectType": "container",
-  "tooltipKind": "container",
-  "description": "A small cargo box for storing smaller objects.",
-  "shortdescription": "Small Box",
-  "race": "generic",
   "category": "storage",
-  "price": 110,
-  "lightColor": [0, 70, 110],
+  "price": 80,
+  "objectType": "container",
+  "tooltipKind": "knightfall_container",
+  "description": "For storing rations, ammo, or machine parts - featuring a modular design that can be quickly assembled. Engineers love them for how neatly they disappear into tight storage compartments.",
+  "shortdescription": "3 x 2 Modular Cargo Box",
+  "race": "generic",
   "health": 1.5,
   "apexDescription": "A mysterious cargo crate.",
   "avianDescription": "I wonder what's in here.",
@@ -22,29 +21,25 @@
   "orientations": [
     {
       "imageLayers": [
-        {"image": "knightfall_smallercrate.png:<color>", "fullbright": true},
-        {"image": "knightfall_smallercratelit.png:<color>"}
+        {
+          "image": "image.png:<color>"
+        }
       ],
       "flipImages": true,
       "direction": "left",
-      "lightPosition": [-1, 1],
       "imagePosition": [-16, 0],
-      "frames": 1,
-      "animationCycle": 1,
       "spaceScan": 0.1,
       "anchors": ["bottom"],
       "collision": "platform"
     },
     {
       "imageLayers": [
-        {"image": "knightfall_smallercrate.png:<color>", "fullbright": true},
-        {"image": "knightfall_smallercratelit.png:<color>"}
+        {
+          "image": "image.png:<color>"
+        }
       ],
       "direction": "right",
-      "lightPosition": [0, 1],
       "imagePosition": [-16, 0],
-      "frames": 1,
-      "animationCycle": 1,
       "spaceScan": 0.1,
       "anchors": ["bottom"],
       "collision": "platform"
@@ -55,5 +50,6 @@
   "slotCount": 9,
   "uiConfig": "/interface/chests/chest<slots>.config",
   "frameCooldown": 5,
+  "openFrameIndex": 4,
   "autoCloseCooldown": 3600
 }
