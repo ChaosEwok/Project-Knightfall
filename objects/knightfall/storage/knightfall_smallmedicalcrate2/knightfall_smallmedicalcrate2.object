@@ -1,0 +1,58 @@
+{
+  "objectName": "knightfall_smallmedicalcrate2",
+  "colonyTags": [ "knightfall", "storage" ],
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 110,
+  "objectType": "container",
+  "tooltipKind": "knightfall_container",
+  "description": "Used to transport small instruments, sealed vials, medkits, lightweight enough to fit into tight compartments. Crew often stash a few extras aboard shuttles, hoping they'll never need them.",
+  "shortdescription": "4 x 2 Small Medical Crate",
+  "race": "generic",
+  "health": 1.5,
+  "apexDescription": "A cargo crate. The red cross indicates that it contains medical items.",
+  "avianDescription": "Looks like a box containing medical items.",
+  "floranDescription": "Floran believesss medicine like big leaf iss in here!",
+  "glitchDescription": "Observant. This crate looks like it contains medical items.",
+  "humanDescription": "Ooh, cargo!",
+  "hylotlDescription": "A cargo crate of modern design.",
+  "novakidDescription": "A basic lookin' crate. Looks like it holds medical items...",
+  "inventoryIcon": "icon.png",
+  "orientations": [
+    {
+      "imageLayers": [
+        {
+          "image": "left.png:<color>.<key>",
+          "fullbright": true
+        },
+        { "image": "leftlit.png:<color>.<key>" }
+      ],
+      "direction": "left",
+      "imagePosition": [-16, 0],
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    },
+    {
+      "imageLayers": [
+        {
+          "image": "right.png:<color>.<key>",
+          "fullbright": true
+        },
+        { "image": "rightlit.png:<color>.<key>" }
+      ],
+      "direction": "right",
+      "imagePosition": [-16, 0],
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    }
+  ],
+  "openSounds": ["/sfx/objects/metalbox_open.ogg"],
+  "closeSounds": ["/sfx/objects/metalbox_close.ogg"],
+  "slotCount": 12,
+  "uiConfig": "/interface/chests/chest<slots>.config",
+  "frameCooldown": 5,
+  "openFrameIndex": 4,
+  "autoCloseCooldown": 3600
+}
