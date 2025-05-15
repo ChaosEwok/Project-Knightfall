@@ -1,14 +1,14 @@
 {
   "objectName": "knightfall_explosivemunitionscrate",
-  "colonyTags": ["knightfall", "knightfall_military", "storage"],
+  "colonyTags": [ "knightfall", "storage" ],
   "rarity": "Rare",
-  "objectType": "container",
-  "tooltipKind": "container",
-  "description": "A small cargo crate containing explosive ordnance.",
-  "shortdescription": "Explosive Munitions Crate",
-  "race": "generic",
   "category": "storage",
-  "price": 100,
+  "price": 120,
+  "objectType": "container",
+  "tooltipKind": "knightfall_container",
+  "description": "Outfitted with shock-resistant ceramic plates and tamper-proof locks, this cargo crate ensures the safe shipment of explosive munitions across military supply chains.",
+  "shortdescription": "4 x 2 Explosives Crate",
+  "race": "generic",
   "health": 1.5,
   "apexDescription": "I better be careful around this crate. That red paint signifies danger.",
   "avianDescription": "This crate looks dangerous to be around. I need to take caution.",
@@ -22,16 +22,11 @@
     {
       "imageLayers": [
         {
-          "image": "knightfall_explosivemunitionscrate.png:<color>",
-          "fullbright": true
-        },
-        {"image": "knightfall_explosivemunitionscratelit.png:<color>"}
+          "image": "left.png:<color>"
+        }
       ],
-      "flipImages": true,
       "direction": "left",
       "imagePosition": [-16, 0],
-      "frames": 1,
-      "animationCycle": 1,
       "spaceScan": 0.1,
       "anchors": ["bottom"],
       "collision": "platform"
@@ -39,15 +34,11 @@
     {
       "imageLayers": [
         {
-          "image": "knightfall_explosivemunitionscrate.png:<color>",
-          "fullbright": true
-        },
-        {"image": "knightfall_explosivemunitionscratelit.png:<color>"}
+          "image": "right.png:<color>"
+        }
       ],
       "direction": "right",
       "imagePosition": [-16, 0],
-      "frames": 1,
-      "animationCycle": 1,
       "spaceScan": 0.1,
       "anchors": ["bottom"],
       "collision": "platform"
@@ -55,8 +46,9 @@
   ],
   "openSounds": ["/sfx/objects/metalbox_open.ogg"],
   "closeSounds": ["/sfx/objects/metalbox_close.ogg"],
-  "slotCount": 9,
+  "slotCount": 16,
   "uiConfig": "/interface/chests/chest<slots>.config",
   "frameCooldown": 5,
+  "openFrameIndex": 4,
   "autoCloseCooldown": 3600
 }

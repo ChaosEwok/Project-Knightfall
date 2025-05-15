@@ -1,0 +1,58 @@
+{
+  "objectName": "knightfall_weaponchest2",
+  "colonyTags": [ "knightfall", "knightfall_military", "storage" ],
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 200,
+  "objectType": "container",
+  "tooltipKind": "knightfall_container",
+  "description": "A reinforced container intended for the transport and storage of squad-level weaponry or a single heavy firearm. Bracketed for stability and deployed in frontline operations.",
+  "shortdescription": "4 x 2 Weapons Crate",
+  "race": "generic",
+  "health": 1.5,
+  "apexDescription": "A weapon chest. Maybe there'll be something good inside?",
+  "avianDescription": "These weapon chests are built strong, to protect the contents.",
+  "floranDescription": "Let'ss get chesst open! Maybe pointy ssstabby weapon insside.",
+  "glitchDescription": "Eager. No time to waste, open it up!",
+  "humanDescription": "A weapon chest, now that's a welcome sight.",
+  "hylotlDescription": "Presents are most exciting when they're still wrapped.",
+  "novakidDescription": "A chest for the safe storin' of weapons of all kinds.",
+  "inventoryIcon": "icon.png",
+  "orientations": [
+    {
+      "imageLayers": [
+        {
+          "image": "left.png:<color>.<key>",
+          "fullbright": true
+        },
+        { "image": "leftlit.png:<color>.<key>" }
+      ],
+      "direction": "left",
+      "imagePosition": [-16, 0],
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    },
+    {
+      "imageLayers": [
+        {
+          "image": "right.png:<color>.<key>",
+          "fullbright": true
+        },
+        { "image": "rightlit.png:<color>.<key>" }
+      ],
+      "direction": "right",
+      "imagePosition": [-16, 0],
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    }
+  ],
+  "openSounds": ["/sfx/objects/metalbox_open.ogg"],
+  "closeSounds": ["/sfx/objects/metalbox_close.ogg"],
+  "slotCount": 12,
+  "uiConfig": "/interface/chests/chest<slots>.config",
+  "frameCooldown": 5,
+  "openFrameIndex": 4,
+  "autoCloseCooldown": 3600
+}

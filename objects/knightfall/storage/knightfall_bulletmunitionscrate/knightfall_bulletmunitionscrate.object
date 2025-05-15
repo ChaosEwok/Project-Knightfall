@@ -1,37 +1,32 @@
 {
   "objectName": "knightfall_bulletmunitionscrate",
-  "colonyTags": ["knightfall", "knightfall_military", "storage"],
+  "colonyTags": [ "knightfall", "storage" ],
   "rarity": "Rare",
-  "objectType": "container",
-  "tooltipKind": "container",
-  "description": "A small cargo crate containing a stockpile of bullets.",
-  "shortdescription": "Bullets Munitions Crate",
-  "race": "generic",
   "category": "storage",
-  "price": 100,
+  "price": 120,
+  "objectType": "container",
+  "tooltipKind": "knightfall_container",
+  "description": "A standard-issue field crate for storing kinetic rounds, this model features foam lining to reduce rattle in transit. Lightweight, stackable, and made for speed during resupply.",
+  "shortdescription": "4 x 2 Kinetic Ammo Crate",
+  "race": "generic",
   "health": 1.5,
-  "apexDescription": "A crate full of ballistic ammunition.",
+  "apexDescription": "A crate full of ballistic ammo.",
   "avianDescription": "This crate is loaded with ammunition.",
   "floranDescription": "Floran can go ssshooting!",
-  "glitchDescription": "Observant. This crate is for storing ballistic ammunitions.",
-  "humanDescription": "A secured crate for storing ammunitions.",
-  "hylotlDescription": "A cargo container for bullets.",
-  "novakidDescription": "A crate for storin' bullets.",
+  "glitchDescription": "Observant. This crate is for storing kinetic rounds.",
+  "humanDescription": "A secured crate for storing ammunition.",
+  "hylotlDescription": "A cargo container for ballistic ammo.",
+  "novakidDescription": "A crate for storin' bullets and slugs.",
   "inventoryIcon": "icon.png",
   "orientations": [
     {
       "imageLayers": [
         {
-          "image": "knightfall_bulletmunitionscrate.png:<color>",
-          "fullbright": true
-        },
-        {"image": "knightfall_bulletmunitionscratelit.png:<color>"}
+          "image": "left.png:<color>"
+        }
       ],
-      "flipImages": true,
       "direction": "left",
       "imagePosition": [-16, 0],
-      "frames": 1,
-      "animationCycle": 1,
       "spaceScan": 0.1,
       "anchors": ["bottom"],
       "collision": "platform"
@@ -39,15 +34,11 @@
     {
       "imageLayers": [
         {
-          "image": "knightfall_bulletmunitionscrate.png:<color>",
-          "fullbright": true
-        },
-        {"image": "knightfall_bulletmunitionscratelit.png:<color>"}
+          "image": "right.png:<color>"
+        }
       ],
       "direction": "right",
       "imagePosition": [-16, 0],
-      "frames": 1,
-      "animationCycle": 1,
       "spaceScan": 0.1,
       "anchors": ["bottom"],
       "collision": "platform"
@@ -55,8 +46,9 @@
   ],
   "openSounds": ["/sfx/objects/metalbox_open.ogg"],
   "closeSounds": ["/sfx/objects/metalbox_close.ogg"],
-  "slotCount": 9,
+  "slotCount": 16,
   "uiConfig": "/interface/chests/chest<slots>.config",
   "frameCooldown": 5,
+  "openFrameIndex": 4,
   "autoCloseCooldown": 3600
 }

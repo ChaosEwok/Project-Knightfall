@@ -50,7 +50,7 @@
   ],
   "openSounds": ["/sfx/objects/metalbox_open.ogg"],
   "closeSounds": ["/sfx/objects/metalbox_close.ogg"],
-  "slotCount": 24,
+  "slotCount": 32,
   "uiConfig": "/interface/chests/chest<slots>.config",
   "frameCooldown": 5,
   "openFrameIndex": 4,
