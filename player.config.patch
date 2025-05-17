@@ -1,4 +1,67 @@
 [
+{
+		"op": "add",
+		"path": "/defaultBlueprints/tier1/0",
+		"value": {
+			"item": "mechbodyrobobot"
+		}
+	},
+	
+	{
+		"op": "add",
+		"path": "/defaultBlueprints/tier1/1",
+		"value": {
+			"item": "mechbodyhaltmann"
+		}
+	},
+	
+	{
+		"op": "add",
+		"path": "/defaultBlueprints/tier1/2",
+		"value": {
+			"item": "mechboosterrobobot"
+		}
+	},
+	
+	{
+		"op": "add",
+		"path": "/defaultBlueprints/tier1/3",
+		"value": {
+			"item": "mechboosterhaltmann"
+		}
+	},
+	
+	{
+		"op": "add",
+		"path": "/defaultBlueprints/tier1/4",
+		"value": {
+			"item": "mechlegsrobobot"
+		}
+	},
+	
+	{
+		"op": "add",
+		"path": "/defaultBlueprints/tier1/5",
+		"value": {
+			"item": "mechlegshaltmann"
+		}
+	},
+	
+	{
+		"op": "add",
+		"path": "/defaultBlueprints/tier1/6",
+		"value": {
+			"item": "mecharmrobofire"
+		}
+	},
+	
+	{
+		"op": "add",
+		"path": "/defaultBlueprints/tier1/7",
+		"value": {
+			"item": "mecharmrobosword"
+		}
+	},
 //Swords
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_halcyon"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_nightingale"}},
@@ -521,7 +584,6 @@
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_missilerack"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_rocketrack"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_weaponchest"}},
-{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_weaponchest2"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_weaponslocker"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_swordsrack"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_tremordisplay"}},
@@ -597,31 +659,23 @@
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_shippingcontainer4"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_shippingcontainer5"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_bulletmunitionscrate"}},
-{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_bulletmunitionscrate2"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_explosivemunitionscrate"}},
-{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_explosivemunitionscrate2"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_plasmamunitionscrate"}},
-{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_plasmamunitionscrate2"}},
 
 //Storage
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_canister"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_canister2"}},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_databank"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_generalcanister"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_generalcanister2"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_erchiuscanister"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_erchiuscanister2"}},
-{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_fuelcanister"}},
-{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_fuelcanister2"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_largecanister"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_largecanisterred"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_largecanisteryellow"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_largetankblue"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_largetankred"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_largetankwhite"}},
-{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_hugetank"}},
-{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_hugetankwhite"}},
-{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_hugetankblue"}},
-{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_databank"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_locker"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_medicallocker"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_storagelocker"}},
