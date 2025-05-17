@@ -1,0 +1,50 @@
+[
+		
+	{
+		"op" : "add",
+		"path" : "/recipes/1/-",
+		"value" : "mechbodyrobobot"
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/recipes/1/-",
+		"value" : "mechbodyhaltmann"
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/recipes/1/-",
+		"value" : "mechboosterrobobot"
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/recipes/1/-",
+		"value" : "mechboosterhaltmann"
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/recipes/1/-",
+		"value" : "mechlegsrobobot"
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/recipes/1/-",
+		"value" : "mechlegshaltmann"
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/recipes/1/-",
+		"value" : "mecharmrobofire"
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/recipes/1/-",
+		"value" : "mecharmrobosword"
+	}
+]

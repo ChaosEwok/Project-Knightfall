@@ -1,0 +1,15 @@
+{
+  "itemName" : "mechlegsrobobot",
+  "price" : 3200,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechlegs",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mechlegsrobobot.png",
+  "description" : "Legs with hover technology that allows free movement without the need for hips.",
+  "shortdescription" : "Robobot Mech Legs",
+  "itemTags" : [ ],
+
+  "mechPart" : ["legs", "robobotlegs"]
+}

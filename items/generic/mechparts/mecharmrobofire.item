@@ -1,0 +1,15 @@
+{
+  "itemName" : "mecharmrobofire",
+  "price" : 4800,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mecharm",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mecharmrobofire.png",
+  "description" : "A flamethrower that works really well in pink.",
+  "shortdescription" : "Robobot Flamethrower",
+  "itemTags" : [ ],
+
+  "mechPart" : ["arm", "robobotarmfire"]
+}

@@ -1,0 +1,15 @@
+{
+  "itemName" : "mechboosterrobobot",
+  "price" : 4800,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbooster",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mechboosterrobobot.png",
+  "description" : "Compact boosters specifically designed to go FAST.",
+  "shortdescription" : "Robobot Jet Booster",
+  "itemTags" : [ ],
+
+  "mechPart" : ["booster", "robobotbooster"]
+}

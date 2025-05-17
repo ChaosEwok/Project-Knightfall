@@ -1,0 +1,15 @@
+{
+  "itemName" : "mecharmrobosword",
+  "price" : 4800,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mecharm",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mecharmrobosword.png",
+  "description" : "Huge plazma swords that can cut through almost anything!",
+  "shortdescription" : "Robobot Plazma Sword",
+  "itemTags" : [ ],
+
+  "mechPart" : ["arm", "robobotarmsword"]
+}

@@ -1,0 +1,16 @@
+{
+  "itemName": "mechboosterhaltmann",
+  "price": 4800,
+  "maxStack": 1,
+  "rarity": "Rare",
+  "category": "mechPart",
+  "tooltipKind": "mechbooster",
+  "builder": "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon": "mechboosterhaltmann.png",
+  "description": "A compact booster design adorned with the Haltmann Works logo.",
+  "shortdescription": "Haltmann Jet Booster",
+  "itemTags": [ ],
+
+  "mechPart": ["booster", "haltmannbooster"],
+  "scripts": ["/scripts/missilemechbooster.lua"]
+}

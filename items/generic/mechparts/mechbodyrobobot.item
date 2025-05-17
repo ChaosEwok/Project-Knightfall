@@ -1,0 +1,15 @@
+{
+  "itemName" : "mechbodyrobobot",
+  "price" : 8000,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbody",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mechbodyrobobot.png",
+  "description" : "A modified body design originally created by Haltmann Works Co.",
+  "shortdescription" : "Robobot Mech Body",
+  "itemTags" : [ ],
+
+  "mechPart" : ["body", "robobotbody"]
+}

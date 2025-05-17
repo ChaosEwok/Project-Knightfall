@@ -1,0 +1,15 @@
+{
+  "itemName" : "mechlegshaltmann",
+  "price" : 3200,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechlegs",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mechlegshaltmann.png",
+  "description" : "Legs with hover technology that allows free movement without the need for hips.",
+  "shortdescription" : "Haltmann Mech Legs",
+  "itemTags" : [ ],
+
+  "mechPart" : ["legs", "haltmannlegs"]
+}

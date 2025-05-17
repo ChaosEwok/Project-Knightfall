@@ -1,0 +1,15 @@
+{
+  "itemName" : "mecharmspeakers",
+  "price" : 4800,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mecharm",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mecharmspeakers.png",
+  "description" : "Giant speakers that can generate huge sound shockwaves. Bluetooth comaptible!",
+  "shortdescription" : "Robobot Speakers",
+  "itemTags" : [ ],
+
+  "mechPart" : ["arm", "robobotarmspeakers"]
+}

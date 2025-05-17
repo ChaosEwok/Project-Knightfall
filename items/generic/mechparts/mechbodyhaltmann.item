@@ -1,0 +1,15 @@
+{
+  "itemName" : "mechbodyhaltmann",
+  "price" : 8000,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbody",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mechbodyhaltmann.png",
+  "description" : "An incredibly durable mech body designed by Haltmann Works Co.",
+  "shortdescription" : "Haltmann Mech Body",
+  "itemTags" : [ ],
+
+  "mechPart" : ["body", "haltmannbody"]
+}
