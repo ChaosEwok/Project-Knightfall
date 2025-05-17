@@ -1,0 +1,60 @@
+[
+{
+	"op": "add",
+	"path": "/robobotbooster",
+	"value" : {
+    "stats" : {
+      "speed" : 10,
+      "control" : 6
+    },
+    "partParameters" : {},
+    "partImages" : {
+      "backBoosterBack" : "booster/robobot_back_back.png",
+      "backBoosterFullbright" : "boosterflame/robobot_back.png",
+      "backBoosterFront" : "booster/robobot_back_front.png",
+      "frontBoosterBack" : "booster/robobot_front_back.png",
+      "frontBoosterFullbright" : "boosterflame/robobot_front.png",
+      "frontBoosterFront" : "booster/robobot_front_front.png"
+    },
+    "defaultPrimaryColors" : ["ff84c6", "eb50ae", "cb2c74", "930f42"],
+    "defaultSecondaryColors" : ["f7e7b2", "d9c189", "a38d59", "735e3a"],
+    "animationCustom" : {
+	    "animatedParts" : { "parts" : {
+        "frontBoosterFullbright" : { "properties" : {
+          "zLevel" : 10.5
+        }}
+      }}
+    }
+  }
+},
+
+{
+	"op": "add",
+	"path": "/haltmannbooster",
+	"value" : {
+    "stats" : {
+      "speed" : 10,
+      "control" : 10
+    },
+    "partParameters" : {},
+    "partImages" : {
+      "backBoosterBack" : "booster/haltmann_mech_booster_back_back.png",
+      "backBoosterFullbright" : "boosterflame/robobot_back.png",
+      "backBoosterFront" : "booster/haltmann_mech_booster_back_front.png",
+      "frontBoosterBack" : "booster/haltmann_mech_booster_front_back.png",
+      "frontBoosterFullbright" : "boosterflame/robobot_front.png",
+      "frontBoosterFront" : "booster/haltmann_mech_booster_front_front.png"
+    },
+    "defaultPrimaryColors" : ["7a7385", "504b57", "403545", "2e202e"],
+    "defaultSecondaryColors" : ["f2f2f2", "c2c2c2", "8a8a8a", "595959"],
+    "animationCustom" : {
+	    "animatedParts" : { "parts" : {
+        "frontBoosterFullbright" : { "properties" : {
+          "zLevel" : 10.5
+        }}
+      }}
+    }
+  }
+}
+
+]

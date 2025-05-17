@@ -1,4 +1,209 @@
 [
+{
+	 "op" : "add",
+	  "path" : "/robobotarmfire",
+	  "value" : {
+	  "stats" : {
+      "power" : 5,
+      "energy" : 10
+    },
+    "partParameters" : {
+      "script" : "/vehicles/modularmech/armscripts/gatlingarm.lua",
+      "armClass" : "GatlingArm",
+
+      "rotationLimits" : [-1.75, 1.75],
+      "fireOffset" : [5.25, 0],
+
+      "windupTime" : 0.3,
+      "fireTime" : 0.065,
+
+      "projectileType" : "flamethrower",
+      "projectileParameters" : {
+        "power" : 20
+      },
+
+      "projectileInaccuracy" : 0.2
+    },
+    "partImages" : {
+      "<armName>" : "arm/robobotfire.png",
+      "<armName>Fullbright" : "arm/robobotfire_fullbright.png"
+    },
+    "defaultPrimaryColors" : ["ff84c6", "eb50ae", "cb2c74", "930f42"],
+    "defaultSecondaryColors" : ["f7e7b2", "d9c189", "a38d59", "735e3a"],
+    "animationCustom" : {
+      "animatedParts" : { "stateTypes" : { "<armName>" : {
+        "states" : {
+          "windup" : {
+            "properties" : {
+              "persistentSound" : "/sfx/gun/mech_gatling_windup.ogg",
+              "persistentSoundRangeMultiplier" : 1.0,
+              "persistentSoundStopTime" : 0.2
+            }
+          },
+          "active" : {
+            "properties" : {
+              "persistentSound" : "/sfx/gun/flamethrower_loop.ogg",
+              "persistentSoundStopTime" : 0.5
+            },
+            "cycle" : 0.3
+          },
+          "winddown" : {
+            "properties" : {
+              "persistentSound" : "/sfx/gun/flamethrower_stop.ogg",
+              "persistentSoundRangeMultiplier" : 1.0,
+              "persistentSoundStopTime" : 0.2
+            }
+          }
+        }
+      }}},
+      "sounds" : {
+        "<armName>Fire" : []
+      }
+    }
+  }
+},
+
+    {
+	 "op" : "add",
+	  "path" : "/robobotarmspeakers",
+	  "value" : {
+	  "stats" : {
+      "power" : 5,
+      "energy" : 10
+    },
+    "partParameters" : {
+      "script" : "/vehicles/modularmech/armscripts/gatlingarm.lua",
+      "armClass" : "GatlingArm",
+
+      "rotationLimits" : [-1.75, 1.75],
+      "fireOffset" : [0, 0],
+
+      "windupTime" : 0.3,
+      "fireTime" : 0.065,
+
+      "projectileType" : "flamethrower",
+      "projectileParameters" : {
+        "power" : 20
+      },
+
+      "projectileInaccuracy" : 0.2
+    },
+    "partImages" : {
+      "<armName>" : "arm/robobotspeakers.png"
+    },
+    "defaultPrimaryColors" : ["ff84c6", "eb50ae", "cb2c74", "930f42"],
+    "defaultSecondaryColors" : ["f7e7b2", "d9c189", "a38d59", "735e3a"],
+    "animationCustom" : {
+      "animatedParts" : { 
+			"stateTypes" : { 
+				"<armName>" : {
+					"states" : {
+						"windup" : {
+							"properties" : {
+								"persistentSound" : "/sfx/gun/mech_gatling_windup.ogg",
+								"persistentSoundRangeMultiplier" : 1.0,
+								"persistentSoundStopTime" : 0.2
+							}
+						},
+						"active" : {
+							"properties" : {
+							"persistentSound" : "/sfx/gun/flamethrower_loop.ogg",
+							"persistentSoundStopTime" : 0.5
+						},
+						"cycle" : 0.3
+					},
+					"winddown" : {
+						"properties" : {
+						"persistentSound" : "/sfx/gun/flamethrower_stop.ogg",
+						"persistentSoundRangeMultiplier" : 1.0,
+						"persistentSoundStopTime" : 0.2
+					}
+				}			
+			}
+		}
+	}
+  },
+      "sounds" : {
+        "<armName>Fire" : []
+      }
+    }
+  }
+},
+
+    {
+	 "op" : "add",
+	  "path" : "/robobotarmsword",
+	  "value" : {
+	  "stats" : {
+      "power" : 7,
+      "energy" : 6
+    },
+    "partParameters" : {
+      "script" : "/vehicles/modularmech/armscripts/meleearm.lua",
+      "armClass" : "MeleeArm",
+
+      "rotationLimits" : [-1.0, 1.0],
+      "fireOffset" : [3.5, 0.5],
+
+      "windupTime" : 0.5,
+      "windupAngle" : 0.8,
+
+      "swingTime" : 0.15,
+      "fireTime" : 0.3,
+
+      "fireAngle" : -0.8,
+      "comboFireAngle" : 0.8,
+
+      "cooldownTime" : 0.7,
+      "cooldownAngle" : -0.3,
+
+      "projectileType" : "mechbladeswoosh",
+      "projectileParameters" : {
+        "power" : 270,
+        "knockback" : 40
+      },
+
+      "projectileTrackSource" : true,
+
+      "projectileBaseDistance" : 15,
+      "projectileTimeToLive" : 0.3
+    },
+    "partImages" : {
+      "<armName>" : "arm/robobotsword.png",
+      "<armName>Fullbright" : "arm/robobotsword_fullbright.png"
+    },
+    "defaultPrimaryColors" : ["ff84c6", "eb50ae", "cb2c74", "930f42"],
+    "defaultSecondaryColors" : ["76ffff", "00e1ff", "0092e3", "215cab"],
+    "animationCustom" : {
+      "animatedParts" : { "stateTypes" : { "<armName>" : {
+        "states" : {
+          "windup" : {
+            "properties" : {
+              "persistentSound" : "/sfx/melee/mech_energysword_windup2.ogg",
+              "persistentSoundRangeMultiplier" : 1.0,
+              "persistentSoundStopTime" : 0.5
+            }
+          },
+          "winddown" : {
+            "properties" : {
+              "persistentSound" : "/sfx/melee/mech_energysword_winddown1.ogg",
+              "persistentSoundRangeMultiplier" : 1.0,
+              "persistentSoundStopTime" : 0.75
+            }
+          }
+        }
+      }}},
+      "sounds" : {
+        "<armName>Fire" : [ "/sfx/melee/mech_energysword_swing1.ogg", "/sfx/melee/mech_energysword_swing2.ogg" ]
+      },
+      "transformationGroups" : {
+        "<armName>" : {
+          "interpolated" : false
+        }
+      }
+    }
+  }
+},
 	{ 
 		"op": "add",
 		"path": "/knightfall_cometstorm",

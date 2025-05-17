@@ -1,0 +1,55 @@
+[
+
+   {
+		"op": "add",
+		"path": "/robobotbody",
+		"value": {
+			"stats": {
+				"energy": 6,
+				"protection": 10
+			},
+			"partParameters" : {
+				"hazardImmunities" : ["biomeradiation", "biomecold", "biomeheat"]
+			},
+			"partImages": {
+				"bodyBack": "body/robobot_back.png",
+				"bodyFront": "body/robobot_front.png",
+				"bodyFullbright": "body/robobot_fullbright.png"
+			},
+			"defaultPrimaryColors": ["ff84c6", "eb50ae", "cb2c74", "930f42"],
+			"defaultSecondaryColors": ["f7e7b2", "d9c189", "a38d59", "735e3a"],
+			"animationCustom" : {
+			"animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
+            "sitPosition" : [0.5, 1]
+			}}}}}
+		}
+	},
+	
+	{
+		"op": "add",
+		"path": "/haltmannbody",
+		"value": {
+			"stats": {
+				"energy": 10,
+				"protection": 10
+			},
+			"partParameters" : {
+				"hazardImmunities" : ["biomeradiation", "biomecold", "biomeheat"]
+			},
+			"partImages": {
+				"bodyBack": "body/haltmann_back.png",
+				"bodyFront": "body/haltmann_front.png",
+				"bodyFullbright": "body/haltmann_fullbright.png"
+			},
+			"defaultPrimaryColors": ["7a7385", "504b57", "403545", "2e202e"],
+			"defaultSecondaryColors": ["f2f2f2", "c2c2c2", "8a8a8a", "595959"],
+			"animationCustom" : {
+			"animatedParts" : { 
+				"parts" : { 
+					"bodyFront" : { 
+						"properties" : {
+							"sitPosition" : [0.5, 1]
+			}}}}}
+	}
+}
+]

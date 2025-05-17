@@ -1,0 +1,41 @@
+[
+{
+		"op": "add",
+		"path": "/robobotlegs",
+		"value": {
+		"stats" : {
+		"speed" : 8,
+		"jump" : 8
+    },
+		"partParameters" : {},
+		"partImages" : {
+		"backLeg" : "leg/robobot.png",
+		"frontLeg" : "leg/robobot.png",
+		"hips" : "hips/robobot.png"
+    },
+		"defaultPrimaryColors" : ["ff84c6", "eb50ae", "cb2c74", "930f42"],
+		"defaultSecondaryColors" : ["f7e7b2", "d9c189", "a38d59", "735e3a"],
+		"animationCustom" : {}
+	}
+},
+
+{
+		"op": "add",
+		"path": "/haltmannlegs",
+		"value": {
+		"stats" : {
+		"speed" : 8,
+		"jump" : 8
+    },
+		"partParameters" : {},
+		"partImages" : {
+		"backLeg" : "leg/haltmann.png",
+		"frontLeg" : "leg/haltmann.png",
+		"hips" : "hips/robobot.png"
+    },
+		"defaultPrimaryColors" : ["7a7385", "504b57", "403545", "2e202e"],
+		"defaultSecondaryColors" : ["f2f2f2", "c2c2c2", "8a8a8a", "595959"],
+		"animationCustom" : {}
+	}
+}
+]
