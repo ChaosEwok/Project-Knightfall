@@ -321,31 +321,38 @@
 					"idle" : {
 						"frames" : 1,
 						"cycle" : 0.5,
-						"mode" : "loop"
-					},
-					"buffer" : {
-						"frames" : 8,
-						"cycle" : 0.8,
-						"mode" : "transition",
-						"transition" : "opening"
+						"mode" : "loop",
+						"properties": {
+							"particleEmittersOff": [ "laserCannonHeatsink" ]
+						}
 					},
 					"opening" : {
-						"frames" : 4,
-						"cycle" : 0.4,
+						"frames" : 12,
+						"cycle" : 1.2,
 						"mode" : "transition",
-						"transition" : "overheating"
+						"transition" : "overheating",
+						"persistentSound": "/sfx/other/knightfall_overheating.ogg",
+						"properties": {
+							"particleEmittersOn": [ "laserCannonHeatsink" ]
+						}
 					},
 					"overheating" : {
-						"frames" : 30,
-						"cycle" : 3,
+						"frames" : 40,
+						"cycle" : 4,
 						"mode" : "transition",
-						"transition" : "closing"
+						"transition" : "closing",
+						"properties": {
+							"particleEmittersOn": [ "laserCannonHeatsink" ]
+						}
 					},
 					"closing" : {
 						"frames" : 4,
 						"cycle" : 0.4,
 						"mode" : "transition",
-						"transition" : "idle"
+						"transition" : "idle",
+						"properties": {
+							"particleEmittersOn": [ "laserCannonHeatsink" ]
+						}
 					},
 					"charging1" : {
 						"frames" : 4,
@@ -393,7 +400,7 @@
 						"frames" : 6,
 						"cycle" : 0.27,
 						"mode" : "transition",
-						"transition" : "buffer"
+						"transition" : "opening"
 					},
 					"firing2_pre" : {
 						"frames" : 2,
@@ -410,7 +417,7 @@
 						"frames" : 12,
 						"cycle" : 0.54,
 						"mode" : "transition",
-						"transition" : "buffer"
+						"transition" : "opening"
 					}
 				}
 			},
@@ -424,10 +431,16 @@
 						"frames" : 2,
 						"cycle" : 0.15,
 						"mode" : "loop"
+					},
+					
+					"destroyed" : {
+						"frames" : 1,
+						"cycle" : 2,
+						"mode" : "loop"
 					}
 				}
-			},
-			
+			}
+			/*
 			"hull-overheating" : {
 				// "priority" : 0,
 				
@@ -453,7 +466,7 @@
 						"transition" : "off"
 					}
 				}
-			}
+			}*/
 		},
 		
 		// Layer Names : Z-Level
@@ -473,22 +486,31 @@
 		"parts" : {
 			"hull-overheating" : {
 				"properties" : {
+					"fullbright" : true,
 					"zLevel" : 5
 				},
 
 				"partStates" : {
-					"hull-overheating" : {
-						"start" : {
+					"hull" : {
+						"destroyed" : {
+							"properties" : {
+								"image" : ""
+							}
+						}
+					},
+					
+					"laser_cannon" : {
+						"opening" : {
 							"properties" : {
 								"image" : "<partImage>:start.<frame>"
 							}
 						},
-						"loop" : {
+						"overheating" : {
 							"properties" : {
 								"image" : "<partImage>:loop.<frame>"
 							}
 						},
-						"end" : {
+						"closing" : {
 							"properties" : {
 								"image" : "<partImage>:end.<frame>"
 							}
@@ -499,10 +521,20 @@
 			
 			"missiles-front" : {
 				"properties" : {
-					"zLevel" : 4
+					"zLevel" : 4,
+					"offset" : [-7.5, 0],
+					"muzzlePoint" : [0, 0]
 				},
 
 				"partStates" : {
+					"hull" : {
+						"destroyed" : {
+							"properties" : {
+								"image" : ""
+							}
+						}
+					},
+				
 					"missiles" : {
 						"idle" : {
 							"properties" : {
@@ -628,10 +660,20 @@
 			
 			"smoke_grenades" : {
 				"properties" : {
+					"offset" : [-1.875, -1],
+					"firePoint" : [-0.5, 0],
 					"zLevel" : 3
 				},
 
 				"partStates" : {
+					"hull" : {
+						"destroyed" : {
+							"properties" : {
+								"image" : ""
+							}
+						}
+					},
+				
 					"smoke_grenades" : {
 						"idle" : {
 							"properties" : {
@@ -701,6 +743,12 @@
 							"properties" : {
 								"image" : "<partImage>:idle.<frame>"
 							}
+						},
+						
+						"destroyed" : {
+							"properties" : {
+								"image" : ""
+							}
 						}
 					},
 					
@@ -737,19 +785,24 @@
 			"laser_cannon-fullbright" : {
 				"properties" : {
 					"fullbright" : true,
-					"zLevel" : 1
+					"offset" : [13.5, -0.5],
+					"zLevel" : 1,
+          			"transformationGroups" : [ "lasercannon" ]
 				},
 
 				"partStates" : {
+					"hull" : {
+						"destroyed" : {
+							"properties" : {
+								"image" : ""
+							}
+						}
+					},
+				
 					"laser_cannon" : {
 						"idle" : {
 							"properties" : {
 								"image" : "<partImage>:idle.<frame>"
-							}
-						},
-						"buffer" : {
-							"properties" : {
-								"image" : "<partImage>:buffer.<frame>"
 							}
 						},
 						"opening" : {
@@ -861,19 +914,30 @@
 			
 			"laser_cannon" : {
 				"properties" : {
-					"zLevel" : 0
+					"zLevel" : 0,
+					"offset" : [13.5, -0.5],
+
+        		  	"beamSource" : [0.0, 0.0],
+					"beamEnd" : [500.0, 0.0],
+
+          			"transformationGroups" : [ "lasercannon" ],
+					"muzzlePoint" : [7, 0],
+					"rotationCentre" : [-10, 0]
 				},
 
 				"partStates" : {
+					"hull" : {
+						"destroyed" : {
+							"properties" : {
+								"image" : ""
+							}
+						}
+					},
+				
 					"laser_cannon" : {
 						"idle" : {
 							"properties" : {
 								"image" : "<partImage>:idle.<frame>"
-							}
-						},
-						"buffer" : {
-							"properties" : {
-								"image" : "<partImage>:buffer.<frame>"
 							}
 						},
 						"opening" : {
@@ -985,10 +1049,22 @@
 			
 			"autocannons" : {
 				"properties" : {
+          			"transformationGroups" : [ "autocannons" ],
+					"muzzlePoint" : [2, 0],
+					"rotationCentre" : [-3.5, -2.5],
+					"offset" : [6, 2],
 					"zLevel" : -1
 				},
 
 				"partStates" : {
+					"hull" : {
+						"destroyed" : {
+							"properties" : {
+								"image" : ""
+							}
+						}
+					},
+				
 					"autocannons" : {
 						"idle" : {
 							"properties" : {
@@ -1043,6 +1119,12 @@
 							"properties" : {
 								"image" : "<partImage>:idle.<frame>"
 							}
+						},
+						
+						"destroyed" : {
+							"properties" : {
+								"image" : "<partImage>:destroyed"
+							}
 						}
 					},
 					
@@ -1078,10 +1160,20 @@
 			
 			"mortars" : {
 				"properties" : {
-					"zLevel" : -3
+					"zLevel" : -3,
+					"offset" : [-7, 3],
+					"muzzlePoint" : [-2, 0]
 				},
 
 				"partStates" : {
+					"hull" : {
+						"destroyed" : {
+							"properties" : {
+								"image" : ""
+							}
+						}
+					},
+				
 					"mortars" : {
 						"idle" : {
 							"properties" : {
@@ -1152,10 +1244,20 @@
 			
 			"missiles-back" : {
 				"properties" : {
-					"zLevel" : -4
+					"zLevel" : -4,
+					"offset" : [5, 0],
+					"muzzlePoint" : [0, 0]
 				},
 
 				"partStates" : {
+					"hull" : {
+						"destroyed" : {
+							"properties" : {
+								"image" : ""
+							}
+						}
+					},
+				
 					"missiles" : {
 						"idle" : {
 							"properties" : {
@@ -1285,12 +1387,355 @@
 	
 	},
 
-	"rotationGroups" : {
-
+	"transformationGroups" : {
+		"autocannons" : {},
+		"lasercannon" : {},
+		"beamend" : {}
 	},
 
 	"particleEmitters" : {
+		"damage" : {
+			"emissionRate" : 0.7,
+			"particles" : [
+			]
+		},
+		"deathPoof" : {
+			"particles" : [
+				{
+					"particle" : {
+						"type" : "animated",
+						"animation" : "/animations/puff2c/puff2c.animation",
+						"size" : 1,
+						"angularVelocity" : 35,
+						"fade" : 1,
+						"destructionTime" : 1,
+						"position" : [0, 0],
+						"initialVelocity" : [0, 0],
+						"finalVelocity" : [0, 0],
+						"approach" : [1, 1],
+						"timeToLive" : 0.4,
+						"layer" : "middle"
+					}
+				}
+			]
+		},
 
+		"phaseTransition" : {
+			"offsetRegion" : [0, 0, 0, 0],
+			"particles" : [
+				{
+					"particle" : {
+						"type" : "animated",
+						"animation" : "/animations/puff2c/puff2c.animation",
+						"size" : 1,
+						"angularVelocity" : 35,
+						"fade" : 1,
+						"destructionTime" : 1,
+						"position" : [0, 0],
+						"initialVelocity" : [0, 0],
+						"finalVelocity" : [0, 0],
+						"approach" : [1, 1],
+						"timeToLive" : 0.4,
+						"layer" : "middle"
+					}
+				}
+			]
+		},
+		"phaseTransitionLoop" : {
+			"offsetRegion" : [0, 0, 0, 0],
+			"emissionRate" : 0.7,
+			"particles" : [
+				{
+					"particle" : "knightfall_dust"
+				}
+			]
+		},
+
+		"autocannonMuzzleFlash" : {
+			"transformationGroups" : [ "autocannons" ],
+			"offsetRegion" : [0, 0, 0, 0],
+			"particles" : [
+				{ "particle" : "knightfall_bigbulletshellfront", "offset" : [2, 2.375] }
+			]
+		},
+		"mortarMuzzleFlash" : {
+			"offsetRegion" : [0, 0, 0, 0],
+			"particles" : [
+				{ "particle" : "rocketbarrelpuff", "offset" : [-6.75, 4] },
+				{ "particle" : "rocketbarrelpuff", "offset" : [-6.75, 4] },
+				{ "particle" : "rocketbarrelpuff", "offset" : [-6.75, 4] },
+				{ "particle" : "rocketbarrelpuff", "offset" : [-6.75, 4] },
+				{ "particle" : "rocketbarrelpuff", "offset" : [-6.75, 4] },
+				{ "particle" : "rocketbarrelpuff", "offset" : [-6.75, 4] },
+				{ "particle" : "rocketbarrelpuff", "offset" : [-6.75, 4] },
+				{ "particle" : "rocketbarrelpuff", "offset" : [-6.75, 4] },
+				{ "particle" : "rocketbarrelpuff", "offset" : [-6.75, 4] },
+				{ "particle" : "rocketbarrelpuff", "offset" : [-6.75, 4] }			
+			]
+		},
+		"missileMuzzleFlash" : {
+			"offsetRegion" : [0, 0, 0, 0],
+			"burstCount" : 15,
+			"particles" : [
+				{ "particle" : "rocketbarrelpuff", "offset" : [-5.5, 0.5] },
+				{ 
+					"particle" : {
+		                "type" : "animated",
+						"animation" : "/animations/dust2/dust2.animation",
+						"position" : [-8.5, 0],
+						"initialVelocity" : [-10, -2],
+						"finalVelocity" : [0, 4],
+						"approach" : [0, 0],
+						"destructionAction" : "shrink",
+						"destructionTime" : 0.85,
+						"fade" : 1,
+						"size" : 1,
+						"layer" : "front",
+						"timeToLive" : 0.45,
+						"variance" : {
+						  "initialVelocity" : [-8, -2],
+						  "rotation" : 180
+						}
+		            }
+				}
+			]
+		},
+		"laserCannonMuzzleFlash" : {
+			"offsetRegion" : [7, -1, 12, -2],
+			"emissionRate" : 5,
+			"transformationGroups" : [ "lasercannon" ],
+			"particles" : [
+				{
+					"particle" : {
+						"type" : "animated",
+						"animation" : "/animations/knightfall_fadedsmoke/knightfall_fadedsmoke.animation",
+						"initialVelocity" : [-5, 15],
+						"size" : 0.75,
+						"fade" : 0.25,
+						"timeToLive" : 0.4,
+						"layer" : "middle",
+						"variance" : {
+							"initialVelocity" : [5, 15],
+							"size" : 1,
+							"layer" : "middle"
+						}
+					}
+				},
+				{
+					"particle" : {
+						"type" : "animated",
+						"animation" : "/animations/knightfall_fadedsmoke/knightfall_fadedsmoke.animation",
+						"initialVelocity" : [-5, 15],
+						"size" : 0.75,
+						"fade" : 0.25,
+						"timeToLive" : 0.4,
+						"layer" : "middle",
+						"variance" : {
+							"initialVelocity" : [5, 15],
+							"size" : 1,
+							"layer" : "middle"
+						}
+					}
+				},
+				{
+					"particle" : {
+						"type" : "animated",
+						"animation" : "/animations/groundmist/groundmist.animation",
+						"approach" : [1, 1],
+						"size" : 3,
+						"timeToLive" : 0.4,
+						"layer" : "middle",
+						"variance" : {
+							"position" : [5, 5],
+							"initialVelocity" : [1, 1],
+							"size" : 2,
+							"layer" : "middle"
+						}
+					}
+				}
+			]
+		},
+		"laserCannonHeatsink" : {
+			"offsetRegion" : [-5, -1, -9, -2],
+			"emissionRate" : 5,
+			"particles" : [
+				{
+					"particle" : {
+						"type" : "animated",
+						"animation" : "/animations/knightfall_fadedsmoke/knightfall_fadedsmoke.animation",
+						"initialVelocity" : [-5, 15],
+						"size" : 0.75,
+						"fade" : 0.25,
+						"timeToLive" : 0.4,
+						"layer" : "middle",
+						"variance" : {
+							"initialVelocity" : [5, 15],
+							"size" : 1,
+							"layer" : "middle"
+						}
+					}
+				},
+				{
+					"particle" : {
+						"type" : "animated",
+						"animation" : "/animations/knightfall_fadedsmoke/knightfall_fadedsmoke.animation",
+						"initialVelocity" : [-5, 15],
+						"size" : 0.75,
+						"fade" : 0.25,
+						"timeToLive" : 0.4,
+						"layer" : "middle",
+						"variance" : {
+							"initialVelocity" : [5, 15],
+							"size" : 1,
+							"layer" : "middle"
+						}
+					}
+				},
+				{
+					"particle" : {
+						"type" : "animated",
+						"animation" : "/animations/groundmist/groundmist.animation",
+						"approach" : [1, 1],
+						"size" : 3,
+						"timeToLive" : 0.4,
+						"layer" : "middle",
+						"variance" : {
+							"position" : [5, 5],
+							"initialVelocity" : [1, 1],
+							"size" : 2,
+							"layer" : "middle"
+						}
+					}
+				}
+			]
+		},
+		"beamEnd" : {
+			"offsetRegion" : [-4, -4, 4, 4],
+			"transformationGroups" : [ "beamend" ],
+			"burstCount" : 5,
+			"particles" : [
+				{ 
+					"particle" : {
+		                "type" : "animated",
+						"animation" : "/animations/syndicate_laserexplosion/syndicate_laserexplosion.animation",
+						"position" : [0, 0],
+						"initialVelocity" : [0, 0],
+						"approach" : [0, 0],
+						"fade" : 1,
+						"size" : 1,
+						"layer" : "front",
+						"timeToLive" : 0.2,
+						"variance" : {
+						  "rotation" : 180
+						}
+		            }
+				},
+				{ 
+					"particle" : {
+		                "type" : "animated",
+						"animation" : "/animations/syndicate_laserexplosion/syndicate_laserexplosion.animation",
+						"position" : [0, 0],
+						"initialVelocity" : [0, 0],
+						"approach" : [0, 0],
+						"fade" : 1,
+						"size" : 1,
+						"layer" : "middle",
+						"timeToLive" : 0.2,
+						"variance" : {
+						  "rotation" : 180
+						}
+		            }
+				},
+				{
+					"particle" : {
+						"type" : "streak",
+						"position" : [0, 0],
+						"initialVelocity" : [50, 50],
+						"finalVelocity" : [0, 0],
+						"approach" : [1, 1],
+						"color" : [255, 255, 255, 255],
+						"collidesForeground" : false,
+						"timeToLive" : 0.3,
+						"destructionTime" : 0.3,
+						"destructionAction" : "shrink",
+						"fullbright" : true,
+						"size" : 0.2,
+						"layer" : "back",
+						"variance" : {
+							"size" : 0.5,
+							"initialVelocity" : [100, 100],
+							"color" : [228, 73, 113, 200]
+						}
+					}
+				},
+				{
+					"particle" : {
+						"type" : "streak",
+						"position" : [0, 0],
+						"initialVelocity" : [-50, 50],
+						"finalVelocity" : [0, 0],
+						"approach" : [-1, 1],
+						"color" : [255, 255, 255, 255],
+						"collidesForeground" : false,
+						"timeToLive" : 0.3,
+						"destructionTime" : 0.3,
+						"destructionAction" : "shrink",
+						"fullbright" : true,
+						"size" : 0.2,
+						"layer" : "back",
+						"variance" : {
+							"size" : 0.5,
+							"initialVelocity" : [-100, 100],
+							"color" : [228, 73, 113, 200]
+						}
+					}
+				},
+				{
+					"particle" : {
+						"type" : "streak",
+						"position" : [0, 0],
+						"initialVelocity" : [-50, -50],
+						"finalVelocity" : [0, 0],
+						"approach" : [-1, -1],
+						"color" : [255, 255, 255, 255],
+						"collidesForeground" : false,
+						"timeToLive" : 0.3,
+						"destructionTime" : 0.3,
+						"destructionAction" : "shrink",
+						"fullbright" : true,
+						"size" : 0.2,
+						"layer" : "back",
+						"variance" : {
+							"size" : 0.5,
+							"initialVelocity" : [-100, -100],
+							"color" : [228, 73, 113, 200]
+						}
+					}
+				},
+				{
+					"particle" : {
+						"type" : "streak",
+						"position" : [0, 0],
+						"initialVelocity" : [50, -50],
+						"finalVelocity" : [0, 0],
+						"approach" : [1, -1],
+						"color" : [255, 255, 255, 255],
+						"collidesForeground" : false,
+						"timeToLive" : 0.3,
+						"destructionTime" : 0.3,
+						"destructionAction" : "shrink",
+						"fullbright" : true,
+						"size" : 0.2,
+						"layer" : "back",
+						"variance" : {
+							"size" : 0.5,
+							"initialVelocity" : [100, -100],
+							"color" : [228, 73, 113, 200]
+						}
+					}
+				}
+			]
+		}
 	},
 
 	"effects" : {
@@ -1302,6 +1747,55 @@
 	},
 
 	"sounds" : {
+		"deathPuff" : {
+			"pool" : [ "/sfx/npc/enemydeathpuff.ogg" ],
+			"rangeMultiplier" : 1.5
+		},
+		"phaseTransition" : [ "/sfx/explosions/knightfall_explosion1.ogg", "/sfx/explosions/knightfall_explosion2.ogg", "/sfx/explosions/knightfall_explosion3.ogg", "/sfx/explosions/knightfall_explosion4.ogg" ],
+		"phaseTransitionLoop" : [],
+		
+		"idle" : {
+			"volume" : 2,
+			"pool" : [ "/sfx/other/knightfall_tankidle.ogg" ]
+		},
+		"charge" : {
+			"volume" : 1.5,
+			"pool" : [ "/sfx/other/knightfall_tankengine-charge.ogg" ]
+		},
 
+		"autocannonFire" : {
+			"volume" : 0.50,
+			"pool" : [ "/sfx/gun/knightfall_heavy-gunfire4.ogg" ]
+		},
+		"mortarFire" : {
+			"pitchMultiplier" : 1.1,
+            "volume" : 1.2,
+            "pool" : [ "/sfx/explosions/knightfall_explosion2.ogg" ]
+		},
+		"missileFire" : [ "/sfx/gun/rocket1.ogg" ],
+		"laserChargeup" : {
+			"volume" : 2,
+			"pool" : [ "/sfx/gun/knightfall_chargeup2.ogg" ]
+		},
+		"laserBeamStart" : {
+			"volume" : 1.5,
+			"pool" : [ "/sfx/gun/knightfall_heavylaser_start.ogg" ]
+		},
+		"laserBeamLoop" : {
+			"volume" : 2.5,
+			"pool" : [ "/sfx/gun/knightfall_heavylaser_loop.ogg" ]
+		},
+		"laserBeamEnd" : {
+			"volume" : 2.5,
+			"pool" : [ "/sfx/gun/knightfall_heavylaser_end.ogg" ]
+		},
+		"laserWarning" : {
+			"volume" : 2.5,
+			"pool" : [ "/sfx/other/knightfall_warningalert.ogg" ]
+		},
+		"laserCannonFire" : {
+			"volume" : 3,
+			"pool" : [ "/sfx/gun/knightfall_heavylaser_gunfire2.ogg" ]
+		}
 	}
 }

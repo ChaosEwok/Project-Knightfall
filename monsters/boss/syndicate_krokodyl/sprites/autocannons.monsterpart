@@ -1,0 +1,9 @@
+{
+  "name" : "syndicate_krokodyl-autocannons",
+  "category" : "syndicate_krokodyl",
+  "type" : "autocannons",
+
+  "frames" : {
+    "autocannons" : "autocannons.png"
+  }
+}

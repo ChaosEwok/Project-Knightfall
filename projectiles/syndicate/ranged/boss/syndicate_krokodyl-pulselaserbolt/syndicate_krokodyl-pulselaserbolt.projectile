@@ -6,8 +6,9 @@
   "animationCycle" : 0.5,
   "frameNumber" : 1,
   "fullbright" : true,
-  "power" : 30,
-  "speed" : 700,
+  "power" : 1000,
+  "speed" : 400,
+  "damagePoly" : [[-80, -5], [-80, 5], [70, 5], [70, -5]],
   "emitters" : [],
   "supportsProcessing" : true,
 
@@ -62,7 +63,7 @@
     }
   ],
 
-  "statusEffects" : [  ],
+  "statusEffects" : [ "knightfall_maxhealthdamage_50" ],
   "lightColor" : [255, 0, 0],
   "damageKind" : "fireplasmabullet",
 
