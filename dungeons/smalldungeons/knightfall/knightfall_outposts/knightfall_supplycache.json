@@ -12,7 +12,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJztml9OwzAMxnuX3WoSrboHhpB4QHAAzsPVtjc4AAskkjFNmj+uYxd\/0idNTWts\/0KWdr0Ow3A1a\/Vbwt\/nmHhUwiQ2frmNBZt4BHteyu2CrjdufFrqfQ63peuMG59i\/U9xi11j3PiUYmDc5KqUW+p848anNQ7GTaaMm06VcDPpknHTKeOmU8ZNp4ybThk3nTJuOmXcdMq46ZRx0ynjplPwHRN7PilLieeTxk2w7PcAncrlZr93y5K9p6BTJdykvs\/1SWgtSjAT8f7kR8KUvGoN8+FUghnb+8opNjmWxC5lSkV45XD7dZ+Qq5p6JfKjyrlUuO9UpurB6TAMs7f7PCoxzptqzknilZq3R1C\/+zzd\/D789TFyPDU2gdjUcXHeJaw4+bWuVTncwlw+L\/gYOZ4aG1FsyrgwdowbxTpNyaw0t9i1oWZY\/x3yCbl0PMSmjovzng\/0zFrZta7ZMWZh7k7e4wb9vfemjovzPiN2Eri1\/s8tMXO9cN8Vz4cfv3hr4fbqHfJ3tYS9ipR1kpLdDHqxR26U7Cj3k7XsAjO4l94bN1hbYNebVyu\/eaEne+OGz5XGrJRdOJbDLeZjw1jLtbExSm6wbxzcctnBY0\/e7vODX1MevUdF3HDerhZYW82ejYvZGreYYX1uXsJ7rLC3Ds8lpsZj8HkJZVyc99NCbSluuCeczFrYwbUT1k997xpi5855irzXaujNi4IbXm9q9qot5s5bCjMKdjXuza0mV2nMerFr5dcjX4ncerGrYYj795+ZbcWvNPYaM4rcW+rszWZLfq2xa3itxaeoszePLfhR\/5291iiBX+98OPn1zstczq53PmZZ\/gKSFceC",
+         "data":"eJztml9OwzAMxnuX3WoSrboHhpB4QHAAzsPVtjc4AAskkjGNmz9uYhd\/0idNTWts\/0KWdr0Ow3A1a\/Ub4e9zTG2UwyQ2frmNBZvaCPY8l9sFXW\/c2mmp9ynclq4zbu0U6z\/FLXaNcWsnioFxk6tcbtT5xq2d1jgYN5kybjqVw82kS8ZNp4ybThk3nTJuOmXcdMq46ZRx0ynjplPGTaeMm07Bd0zs+aQsEc8njZtg2e8BOpXKzX7vliV7T0GncrhJfZ\/rk9FaRDAT8f7kB2FOXqWG+bQUwazZ+8oUmxRLYkeZUxFeKdx+3SekqqReify4cs4V7juXuXpwOgzD7O0+j0qM8+aac5J4UfP2COp3n6eb34e\/PkaOU2MTiM0dF+fNvT5w8arNJYVbmMvnBR8jx6mxEcXmjAtjx7hxrNOczHJzi10baob13yGfkHPHQ2zuuDjv+cDPrJZd7ZodYxbm7uQ9btDfe2\/uuDjvM2IngVvt\/9wSM9cL913xfPjxi7cWbq\/eIX9XS9irSFknOdnNoBd75MbJjnM\/WcouMIN76b1xg7UFdr151fKbF3qyN274XGnMctmFYyncYj5WjNVcGxvj5Ab71oJbKjt47MnbfX7wa8qj96iIG87b1QJrK9mztWK2xi1mWJ+bl\/AeK+ytw3OJqfIYfF7CGRfn\/bRQG8UN96Qlsxp2cO2E9XPfu4bYqXOeI++1Gnrz4uCG15uSvWqNW+cthRkHuxL35laSqzRmvdjV8uuRr0RuvdiVMMT9+8\/MtuKXG3uNGUfuNXX2ZrMlv9rYJbzW4nPU2ZvHFvy4\/85ea5TAr3c+Lfn1zsucz653PmZZ\/gK2eceD",
          "encoding":"base64",
          "height":53,
          "id":1,
@@ -225,7 +225,7 @@
                  "y":320
                 }, 
                 {
-                 "gid":9224,
+                 "gid":9227,
                  "height":8,
                  "id":1780,
                  "name":"",
@@ -237,7 +237,7 @@
                  "y":304
                 }, 
                 {
-                 "gid":9224,
+                 "gid":9227,
                  "height":8,
                  "id":1781,
                  "name":"",
@@ -249,7 +249,7 @@
                  "y":304
                 }, 
                 {
-                 "gid":9233,
+                 "gid":9236,
                  "height":24,
                  "id":1782,
                  "name":"",
@@ -261,7 +261,7 @@
                  "y":320
                 }, 
                 {
-                 "gid":2147492881,
+                 "gid":2147492884,
                  "height":24,
                  "id":1783,
                  "name":"",
@@ -387,24 +387,6 @@
                  "y":320
                 }, 
                 {
-                 "gid":9130,
-                 "height":24,
-                 "id":1793,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"parameters",
-                         "type":"string",
-                         "value":"{ \"treasurePools\" : [ \"knightfall_waterCanister\" ] }"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":480,
-                 "y":320
-                }, 
-                {
                  "gid":2147492848,
                  "height":56,
                  "id":1795,
@@ -419,11 +401,11 @@
                  "type":"",
                  "visible":true,
                  "width":64,
-                 "x":536,
+                 "x":528,
                  "y":320
                 }, 
                 {
-                 "gid":9227,
+                 "gid":9230,
                  "height":8,
                  "id":1806,
                  "name":"",
@@ -435,7 +417,7 @@
                  "y":312
                 }, 
                 {
-                 "gid":9227,
+                 "gid":9230,
                  "height":8,
                  "id":1807,
                  "name":"",
@@ -587,7 +569,7 @@
                  "type":"",
                  "visible":true,
                  "width":16,
-                 "x":456,
+                 "x":448,
                  "y":296
                 }, 
                 {
@@ -599,7 +581,7 @@
                  "type":"",
                  "visible":true,
                  "width":16,
-                 "x":472,
+                 "x":464,
                  "y":296
                 }, 
                 {
@@ -617,7 +599,7 @@
                  "type":"",
                  "visible":true,
                  "width":32,
-                 "x":504,
+                 "x":496,
                  "y":304
                 }, 
                 {
@@ -635,7 +617,7 @@
                  "type":"",
                  "visible":true,
                  "width":32,
-                 "x":504,
+                 "x":496,
                  "y":288
                 }, 
                 {
@@ -653,7 +635,7 @@
                  "type":"",
                  "visible":true,
                  "width":32,
-                 "x":504,
+                 "x":496,
                  "y":320
                 }],
          "opacity":1,
@@ -2616,15 +2598,15 @@
          "source":"..\/..\/..\/..\/tilesets\/packed\/knightfall\/knightfall_weapons.json"
         }, 
         {
-         "firstgid":9202,
+         "firstgid":9205,
          "source":"..\/..\/..\/..\/tilesets\/packed\/knightfall\/knightfall_wired.json"
         }, 
         {
-         "firstgid":9235,
+         "firstgid":9238,
          "source":"..\/..\/..\/..\/tilesets\/packed\/knightfall\/knightfall_lab.json"
         }, 
         {
-         "firstgid":9261,
+         "firstgid":9264,
          "source":"..\/..\/..\/..\/tilesets\/packed\/knightfall\/knightfall_turrets.json"
         }],
  "tilewidth":8,
