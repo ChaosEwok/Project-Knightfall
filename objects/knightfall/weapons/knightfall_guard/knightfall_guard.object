@@ -6,8 +6,8 @@
   "price" : 50,
   "scannable" : true,
   "printable" : true,
-  "description": "Knightfall Guard.",
-  "shortdescription": "Knightfall Soldier Positioned to Guard Something",
+  "description": "Knightfall Soldier Positioned to Guard Something",
+  "shortdescription": "Knightfall Guard",
   "race": "human",
   "apexDescription": "A good day to you too Sir.",
   "avianDescription": "How is it goin?",
@@ -18,7 +18,10 @@
   "inventoryIcon": "knightfall_guard.png",
   "orientations": [
     {
-      "image" : "knightfall_guard.png:<color>",
+      "imageLayers": [
+        { "image": "knightfall_guard.png:<color>.<frame>", "fullbright": true },
+        { "image": "fullbright.png:<color>.<frame>" }
+      ],
       "flipImages": true,
       "direction": "left",
 	  "imagePosition" : [0, 0],
@@ -30,7 +33,10 @@
     }
 	,
     {
-      "image": "knightfall_guard.png:<color>",
+      "imageLayers": [
+        { "image": "knightfall_guard.png:<color>.<frame>", "fullbright": true },
+        { "image": "fullbright.png:<color>.<frame>" }
+      ],
       "direction": "right",
 	  "imagePosition" : [0, 0],
       "frames" : 1,

@@ -1,0 +1,55 @@
+{
+  "objectName": "knightfall_guard1",
+  "colonyTags": ["knightfall", "knightfall_military"],
+  "rarity" : "rare",
+  "category" : "decorative",
+  "price" : 50,
+  "scannable" : true,
+  "printable" : true,
+  "description": "Knightfall Soldier Positioned to Guard Something",
+  "shortdescription": "Knightfall Guard",
+  "race": "human",
+  "apexDescription": "A good day to you too Sir.",
+  "avianDescription": "How is it goin?",
+  "floranDescription": "Floran wants to know what this one is Guarding.",
+  "glitchDescription": "What ever he is guarding must be important.",
+  "humanDescription": "Good to see you.",
+  "hylotlDescription": "Security seems to be very serious around here.",
+  "inventoryIcon": "icon.png",
+  "scripts": ["/scripts/chattyObject.lua"],
+  "scriptDelta": 10,
+  "mouthPosition": [0.0, 0.2],
+  "chatOptions": [
+    "Move along, nothing to see here.",
+    "From the looks of it, you yourself have seen many stars, have you not?",
+    "Sadly, the days of exploration has passed for me. I am now guarding this building.",
+    "I am watching you!"
+  ],
+  "orientations": [
+    {
+      "imageLayers": [
+        { "image": "knightfall_guard1.png:<color>.<frame>", "fullbright": true },
+        { "image": "fullbright.png:<color>.<frame>" }
+      ],
+      "flipImages": true,
+      "direction": "left",
+      "imagePosition": [-8, 0],
+      "frames": 8,
+      "animationCycle": 2.2,
+      "metaBoundBox": [-32, -32, 32, 32],
+      "anchors": []
+    },
+    {
+      "imageLayers": [
+        { "image": "knightfall_guard1.png:<color>.<frame>", "fullbright": true },
+        { "image": "fullbright.png:<color>.<frame>" }
+      ],
+      "direction": "right",
+      "imagePosition": [-8, 0],
+      "frames": 8,
+      "animationCycle": 2.2,
+      "metaBoundBox": [-32, -32, 32, 32],
+      "anchors": []
+    }
+  ]
+}
