@@ -1,0 +1,30 @@
+{
+  "type" : "knightfall_knightcommander",
+  "baseType" : "outpostcivilian",
+  
+  "identity" : {
+    "personalityIdle" : "idle.2"
+  },
+
+  "scripts" : ["/npcs/knightfall/knightfall_knightcommander.lua"],
+  "scriptConfig" : {
+    "dialogMode" : "random",
+    "quests" : [
+		"knightfall_raid-firebase"
+	] 
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "knightframe_head" } ],
+            "chest" : [ { "name" : "knightframe_chest" } ],
+            "legs" : [ { "name" : "knightframe_legs" } ],
+            "back" : [ { "name" : "knightframe_cape" } ]
+          }
+        ] 
+	  ]
+    ]
+  }
+}

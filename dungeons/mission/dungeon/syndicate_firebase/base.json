@@ -886,6 +886,12 @@
                  "height":16,
                  "id":1274,
                  "name":"",
+                 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{ \"uniqueId\" : \"knightfall_firebase_exitteleporter\" }"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,

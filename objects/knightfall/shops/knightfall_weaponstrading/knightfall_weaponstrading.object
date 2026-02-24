@@ -11,7 +11,7 @@
         "config": "/interface/windowconfig/knightfall_craftingmerchant-exp.config",
         "paneLayoutOverride": {
             "windowtitle": {
-                "value": "^#66ccff;KNIGHTFALL WEAPONS TRADING POST"
+                "value": "^#66ccff;KNIGHTFALL WEAPONS SHOP"
             },
             "windowsubtitle": {
                 "value": "Purchase Knightfall weapons and augments."
@@ -25,6 +25,31 @@
             "lblPlayerMoney": {
                 "visible": true
             },
+			
+			"lblButton1" : {
+				"type" : "label",
+				"position" : [48, 162],
+				"hAnchor" : "left",
+				"value" : "Guns"
+			},
+			"lblButton2" : {
+				"type" : "label",
+				"position" : [48, 136],
+				"hAnchor" : "left",
+				"value" : "Thrown"
+			},
+			"lblButton3" : {
+				"type" : "label",
+				"position" : [48, 110],
+				"hAnchor" : "left",
+				"value" : "Melee"
+			},
+			"lblButton4" : {
+				"type" : "label",
+				"position" : [48, 84],
+				"hAnchor" : "left",
+				"value" : "Augments"
+			},
 
 			"categories" : {
 				"type" : "radioGroup",
@@ -33,10 +58,9 @@
 					{
 						"selected" : true,
 						"position" : [22, 155],
-						"baseImage" : "/interface/styles/tabs/knightfall_tab-guns_def.png",
-						"baseImageChecked" : "/interface/styles/tabs/knightfall_tab-guns_act.png",
+						"baseImage" : "/interface/styles/tabs/knightfall_tab-guns2_def.png",
+						"baseImageChecked" : "/interface/styles/tabs/knightfall_tab-guns2_act.png",
 						"pressedOffset" : [0, 0],
-						"text" : "Guns",
 						"data" : {
 							"filter" : [ "knightfall_weaponstrading-guns" ]
 						}
@@ -46,7 +70,6 @@
 						"baseImage" : "/interface/styles/tabs/knightfall_tab-thrown_def.png",
 						"baseImageChecked" : "/interface/styles/tabs/knightfall_tab-thrown_act.png",
 						"pressedOffset" : [0, 0],
-						"text" : "Thrown",
 						"data" : {
 							"filter" : [ "knightfall_weaponstrading-thrown" ]
 						}
@@ -56,7 +79,6 @@
 						"baseImage" : "/interface/styles/tabs/knightfall_tab-melee_def.png",
 						"baseImageChecked" : "/interface/styles/tabs/knightfall_tab-melee_act.png",
 						"pressedOffset" : [0, 0],
-						"text" : "Melee",
 						"data" : {
 							"filter" : [ "knightfall_weaponstrading-melee" ]
 						}
@@ -66,7 +88,6 @@
 						"baseImage" : "/interface/styles/tabs/knightfall_tab-augments_def.png",
 						"baseImageChecked" : "/interface/styles/tabs/knightfall_tab-augments_act.png",
 						"pressedOffset" : [0, 0],
-						"text" : "Augments",
 						"data" : {
 							"filter" : [ "knightfall_weaponstrading-augments" ]
 						}
@@ -75,11 +96,11 @@
 			}
         },
 
-        "filter": [ "knightfall_weaponstrading" ]
+        "filter" : [ "knightfall_weaponstrading" ]
     },
     "printable": false,
-    "description": "A store where you can purchase Knightfall weapons.",
-    "shortdescription": "^#66ccff;Knightfall Weapons Trading Post^reset;",
+    "description": "A shop where you can purchase Knightfall weapons.",
+    "shortdescription": "^#66ccff;Knightfall Weapons Shop^reset;",
     "race": "generic",
     "category": "other",
     "apexDescription": "They must be selling weapons likely more advanced than Miniknog weapons.",

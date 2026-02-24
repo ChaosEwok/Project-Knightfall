@@ -1,8 +1,8 @@
 {
 	"itemName": "knightfall_razor",
-	"shortdescription": "^2-MG;MG-23X Razor",
+	"shortdescription": "^2-MG;KX Razor",
 	"category": "^orange;Light Machinegun^reset;",
-	"description": "^#66ccff;PRIMARY^reset; - Rifle Bullets\n^#66ccff;ALTFIRE^reset; - Light Missile Barrage\n\n^#559fd3;A sidegrade to the Skyross, the Razor is a heavier cousin that features a bigger barrel and missile launchers fitted to the side.\n\nAlthough more powerful, it suffers from overheating during prolonged use.^reset;",
+	"description": "^#66ccff;PRIMARY^reset; - Rifle Bullets\n^#66ccff;ALTFIRE^reset; - Light Missile Barrage\n\n^#559fd3;A modified variant of the KINEXT Skyross, made to chamber in the .300 Morrigan. Additional missile launchers are fitted to the side to provide additional firepower against armored targets.^reset;",
   
 	"level": 7,
 	"price": 4000,
@@ -38,7 +38,7 @@
 
 		"fireTime": 0.08,
 		"baseDps": 32,
-		"energyUsage": 37.5,
+		"energyUsage": 75,
 		"inaccuracy": 0.08,
 		"fireType": "auto",
 
