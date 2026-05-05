@@ -223,6 +223,7 @@
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_kubelblitz"}},
 
 //Grenades
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_area-denial_thrown"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_gravitygrenade_thrown"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_plasmagrenadelarge_thrown"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_healinggrenade_thrown"}},
@@ -253,16 +254,19 @@
 
 //Mightframe Armor Helmet Variants
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "mightframe_juggernauthead"}},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "mightframe_invictushead"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "mightframe_terminatorhead"}},
-{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "mightframe_praetorhead"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "mightframe_shocktrooperhead"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "mightframe_rangerhead"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "mightframe_visor"}},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "mightframe_praetorhead"}},
 
 //Mightframe Armor Backpieces
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "mightframe_furcape"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "mightframe_strafer"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "mightframe_shellshock"}},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "mightframe_songbirds"}},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "mightframe_hornet"}},
 
 //Knightframe Armor
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightframe_chest"}},
@@ -322,11 +326,11 @@
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_augmentedsupport_augment"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_distributor_augment"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_blockade_augment"}},
-{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_avatar_augment"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_pixelmaker_augment"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_irradiator_augment"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_plasmabattery_augment"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_strikereticle_augment"}},
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_activeprotection_augment"}},
 
 //Crafting Ingredients
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_advancedprocessorchip"}},
