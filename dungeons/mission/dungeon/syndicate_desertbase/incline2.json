@@ -162,6 +162,7 @@
                  "height":40,
                  "id":294,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -174,6 +175,7 @@
                  "height":40,
                  "id":295,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -186,6 +188,7 @@
                  "height":40,
                  "id":310,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -198,6 +201,7 @@
                  "height":40,
                  "id":311,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -210,6 +214,7 @@
                  "height":24,
                  "id":312,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -222,6 +227,7 @@
                  "height":24,
                  "id":318,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -234,6 +240,7 @@
                  "height":16,
                  "id":322,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -246,6 +253,7 @@
                  "height":16,
                  "id":323,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -258,6 +266,7 @@
                  "height":16,
                  "id":324,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -270,6 +279,7 @@
                  "height":16,
                  "id":325,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -282,6 +292,7 @@
                  "height":16,
                  "id":326,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -294,6 +305,7 @@
                  "height":16,
                  "id":327,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -306,6 +318,7 @@
                  "height":16,
                  "id":328,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -318,6 +331,7 @@
                  "height":16,
                  "id":329,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -330,6 +344,7 @@
                  "height":16,
                  "id":331,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -342,6 +357,7 @@
                  "height":16,
                  "id":332,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -354,6 +370,7 @@
                  "height":16,
                  "id":333,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -366,6 +383,7 @@
                  "height":16,
                  "id":334,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -378,6 +396,7 @@
                  "height":16,
                  "id":336,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -390,6 +409,7 @@
                  "height":16,
                  "id":337,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -402,6 +422,7 @@
                  "height":16,
                  "id":338,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -414,6 +435,7 @@
                  "height":16,
                  "id":339,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -426,6 +448,7 @@
                  "height":16,
                  "id":340,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -438,6 +461,7 @@
                  "height":16,
                  "id":341,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -450,6 +474,7 @@
                  "height":16,
                  "id":352,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -462,6 +487,7 @@
                  "height":16,
                  "id":353,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -474,6 +500,7 @@
                  "height":16,
                  "id":356,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -486,6 +513,7 @@
                  "height":16,
                  "id":357,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -498,6 +526,7 @@
                  "height":24,
                  "id":359,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -510,6 +539,7 @@
                  "height":20,
                  "id":360,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -522,6 +552,7 @@
                  "height":16,
                  "id":361,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -534,6 +565,7 @@
                  "height":8,
                  "id":363,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -546,6 +578,7 @@
                  "height":8,
                  "id":364,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -558,6 +591,7 @@
                  "height":8,
                  "id":365,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -570,6 +604,7 @@
                  "height":8,
                  "id":366,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -582,6 +617,7 @@
                  "height":48,
                  "id":367,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -594,6 +630,7 @@
                  "height":15,
                  "id":368,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -606,6 +643,7 @@
                  "height":32,
                  "id":371,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -618,6 +656,7 @@
                  "height":24,
                  "id":372,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -630,6 +669,7 @@
                  "height":16,
                  "id":374,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -642,6 +682,7 @@
                  "height":24,
                  "id":375,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -654,6 +695,7 @@
                  "height":24,
                  "id":376,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -666,6 +708,7 @@
                  "height":20,
                  "id":378,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -678,6 +721,7 @@
                  "height":16,
                  "id":379,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -690,6 +734,7 @@
                  "height":16,
                  "id":380,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -702,6 +747,7 @@
                  "height":16,
                  "id":381,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -714,6 +760,7 @@
                  "height":16,
                  "id":382,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -726,6 +773,7 @@
                  "height":8,
                  "id":383,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -738,6 +786,7 @@
                  "height":8,
                  "id":384,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -750,6 +799,7 @@
                  "height":16,
                  "id":385,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -762,6 +812,7 @@
                  "height":32,
                  "id":479,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -774,6 +825,7 @@
                  "height":16,
                  "id":482,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "parameters":"{ \"treasurePools\" : [ \"knightfall_crate_basic\" ] }"
@@ -794,6 +846,7 @@
                  "height":16,
                  "id":483,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "parameters":"{ \"treasurePools\" : [ \"knightfall_crate_basic\" ] }"
@@ -814,6 +867,7 @@
                  "height":16,
                  "id":484,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "parameters":"{ \"treasurePools\" : [ \"knightfall_crate_basic\" ] }"
@@ -834,6 +888,7 @@
                  "height":8,
                  "id":485,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -846,6 +901,7 @@
                  "height":56,
                  "id":494,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -858,6 +914,7 @@
                  "height":16,
                  "id":495,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -870,6 +927,7 @@
                  "height":16,
                  "id":497,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -882,6 +940,7 @@
                  "height":8,
                  "id":501,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -894,6 +953,7 @@
                  "height":8,
                  "id":502,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -906,6 +966,7 @@
                  "height":16,
                  "id":503,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -918,6 +979,7 @@
                  "height":8,
                  "id":504,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -930,6 +992,7 @@
                  "height":8,
                  "id":507,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -942,6 +1005,7 @@
                  "height":16,
                  "id":509,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -954,6 +1018,7 @@
                  "height":16,
                  "id":510,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -966,6 +1031,7 @@
                  "height":16,
                  "id":511,
                  "name":"",
+                 "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -988,6 +1054,7 @@
                  "height":80,
                  "id":292,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"girder",
@@ -1009,6 +1076,7 @@
                  "height":80,
                  "id":293,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"slopedrustypanel",
@@ -1030,6 +1098,7 @@
                  "height":8,
                  "id":296,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "colorVariant":"7",
@@ -1051,6 +1120,7 @@
                  "height":8,
                  "id":297,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "colorVariant":"7",
@@ -1072,6 +1142,7 @@
                  "height":8,
                  "id":298,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "colorVariant":"7",
@@ -1093,6 +1164,7 @@
                  "height":8,
                  "id":299,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "colorVariant":"7",
@@ -1114,6 +1186,7 @@
                  "height":8,
                  "id":300,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "colorVariant":"7",
@@ -1135,6 +1208,7 @@
                  "height":8,
                  "id":301,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "colorVariant":"7",
@@ -1156,6 +1230,7 @@
                  "height":80,
                  "id":302,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"girder",
@@ -1177,6 +1252,7 @@
                  "height":80,
                  "id":303,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"slopedrustypanel",
@@ -1198,6 +1274,7 @@
                  "height":8,
                  "id":304,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "colorVariant":"7",
@@ -1219,6 +1296,7 @@
                  "height":8,
                  "id":305,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "colorVariant":"7",
@@ -1240,6 +1318,7 @@
                  "height":8,
                  "id":306,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "colorVariant":"7",
@@ -1261,6 +1340,7 @@
                  "height":8,
                  "id":307,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "colorVariant":"7",
@@ -1282,6 +1362,7 @@
                  "height":8,
                  "id":308,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "colorVariant":"7",
@@ -1303,6 +1384,7 @@
                  "height":8,
                  "id":309,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "colorVariant":"7",
@@ -1324,6 +1406,7 @@
                  "height":8,
                  "id":313,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallwireblock",
@@ -1345,6 +1428,7 @@
                  "height":8,
                  "id":344,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallwireblock",
@@ -1366,6 +1450,7 @@
                  "height":8,
                  "id":345,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallwireblock",
@@ -1387,6 +1472,7 @@
                  "height":16,
                  "id":346,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallwireblock",
@@ -1408,6 +1494,7 @@
                  "height":72,
                  "id":347,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallwireblock",
@@ -1429,6 +1516,7 @@
                  "height":8,
                  "id":392,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "colorVariant":"7",
@@ -1450,6 +1538,7 @@
                  "height":80,
                  "id":393,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "colorVariant":"7",
@@ -1471,6 +1560,7 @@
                  "height":8,
                  "id":394,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "colorVariant":"7",
@@ -1492,6 +1582,7 @@
                  "height":8,
                  "id":395,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "colorVariant":"7",
@@ -1513,6 +1604,7 @@
                  "height":8,
                  "id":396,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "colorVariant":"7",
@@ -1534,6 +1626,7 @@
                  "height":8,
                  "id":397,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "colorVariant":"7",
@@ -1555,6 +1648,7 @@
                  "height":8,
                  "id":398,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "colorVariant":"7",
@@ -1576,6 +1670,7 @@
                  "height":8,
                  "id":399,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "colorVariant":"7",
@@ -1597,6 +1692,7 @@
                  "height":8,
                  "id":400,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "colorVariant":"7",
@@ -1618,6 +1714,7 @@
                  "height":8,
                  "id":401,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "colorVariant":"7",
@@ -1639,6 +1736,7 @@
                  "height":32,
                  "id":402,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "colorVariant":"7",
@@ -1660,6 +1758,7 @@
                  "height":8,
                  "id":403,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "colorVariant":"7",
@@ -1681,6 +1780,7 @@
                  "height":8,
                  "id":404,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "colorVariant":"7",
@@ -1702,6 +1802,7 @@
                  "height":32,
                  "id":405,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -1723,6 +1824,7 @@
                  "height":32,
                  "id":406,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -1744,6 +1846,7 @@
                  "height":8,
                  "id":407,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -1765,6 +1868,7 @@
                  "height":8,
                  "id":408,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -1786,6 +1890,7 @@
                  "height":32,
                  "id":409,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -1807,6 +1912,7 @@
                  "height":32,
                  "id":410,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -1828,6 +1934,7 @@
                  "height":32,
                  "id":411,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -1849,6 +1956,7 @@
                  "height":32,
                  "id":412,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -1870,6 +1978,7 @@
                  "height":8,
                  "id":413,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -1891,6 +2000,7 @@
                  "height":8,
                  "id":414,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -1912,6 +2022,7 @@
                  "height":16,
                  "id":415,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -1933,6 +2044,7 @@
                  "height":8,
                  "id":416,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -1954,6 +2066,7 @@
                  "height":32,
                  "id":417,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -1975,6 +2088,7 @@
                  "height":32,
                  "id":418,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -1996,6 +2110,7 @@
                  "height":32,
                  "id":419,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -2017,6 +2132,7 @@
                  "height":32,
                  "id":420,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -2038,6 +2154,7 @@
                  "height":32,
                  "id":421,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -2059,6 +2176,7 @@
                  "height":8,
                  "id":422,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -2080,6 +2198,7 @@
                  "height":8,
                  "id":423,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -2101,6 +2220,7 @@
                  "height":32,
                  "id":424,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -2122,6 +2242,7 @@
                  "height":32,
                  "id":425,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -2143,6 +2264,7 @@
                  "height":8,
                  "id":426,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -2164,6 +2286,7 @@
                  "height":16,
                  "id":427,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -2185,6 +2308,7 @@
                  "height":24,
                  "id":428,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -2206,6 +2330,7 @@
                  "height":32,
                  "id":429,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -2227,6 +2352,7 @@
                  "height":16,
                  "id":430,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -2248,6 +2374,7 @@
                  "height":8,
                  "id":431,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -2269,6 +2396,7 @@
                  "height":16,
                  "id":432,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"bamboo",
@@ -2290,6 +2418,7 @@
                  "height":32,
                  "id":433,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallslopedpanel",
@@ -2311,6 +2440,7 @@
                  "height":32,
                  "id":434,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallslopedpanel",
@@ -2332,6 +2462,7 @@
                  "height":32,
                  "id":435,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallslopedpanelfront",
@@ -2353,6 +2484,7 @@
                  "height":32,
                  "id":436,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallslopedpanelfront",
@@ -2374,6 +2506,7 @@
                  "height":32,
                  "id":437,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallslopedpanel",
@@ -2395,6 +2528,7 @@
                  "height":32,
                  "id":438,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallslopedpanel",
@@ -2416,6 +2550,7 @@
                  "height":32,
                  "id":439,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallslopedpanelfront",
@@ -2437,6 +2572,7 @@
                  "height":32,
                  "id":440,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallslopedpanelfront",
@@ -2458,6 +2594,7 @@
                  "height":8,
                  "id":441,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -2479,6 +2616,7 @@
                  "height":8,
                  "id":442,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -2500,6 +2638,7 @@
                  "height":8,
                  "id":443,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -2521,6 +2660,7 @@
                  "height":8,
                  "id":444,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -2542,6 +2682,7 @@
                  "height":8,
                  "id":445,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -2563,6 +2704,7 @@
                  "height":8,
                  "id":446,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -2584,6 +2726,7 @@
                  "height":8,
                  "id":447,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -2605,6 +2748,7 @@
                  "height":8,
                  "id":448,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -2626,6 +2770,7 @@
                  "height":8,
                  "id":449,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -2647,6 +2792,7 @@
                  "height":8,
                  "id":450,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -2668,6 +2814,7 @@
                  "height":8,
                  "id":451,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -2689,6 +2836,7 @@
                  "height":8,
                  "id":452,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -2710,6 +2858,7 @@
                  "height":8,
                  "id":453,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -2731,6 +2880,7 @@
                  "height":8,
                  "id":454,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -2752,6 +2902,7 @@
                  "height":8,
                  "id":455,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -2773,6 +2924,7 @@
                  "height":8,
                  "id":456,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -2794,6 +2946,7 @@
                  "height":8,
                  "id":457,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -2815,6 +2968,7 @@
                  "height":8,
                  "id":458,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -2836,6 +2990,7 @@
                  "height":8,
                  "id":459,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -2857,6 +3012,7 @@
                  "height":8,
                  "id":460,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -2878,6 +3034,7 @@
                  "height":8,
                  "id":461,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -2899,6 +3056,7 @@
                  "height":8,
                  "id":462,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -2920,6 +3078,7 @@
                  "height":8,
                  "id":463,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -2941,6 +3100,7 @@
                  "height":8,
                  "id":464,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -2964,6 +3124,7 @@
                  "height":8,
                  "id":465,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -2987,6 +3148,7 @@
                  "height":8,
                  "id":466,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -3010,6 +3172,7 @@
                  "height":8,
                  "id":467,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -3033,6 +3196,7 @@
                  "height":8,
                  "id":468,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallomnipanel",
@@ -3054,6 +3218,7 @@
                  "height":24,
                  "id":469,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "colorVariant":"7",
@@ -3075,6 +3240,7 @@
                  "height":8,
                  "id":470,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "colorVariant":"7",
@@ -3096,6 +3262,7 @@
                  "height":16,
                  "id":471,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallgratedpanel2",
@@ -3117,6 +3284,7 @@
                  "height":16,
                  "id":472,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallgratedpanel2",
@@ -3138,6 +3306,7 @@
                  "height":16,
                  "id":473,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallslopedpanel",
@@ -3159,6 +3328,7 @@
                  "height":16,
                  "id":474,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallslopedpanel",
@@ -3180,6 +3350,7 @@
                  "height":16,
                  "id":475,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallslopedpanelfront",
@@ -3201,6 +3372,7 @@
                  "height":16,
                  "id":476,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallslopedpanelfront",
@@ -3222,6 +3394,7 @@
                  "height":16,
                  "id":478,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "back":"knightfallgratedpanel2",
@@ -3255,6 +3428,7 @@
                  "height":0,
                  "id":387,
                  "name":"",
+                 "opacity":1,
                  "polyline":[
                         {
                          "x":0,
@@ -3279,6 +3453,7 @@
                  "height":0,
                  "id":389,
                  "name":"",
+                 "opacity":1,
                  "polyline":[
                         {
                          "x":0,
@@ -3299,6 +3474,7 @@
                  "height":0,
                  "id":391,
                  "name":"",
+                 "opacity":1,
                  "polyline":[
                         {
                          "x":0,
@@ -3323,6 +3499,7 @@
                  "height":0,
                  "id":508,
                  "name":"",
+                 "opacity":1,
                  "polyline":[
                         {
                          "x":0,
@@ -3343,6 +3520,7 @@
                  "height":0,
                  "id":512,
                  "name":"",
+                 "opacity":1,
                  "polyline":[
                         {
                          "x":0,
@@ -3363,6 +3541,7 @@
                  "height":0,
                  "id":514,
                  "name":"",
+                 "opacity":1,
                  "polyline":[
                         {
                          "x":0,
@@ -3387,6 +3566,7 @@
                  "height":0,
                  "id":515,
                  "name":"",
+                 "opacity":1,
                  "polyline":[
                         {
                          "x":0,
@@ -3407,6 +3587,7 @@
                  "height":0,
                  "id":517,
                  "name":"",
+                 "opacity":1,
                  "polyline":[
                         {
                          "x":0,
@@ -3426,10 +3607,31 @@
                  "width":0,
                  "x":680,
                  "y":200
+                }, 
+                {
+                 "height":0,
+                 "id":518,
+                 "name":"",
+                 "opacity":1,
+                 "polyline":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":504,
+                         "y":216
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":352,
+                 "y":240
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -3443,6 +3645,7 @@
                  "height":8,
                  "id":488,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "npc":"human, hylotl, apex, floran, novakid, glitch, avian",
@@ -3466,6 +3669,7 @@
                  "height":8,
                  "id":489,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "npc":"human, hylotl, apex, floran, novakid, glitch, avian",
@@ -3489,6 +3693,7 @@
                  "height":8,
                  "id":490,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "npc":"human, hylotl, apex, floran, novakid, glitch, avian",
@@ -3512,6 +3717,7 @@
                  "height":8,
                  "id":491,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "npc":"human, hylotl, apex, floran, novakid, glitch, avian",
@@ -3535,6 +3741,7 @@
                  "height":8,
                  "id":492,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "npc":"human, hylotl, apex, floran, novakid, glitch, avian",
@@ -3558,6 +3765,7 @@
                  "height":8,
                  "id":493,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "npc":"human, hylotl, apex, floran, novakid, glitch, avian",
@@ -3581,6 +3789,7 @@
                  "height":8,
                  "id":496,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "monster":"syndicate_ua5-kingfisher_bullet",
@@ -3596,6 +3805,50 @@
                  "visible":true,
                  "width":8,
                  "x":208,
+                 "y":232
+                }, 
+                {
+                 "height":8,
+                 "id":519,
+                 "name":"",
+                 "opacity":1,
+                 "properties":
+                    {
+                     "monster":"syndicate_ua5-kingfisher_missile",
+                     "parameters":"{ \"level\" : 4 }"
+                    },
+                 "propertytypes":
+                    {
+                     "monster":"string",
+                     "parameters":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":528,
+                 "y":88
+                }, 
+                {
+                 "height":8,
+                 "id":520,
+                 "name":"",
+                 "opacity":1,
+                 "properties":
+                    {
+                     "monster":"syndicate_ua5-kingfisher_bullet",
+                     "parameters":"{ \"level\" : 4 }"
+                    },
+                 "propertytypes":
+                    {
+                     "monster":"string",
+                     "parameters":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":120,
                  "y":232
                 }],
          "opacity":1,
@@ -3627,6 +3880,7 @@
                  "height":8,
                  "id":5,
                  "name":"",
+                 "opacity":1,
                  "properties":
                     {
                      "connector":"incline"
@@ -3649,10 +3903,10 @@
          "y":0
         }],
  "nextlayerid":9,
- "nextobjectid":518,
+ "nextobjectid":521,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.11.0",
+ "tiledversion":"1.12.1",
  "tileheight":8,
  "tilesets":[
         {
