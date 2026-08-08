@@ -1,5 +1,5 @@
 {
-  "type" : "syndicate_militant",
+  "type" : "syndicate_militant_rocket",
   "baseType" : "hostile",
 
   "dropPools" : [ "knightfall_dropsNPC_militant" ],
@@ -7,7 +7,7 @@
   "scriptConfig" : {
     "behaviorConfig" : {
 	  "queryRange": 80,
-      "rangedAimTime" : 0.35,
+      "rangedAimTime" : 0.75,
       "rangedWindupTime" : 0.01
     },
 	
@@ -15,13 +15,15 @@
       "attack" : {
         "default" : {
           "default" : [
-            "Fresh prey boys! Open fire!",
             "Don't let them run!",
             "Target sighted!",
             "Hurry! Before they get away!",
             "Don't let get away!",
             "Take them out!",
-            "Gun them down!",
+			"Have a taste of this!",
+            "One shot is all I need!",
+            "AND KABOOM YOU GO!",
+            "Let the rockets fly!",
             "More prey, more loot!"
           ]
         }
@@ -68,11 +70,9 @@
 				{ "name" : "raggedcapeback" } 
 			],
             "primary" : [
-              "syndicate_rayback-54",
-              "syndicate_gallard",
-              "syndicate_m52-lawson",
-              "syndicate_avk-50",
-              "syndicate_rayback-thrasher"
+              "syndicate_lukane-m12",
+              "syndicate_lukane-m10",
+              "syndicate_lukane-duskcloud"
             ]
           }
         ] 
