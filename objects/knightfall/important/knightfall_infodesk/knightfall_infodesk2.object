@@ -1,0 +1,46 @@
+{
+  "objectName": "knightfall_infodesk2",
+  "colonyTags": ["knightfall", "decorative"],
+  "rarity": "Rare",
+  "description": "InfoDesk for help and Questions.",
+  "shortdescription": "Info Desk",
+  "race": "generic",
+  "category": "decorative",
+  "price": 60,
+  "apexDescription": "What a weird place to find a Knightfall Trooper.",
+  "avianDescription": "may the Clux bless you.",
+  "floranDescription": "I wissh Floran had nice armor like thiss Trooper doess.",
+  "glitchDescription": "Curious. I wonder what he powerlevel that armor is.",
+  "humanDescription": "I wonder what he did to get stuck at this place.",
+  "hylotlDescription": "A strange place to find a Trooper.",
+  "novakidDescription": "A mighty Trooperframe stuck at desk duty.",
+  "inventoryIcon": "icon.png",
+  "orientations": [
+    {
+      "imageLayers": [
+        {"image": "knightfall_infodesk2.png:<color>"},
+        {"image": "knightfall_infodesk2lit.png:<color>", "fullbright": true}
+      ],
+      "flipImages": true,
+      "direction": "left",
+      "imagePosition": [-8, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "metaBoundBox" : [-32, -32, 32, 32],
+      "anchors": ["bottom"]
+    },
+    {
+      "imageLayers": [
+        {"image": "knightfall_infodesk2.png:<color>"},
+        {"image": "knightfall_infodesk2lit.png:<color>", "fullbright": true}
+      ],
+      "direction": "right",
+      "imagePosition": [-8, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "metaBoundBox" : [-32, -32, 32, 32],
+      "anchors": ["bottom"]
+    }
+  ],
+  "tooltipKind": "knightfall_base"
+}
