@@ -16,7 +16,7 @@
     "texture" : "knightfallheavypanel3.png",
     "variants" : 5,
     "lightTransparent" : false,
-    "occludesBelow" : true,
+    "occludesBelow" : false,
     "multiColored" : true,
     "zLevel" : 140
   }

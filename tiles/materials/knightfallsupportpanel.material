@@ -16,8 +16,8 @@
     "texture" : "knightfallsupportpanel.png",
     "variants" : 1,
     "lightTransparent" : false,
-    "occludesBelow" : true,
+    "occludesBelow" : false,
     "multiColored" : true,
-    "zLevel" : 160
+    "zLevel" : 100
   }
 }

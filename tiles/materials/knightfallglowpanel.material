@@ -16,7 +16,7 @@
     "texture" : "knightfallglowpanel.png",
     "variants" : 5,
     "lightTransparent" : false,
-    "occludesBelow" : true,
+    "occludesBelow" : false,
     "multiColored" : true,
     "zLevel" : 50,
 	"radiantLight" : [100, 100, 100]

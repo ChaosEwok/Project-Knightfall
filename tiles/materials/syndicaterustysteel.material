@@ -16,8 +16,8 @@
     "texture" : "syndicaterustysteel.png",
     "variants" : 5,
     "lightTransparent" : false,
-	"multiColored" : true,
-    "occludesBelow" : true,
+	  "multiColored" : true,
+    "occludesBelow" : false,
     "zLevel" : 3500
   }
 }

@@ -21,7 +21,7 @@
     "texture" : "ewok_knightfallheavyplatingblank.png",
     "variants" : 4,
     "lightTransparent" : false,
-    "occludesBelow" : true,
+    "occludesBelow" : false,
     "multiColored" : true,
     "zLevel" : 300
   }

@@ -16,7 +16,7 @@
     "texture" : "knightfallenergypanel.png",
     "variants" : 1,
     "lightTransparent" : false,
-    "occludesBelow" : true,
+    "occludesBelow" : false,
     "multiColored" : true,
     "zLevel" : 50,
 	"radiantLight" : [120, 120, 120]

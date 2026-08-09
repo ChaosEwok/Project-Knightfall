@@ -16,7 +16,7 @@
     "texture" : "knightfallhullpanel.png",
     "variants" : 1,
     "lightTransparent" : false,
-    "occludesBelow" : true,
+    "occludesBelow" : false,
     "multiColored" : true,
     "zLevel" : 4985
   }

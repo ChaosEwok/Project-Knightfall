@@ -16,7 +16,7 @@
     "texture": "knightfallhazarddeck.png",
     "variants": 9,
     "lightTransparent": false,
-    "occludesBelow": true,
+    "occludesBelow": false,
     "multiColored": true,
     "zLevel": 43
   }

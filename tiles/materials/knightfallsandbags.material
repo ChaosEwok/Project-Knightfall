@@ -16,7 +16,7 @@
     "texture": "knightfallsandbags.png",
     "variants": 5,
     "lightTransparent": false,
-    "occludesBelow": true,
+    "occludesBelow": false,
     "multiColored": false,
     "zLevel": 5002
   }

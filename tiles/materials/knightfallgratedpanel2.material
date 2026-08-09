@@ -5,19 +5,19 @@
   "itemDrop" : "knightfallgratedpanel2",
 
   "shortdescription" : "Grated Inset Panel",
-  "description" : "Long grates line up this wall panel. Clean pattern.",
+  "description" : "Small grates line up this wall panel. Uniform pattern.",
 
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 8,
   "category" : "materials",
 
-  "renderTemplate" : "/tiles/rowtemplate.config",
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
     "texture" : "knightfallgratedpanel2.png",
     "variants" : 1,
     "lightTransparent" : false,
     "multiColored" : true,
-    "occludesBelow" : true,
+    "occludesBelow" : false,
     "zLevel" : 40
   }
 }
