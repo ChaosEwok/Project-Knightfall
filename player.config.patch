@@ -152,6 +152,7 @@
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_arcblaze"}},
 
 //Grenade Launchers
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_tremor"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_reckoner"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_tyrant"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_leveler"}},
@@ -356,6 +357,7 @@
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_upgradecore_mk2"}},
 
 //Consumables
+{"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_fuelcell"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_rationkit"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_medkit"}},
 {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "knightfall_medkit2"}},

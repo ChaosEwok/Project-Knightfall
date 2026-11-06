@@ -49,11 +49,13 @@
 				}
 			],
             "primary" : [ "syndicate_smokelauncher" ],
-			"alt" : [ 
+			"sheathedprimary" : [ "electrobaton" ],
+			"sheathedalt" : [ 
 				{ 
 					"name" : "syndicate_energyshield",
 					"parameters": {
-						"baseShieldHealth": 150
+						"baseShieldHealth": 150,
+						"cooldownTime": 0.25
 					}
 				} 
 			]
