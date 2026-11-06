@@ -1,8 +1,8 @@
 {
 	"itemName": "knightfall_sinner",
-	"shortdescription": "^1;Sinner",
+	"shortdescription": "^1-P;KX Sinner",
 	"category": "^orange;Handcannon^reset;",
-	"description": "^#66ccff;PRIMARY^reset; - Heavy Caliber Bullets\n>> 6th shot is piercing.\n>> 6th shot deals ^red;5% missing HP damage.^reset;\n\n^#559fd3;The Sinner is a handcannon renowned for its robust design and fearsome firepower. Wildly impractical to use due to its weight and limited ammo capacity, it has nonetheless found a niche following among some of Knightfall's elites.^reset;",
+	"description": "^#66ccff;PRIMARY^reset; - Heavy Caliber Bullets\n>> ^red;Inflicts heavy bleeding.^reset;\n>> 6th shot is piercing.\n>> 6th shot deals ^red;5% missing HP damage.^reset;\n\n^#559fd3;A 6-shot large caliber revolver designed by KINEXT Dynamics. Chambered in the powerful .500 Smithson cartridge, it has earned a following among operatives working beyond standard doctrine.^reset;",
   
 	"level": 8,
 	"price": 5000,
@@ -30,7 +30,7 @@
 	"cursor" : "/cursors/knightfall/rifle.cursor",
 	"scripts": ["/scripts/weapons/knightfall_gun.lua"],
 
-	"elementalType": "knightfall_bleed",
+	"elementalType": "knightfall_physical",
 	
 	"primaryAbility": {
 		"name": "Heavy Bullets",

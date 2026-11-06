@@ -1,10 +1,10 @@
 {
   "input" : [
-    //{ "item" : "knightfall_parts", "count" : 3 },
+    { "item" : "knightfall_parts", "count" : 3 },
     { "item" : "knightfall_alumeniteingot", "count" : 4 },
 	{ "item" : "knightfall_bulletsbox", "count" : 6 }
   ],
   "output" : { "item" : "knightfall_steelgale", "count" : 1 },
   "duration" : 0,
-  "groups" : [ "knightfall_weaponscraftingstation", "knightfall_miniguns", "weapons", "all" ]
+  "groups" : [ "knightfall_weaponscraftingstation", "knightfall_weaponscrafting-primary", "weapons", "all" ]
 }

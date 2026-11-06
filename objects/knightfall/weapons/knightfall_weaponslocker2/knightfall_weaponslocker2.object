@@ -1,0 +1,56 @@
+{
+  "objectName": "knightfall_weaponslocker2",
+  "colonyTags": [ "knightfall", "knightfall_military", "storage" ],
+  "rarity": "Rare",
+  "objectType": "container",
+  "tooltipKind": "knightfall_container",
+  "description": "A display locker stocked with standard-issue light arms and neatly organized ammunition. This compact variant doesn't feature a top shelf.",
+  "shortdescription": "Compact Light Armory",
+  "race": "generic",
+  "category": "storage",
+  "price": 1200,
+  "health": 1.5,
+  "apexDescription": "Looks neatly arranged and maintained.",
+  "avianDescription": "A tidy rack of weapons awaiting battle.",
+  "floranDescription": "Floran see many small boomsticksss.",
+  "glitchDescription": "Alert. Handy for self-defense during an invasion.",
+  "humanDescription": "Filled with reliable gear any soldier could trust.",
+  "hylotlDescription": "A disciplined display of weaponry.",
+  "novakidDescription": "All lined up like they're fixin' for a showdown.",
+  "inventoryIcon": "icon.png",
+  "orientations": [
+    {
+      "imageLayers": [
+        { "image": "image.png:<color>", "fullbright": true },
+        { "image": "lit.png:<color>" }
+      ],
+      "flipImages": true,
+      "direction": "left",
+      "imagePosition": [-16, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    },
+    {
+      "imageLayers": [
+        { "image": "image.png:<color>", "fullbright": true },
+        { "image": "lit.png:<color>" }
+      ],
+      "direction": "right",
+      "imagePosition": [-16, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    }
+  ],
+  "openSounds": ["/sfx/objects/metalbox_open.ogg"],
+  "closeSounds": ["/sfx/objects/metalbox_close.ogg"],
+  "slotCount": 48,
+  "uiConfig": "/interface/chests/chest<slots>.config",
+  "frameCooldown": 5,
+  "autoCloseCooldown": 3600
+}

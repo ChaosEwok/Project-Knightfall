@@ -1,33 +1,31 @@
 {
   "objectName": "knightfall_swordsrack",
-  "colonyTags": ["knightfall", "knightfall_military", "storage"],
+  "colonyTags": [ "knightfall", "knightfall_military", "storage" ],
   "rarity": "Rare",
   "objectType": "container",
-  "tooltipKind": "container",
-  "description": "A large rack for storing swords and other melee weapons.",
-  "shortdescription": "Swords Rack",
+  "tooltipKind": "knightfall_container",
+  "description": "A display locker filled with standard-issue melee weapons, each ready for close combat.",
+  "shortdescription": "Melee Armory",
   "race": "generic",
   "category": "storage",
-  "price": 600,
-  "lightColor": [0, 70, 110],
+  "price": 1500,
   "health": 1.5,
-  "apexDescription": "A large rack of melee weapons.",
-  "avianDescription": "Looks like storage for melee weapons.",
-  "floranDescription": "Floran ssstore ssstab sssticksss here.",
-  "glitchDescription": "Excited. I want to try these weapons for a duel.",
-  "humanDescription": "Ooh, weapons!",
-  "hylotlDescription": "A locker full of melee weapons.",
-  "novakidDescription": "Ain't all that interested in swords and poles.",
+  "apexDescription": "Neatly arranged blades and blunt weapons.",
+  "avianDescription": "Melee arms displayed like instruments of honor.",
+  "floranDescription": "Shiny stab-sticksss and smash-toolsss. Floran feel excited.",
+  "glitchDescription": "Observant. A collection of melee arms.",
+  "humanDescription": "A spread of close-combat gear, sharp and practical.",
+  "hylotlDescription": "Gracefully crafted weapons displayed with artistry.",
+  "novakidDescription": "A rack of trusty thumpers and pokers.",
   "inventoryIcon": "icon.png",
   "orientations": [
     {
       "imageLayers": [
-        {"image": "knightfall_swordsrack.png:<color>", "fullbright": true},
-        {"image": "knightfall_swordsracklit.png:<color>"}
+        { "image": "image.png:<color>", "fullbright": true },
+        { "image": "lit.png:<color>" }
       ],
       "flipImages": true,
       "direction": "left",
-      "lightPosition": [-1, 1],
       "imagePosition": [-16, 0],
       "frames": 1,
       "animationCycle": 1,
@@ -37,11 +35,10 @@
     },
     {
       "imageLayers": [
-        {"image": "knightfall_swordsrack.png:<color>", "fullbright": true},
-        {"image": "knightfall_swordsracklit.png:<color>"}
+        { "image": "image.png:<color>", "fullbright": true },
+        { "image": "lit.png:<color>" }
       ],
       "direction": "right",
-      "lightPosition": [0, 1],
       "imagePosition": [-16, 0],
       "frames": 1,
       "animationCycle": 1,

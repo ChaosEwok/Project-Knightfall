@@ -1,25 +1,28 @@
 {
   "objectName": "knightfall_direhoundrack",
-  "colonyTags": ["knightfall", "knightfall_military"],
+  "colonyTags": [ "knightfall", "knightfall_military", "storage" ],
   "rarity": "Rare",
-  "description": "A rack of Direhound missile launchers.",
-  "shortdescription": "Direhound Rack",
+  "objectType": "container",
+  "tooltipKind": "knightfall_container",
+  "description": "A display locker housing crates and racks of heavy weapons and their ammunition.",
+  "shortdescription": "Heavy Armory",
   "race": "generic",
-  "category": "decorative",
+  "category": "storage",
   "price": 1500,
-  "apexDescription": "A rack of heavy duty missile launchers.",
-  "avianDescription": "A neatly arranged rack of missile launchers.",
-  "floranDescription": "Floran likesss when thingss go boom!",
-  "glitchDescription": "Observant. A rack of heavy weapons.",
-  "humanDescription": "Weapons for taking down heavy and aerial targets.",
-  "hylotlDescription": "A heavy weapon fit for destruction.",
-  "novakidDescription": "Built for collateral damage!",
+  "health": 1.5,
+  "apexDescription": "Monitored with unwavering discipline.",
+  "avianDescription": "Like instruments of destructive judgment.",
+  "floranDescription": "Big boomsss! Floran want to try...",
+  "glitchDescription": "Cautious. A formidable array of heavy ordnance.",
+  "humanDescription": "A stash of heavy gear built for serious situations.",
+  "hylotlDescription": "A formidable arsenal, secured to prevent needless chaos.",
+  "novakidDescription": "A row of heavy hitters just raring to light up the sky.",
   "inventoryIcon": "icon.png",
   "orientations": [
     {
       "imageLayers": [
-        {"image": "knightfall_direhoundrack.png:<color>", "fullbright": true},
-        {"image": "knightfall_direhoundracklit.png:<color>"}
+        { "image": "image.png:<color>", "fullbright": true },
+        { "image": "lit.png:<color>" }
       ],
       "flipImages": true,
       "direction": "left",
@@ -27,20 +30,27 @@
       "frames": 1,
       "animationCycle": 1,
       "spaceScan": 0.1,
-      "anchors": ["bottom"]
+      "anchors": ["bottom"],
+	  "collision": "platform"
     },
     {
       "imageLayers": [
-        {"image": "knightfall_direhoundrack.png:<color>", "fullbright": true},
-        {"image": "knightfall_direhoundracklit.png:<color>"}
+        { "image": "image.png:<color>", "fullbright": true },
+        { "image": "lit.png:<color>" }
       ],
       "direction": "right",
       "imagePosition": [-32, 0],
       "frames": 1,
       "animationCycle": 1,
       "spaceScan": 0.1,
-      "anchors": ["bottom"]
+      "anchors": ["bottom"],
+	  "collision": "platform"
     }
   ],
-  "tooltipKind": "knightfall_base"
+  "openSounds": ["/sfx/objects/metalbox_open.ogg"],
+  "closeSounds": ["/sfx/objects/metalbox_close.ogg"],
+  "slotCount": 64,
+  "uiConfig": "/interface/chests/chest<slots>.config",
+  "frameCooldown": 5,
+  "autoCloseCooldown": 3600
 }

@@ -8,23 +8,44 @@
     "rarity": "Essential",
     "interactAction": "OpenCraftingInterface",
     "interactData": {
-        "config": "/interface/windowconfig/knightfall_craftingmerchant-exp.config",
+        "config": "/interface/windowconfig/knightfall_crafting-exp.config",
         "paneLayoutOverride": {
             "windowtitle": {
                 "value": "^#66ccff;KNIGHTFALL MEDICAL STORE"
             },
             "windowsubtitle": {
-                "value": "Purchase Knightfall medical supplies here."
+                "value": "Purchase Knightfall medical supplies."
             },
             "windowicon": {
                 "file": "/objects/knightfall/shops/knightfall_infirmaryshop/interfaceicon.png"
             },
+			"btnCraft" : {
+				"caption" : "PURCHASE"
+			},
+			"lblProduct" : {
+				"fontSize" : 7,
+				"position" : [142, 24],
+				"value" : "^#66ccff;CAN\nPURCHASE"
+			},
             "imgPlayerMoneyIcon": {
                 "visible": true
             },
             "lblPlayerMoney": {
                 "visible": true
             },
+			
+			"lblButton1" : {
+				"type" : "label",
+				"position" : [48, 163],
+				"hAnchor" : "left",
+				"value" : "Medkits"
+			},
+			"lblButton2" : {
+				"type" : "label",
+				"position" : [48, 137],
+				"hAnchor" : "left",
+				"value" : "Serums"
+			},
 
 			"categories" : {
 				"type" : "radioGroup",
@@ -32,7 +53,7 @@
 				"buttons" : [
 					{
 						"selected" : true,
-						"position" : [22, 155],
+						"position" : [22, 156],
 						"baseImage" : "/interface/styles/tabs/knightfall_tab-kits_def.png",
 						"baseImageChecked" : "/interface/styles/tabs/knightfall_tab-kits_act.png",
 						"pressedOffset" : [0, 0],
@@ -41,7 +62,7 @@
 						}
 					},
 					{
-						"position" : [22, 129],
+						"position" : [22, 130],
 						"baseImage" : "/interface/styles/tabs/knightfall_tab-serums_def.png",
 						"baseImageChecked" : "/interface/styles/tabs/knightfall_tab-serums_act.png",
 						"pressedOffset" : [0, 0],

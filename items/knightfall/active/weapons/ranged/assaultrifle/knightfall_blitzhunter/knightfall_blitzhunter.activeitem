@@ -1,8 +1,8 @@
 {
 	"itemName": "knightfall_blitzhunter",
-	"shortdescription": "^2;Blitzhunter",
+	"shortdescription": "^2-AR;KX Blitzer",
 	"category": "^orange;Assault Rifle^reset;",
-	"description": "^#66ccff;PRIMARY^reset; - Rifle Bullets\n^#66ccff;ALTFIRE^reset; - Flechette Grenade\n\n^#559fd3;Although less favored compared to the Raptor, the Blitzhunter has made a name for itself by being more cost-efficient to produce and easier to maintain. Its larger caliber rounds is a bite that's not to be underestimated.^reset;",
+	"description": "^#66ccff;PRIMARY^reset; - Rifle Bullets\n^#66ccff;ALTFIRE^reset; - Flechette Grenade\n\n^#559fd3;A squad assault rifle developed by KINEXT Dynamics chambered for the .300 Morrigan. Made to overmatch the Foxhound at 75m and above, this rifle's bite is not to be underestimated.^reset;",
   
 	"level": 7,
 	"price": 4000,
@@ -44,7 +44,7 @@
 	"cursor" : "/cursors/knightfall/rifle.cursor",
 	"scripts": ["/scripts/weapons/knightfall_gun.lua"],
 
-	"elementalType": "knightfall_bleed",
+	"elementalType": "knightfall_physical",
 
 	"primaryAbility": {
 		"name": "Rifle Bullets",
@@ -52,10 +52,10 @@
 		"scripts": ["/items/active/weapons/ranged/gunfire.lua"],
 		"class": "GunFire",
 
-		"fireTime": 0.11,
-		"baseDps": 27.5,
-		"energyUsage": 91,
-		"inaccuracy": 0.03,
+		"fireTime": 0.15,
+		"baseDps": 24,
+		"energyUsage": 100,
+		"inaccuracy": 0.02,
 		"fireType": "auto",
 
 		"projectileCount": 1,
@@ -114,8 +114,8 @@
 		"scripts": ["/items/active/weapons/ranged/abilities/altfire.lua"],
 		"class": "AltFireAttack",
 
-		"fireTime": 1.2,
-		"energyUsage": 50,
+		"fireTime": 2,
+		"energyUsage": 25,
 		"baseDps": 3,
 		"projectileCount": 1,
 		"inaccuracy": 0,

@@ -1,0 +1,59 @@
+{
+  "objectName": "knightfall_fuelcanister2",
+  "colonyTags": [ "knightfall", "storage" ],
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 150,
+  "objectType": "container",
+  "tooltipKind": "knightfall_container",
+  "description": "A reinforced pressure tank built to carry volatile fuel in high-risk environments, fitted with locking valves and a frame that can survive impacts your body definitely can't.",
+  "shortdescription": "Pressurized Fuel Tank",
+  "race": "generic",
+  "health": 1.5,
+  "apexDescription": "This canister seems ideal for transporting fuel.",
+  "avianDescription": "What a curious canister - I wonder what is inside?",
+  "floranDescription": "Black tube. Might have ssstuff inside.",
+  "glitchDescription": "Observant. A short analysis concludes that this canister is built to safely store fuel.",
+  "humanDescription": "The sound this canister makes when opened is quite satisfying.",
+  "hylotlDescription": "What a curious looking storage container. Perhaps it is built to store fuel?",
+  "novakidDescription": "Is this a big ol' fuel barrel? Mighty fine lookin' barrel if I say so myself.",
+  "inventoryIcon": "icon.png",
+  "orientations": [
+    {
+      "imageLayers": [
+        {
+          "image": "image.png:<color>.<key>",
+          "fullbright": true
+        },
+        { "image": "lit.png:<color>.<key>" }
+      ],
+      "flipImages": true,
+      "direction": "left",
+	  "imagePosition": [-8, 0],
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+	  "collision": "platform"
+    },
+    {
+      "imageLayers": [
+        {
+          "image": "image.png:<color>.<key>",
+          "fullbright": true
+        },
+        { "image": "lit.png:<color>.<key>" }
+      ],
+      "direction": "right",
+      "imagePosition": [-8, 0],
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+	  "collision": "platform"
+    }
+  ],
+  "openSounds": ["/sfx/objects/metaldoor_open.ogg"],
+  "closeSounds": ["/sfx/objects/metaldoor_close.ogg"],
+  "slotCount": 16,
+  "uiConfig": "/interface/chests/chest<slots>.config",
+  "frameCooldown": 5,
+  "openFrameIndex": 2,
+  "autoCloseCooldown": 3600
+}

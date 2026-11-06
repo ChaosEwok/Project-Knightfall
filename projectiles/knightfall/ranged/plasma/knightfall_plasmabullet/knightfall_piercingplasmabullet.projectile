@@ -12,7 +12,7 @@
   "piercing" : true,
   "emitters" : [  ],
   "supportsProcessing" : true,
-  "statusEffects" : [ "knightfall_melting" ],
+  "statusEffects" : [ "knightfall_plasmaburns" ],
   "actionOnReap" : [
 	{
       "action" : "loop",
@@ -74,7 +74,7 @@
     {
       "action" : "particle",
       "specification" : "knightfall_plasmaemitter1",
-	  "time" : 0.03,
+	  "time" : 0.05,
 	  "count" : 1,
 	  "repeat" : true,
       "rotate" : true
@@ -82,13 +82,13 @@
     {
       "action" : "particle",
       "specification" : "knightfall_plasmaemitter2",
-	  "time" : 0.03,
-	  "count" : 2,
+	  "time" : 0.05,
+	  "count" : 1,
 	  "repeat" : true,
       "rotate" : true
     }
   ],
   "fullbright" : true,
   "lightColor" : [36, 78, 140],
-  "damageKind" : "knightfall_plasma"
+  "damageKind" : "fireplasmabullet"
 }

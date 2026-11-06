@@ -6,8 +6,8 @@
   "rarity": "Legendary",
   "rarityLabelKind": "knightfall",
   "category": "shield",
-  "description": "^#559fd3;Heavyweight hardlight shield designed for enduring long battles.\n\nHefty construction makes it less agile for parrying, but its high energy capacity can absorb sustained attacks. This makes the Aegis the ideal choice for holding ground.^reset;",
-  "shortdescription": "Aegis",
+  "description": "^#559fd3;Heavyweight hardlight shield designed for enduring long battles.\n\nHefty construction makes it less agile for parrying, but its high energy capacity can absorb sustained attacks, making it the ideal choice for holding ground.^reset;",
+  "shortdescription": "S/HL-4A Keep",
   "tooltipKind": "knightfall_shield",
   "twoHanded": false,
   "itemTags": [
@@ -90,15 +90,29 @@
     }
   },
   "scripts": [
-    "/items/knightfall/active/shields/knightfall_shield.lua"
+    "/items/knightfall/active/shields/knightfall_shield.lua",
+	"/items/knightfall/active/shields/knightfall_shield-anim.lua"
   ],
   "minActiveTime": 2,
   "forceWalk": true,
   "baseShieldHealth": 150,
   "cooldownTime": 2,
   "perfectBlockDirectives": "?border=2;AACCFFFF;00000000",
-  "perfectBlockTime": 0.1,
+  "perfectBlockTime": 0.2,
   "knockback": 10,
+  "shieldStats" : {
+	"physicalResistance" : -0.75,
+    "fireResistance" : 0.5,
+    "fireStatusImmunity" : 1.0,
+    "iceResistance" : 0.5,
+    "iceStatusImmunity" : 1.0,
+    "electricResistance" : -0.75,
+    "electricStatusImmunity" : 1.0,
+    "poisonResistance" : 0.5 ,
+    "poisonStatusImmunity" : 1.0,
+	
+	"bleedingImmunity" : 1.0
+  },
   "randomShieldOffset": [
     0.036,
     0.018

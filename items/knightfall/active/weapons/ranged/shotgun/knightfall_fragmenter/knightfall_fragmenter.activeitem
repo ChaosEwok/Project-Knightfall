@@ -4,8 +4,8 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "rarityLabelKind" : "knightfall",
-  "description" : "^#66ccff;PRIMARY^reset; - Light Plasma Burst\n^#66ccff;ALTFIRE^reset; - Super Shot\n>> Short-ranged\n\n^#559fd3;Standard-issue tactical shotgun for Knightfall GIs. It has a light, dense, and compact build that's reliable even in harsh conditions, as well as a feature to overcharge its inner chamber for a stronger but short ranged shot.^reset;",
-  "shortdescription" : "^92;Fragmenter",
+  "description" : "^#66ccff;PRIMARY^reset; - Light Plasma Burst\n^#66ccff;ALTFIRE^reset; - Super Shot\n>> Short-ranged\n\n^#559fd3;StormTech's second generation plasma shotgun with a pump-action operation. Can be overcharged for a more powerful but short-ranged burst.^reset;",
+  "shortdescription" : "^3-SG;StormTech SG3 Atomizer",
   "tooltipKind" : "knightfall_weapon",
   "category" : "^#66ccff;Plasma Shotgun^reset;",
   "twoHanded" : true,
@@ -29,26 +29,23 @@
   "cursor" : "/cursors/knightfall/shotgun.cursor",
   "scripts": ["/scripts/weapons/knightfall_gun.lua"],
 
-  "elementalType" : "knightfall_plasma",
+  "elementalType" : "fire",
 
   "primaryAbility" : {
-	"name": "Plasma Buckshots",
-	"description": "Fires plasma buckshots at a slow rate of fire.",
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua", "/scripts/weapons/knightfall_shotgun.lua"],
     "class" : "GunFire",
 
     "fireTime" : 0.8,
-    "baseDps" : 11,
-    "energyUsage" : 31.5,
-    "inaccuracy" : 0.04,
+    "baseDps" : 10,
+    "energyUsage" : 46.875,
+    "inaccuracy" : 0.06,
 
     "projectileCount" : 7,
     "fireType" : "auto",
 
     "projectileType" : "knightfall_plasmabullet",
     "projectileParameters" : {
-      "knockback" : 2,
-		"speed" : [140, 160]
+	  "speed" : [140, 160]
     },
     "stances" : {
       "idle" : {
@@ -94,14 +91,12 @@
   },
   
   "altAbility": {
-	"name": "Super Shot",
-	"description": "Fires an explosive plasma buckshot in a short ranged cone.",
 	"scripts": ["/items/active/weapons/ranged/abilities/altfire.lua"],
 	"class": "AltFireAttack",
 
 	"fireTime" : 1.2,
-    "baseDps" : 12,
-    "energyUsage" : 31.5,
+    "baseDps" : 14,
+    "energyUsage" : 62.5,
     "inaccuracy" : 0.1,
 
     "projectileCount" : 5,
@@ -109,7 +104,7 @@
 
     "projectileType" : "knightfall_plasmabulletlarge",
     "projectileParameters" : {
-      "knockback" : 4,
+      "knockback" : 6,
 	  "timeToLive" : 0.1
     },
     "stances" : {
@@ -155,5 +150,5 @@
     }
   },
 
-	"builder": "/items/buildscripts/knightfall_buildunrandweapon.lua"
+  "builder": "/items/buildscripts/knightfall_buildunrandweapon.lua"
 }

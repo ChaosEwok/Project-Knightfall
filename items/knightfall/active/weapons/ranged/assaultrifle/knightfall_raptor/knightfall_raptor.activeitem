@@ -1,8 +1,8 @@
 {
 	"itemName": "knightfall_raptor",
-	"shortdescription": "^3;Raptor",
+	"shortdescription": "^2-AR;AR/P-8 Raptor",
 	"category": "^#66ccff;Plasma Assault Rifle^reset;",
-	"description": "^#66ccff;PRIMARY^reset; - Medium Plasma Bolts\n^#66ccff;ALTFIRE^reset; - Plasma Grenade\n\n^#559fd3;Nicknamed the 'Stormbringer', the Raptor's powerful plasma bolts has made it the favored weapon of choice for Knightfall's Knightframes. It demands frequent maintenance however, a problem caused by its hefty build and complex engineering.^reset;",
+	"description": "^#66ccff;PRIMARY^reset; - Medium Plasma Bolts\n^#66ccff;ALTFIRE^reset; - Plasma Grenade\n\n^#559fd3;Upgraded from the AR/P-4, this hefty plasma rifle sports a larger barrel size and a 50 kJ coil accelerator. It's held back by its limited magazine size and need for frequent maintenance. Powerful, but demands respect from its user.^reset;",
   
 	"level": 7,
 	"price": 4000,
@@ -44,7 +44,7 @@
 	"cursor" : "/cursors/knightfall/rifle.cursor",
 	"scripts": ["/scripts/weapons/knightfall_gun.lua"],
 
-	"elementalType": "knightfall_plasma",
+	"elementalType": "fire",
 
 	"primaryAbility": {
 		"name": "Plasma Bolts",
@@ -52,10 +52,10 @@
 		"scripts": ["/items/active/weapons/ranged/gunfire.lua"],
 		"class": "GunFire",
 
-		"fireTime": 0.11,
-		"baseDps": 11.5,
-		"energyUsage": 91,
-		"inaccuracy": 0.03,
+		"fireTime": 0.15,
+		"baseDps": 10,
+		"energyUsage": 133,
+		"inaccuracy": 0.02,
 		"fireType": "auto",
 
 		"projectileCount": 1,
@@ -110,10 +110,10 @@
 		"scripts": ["/items/active/weapons/ranged/abilities/altfire.lua"],
 		"class": "AltFireAttack",
 
-		"fireTime": 1.2,
-		"energyUsage": 50,
+		"fireTime": 2,
+		"energyUsage": 25,
 		"projectileCount": 1,
-		"baseDps": 10.5,
+		"baseDps": 8,
 		"inaccuracy": 0.08,
 		"fireType": "auto",
 

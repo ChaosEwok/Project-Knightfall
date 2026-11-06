@@ -8,23 +8,44 @@
     "rarity": "Essential",
     "interactAction": "OpenCraftingInterface",
     "interactData": {
-        "config": "/interface/windowconfig/knightfall_craftingmerchant-exp.config",
+        "config": "/interface/windowconfig/knightfall_crafting-exp.config",
         "paneLayoutOverride": {
             "windowtitle": {
                 "value": "^#66ccff;KNIGHTFALL MATERIALS TRADING POST"
             },
             "windowsubtitle": {
-                "value": "Acquire basic Knightfall crafting materials here."
+                "value": "Purchase Knightfall crafting materials."
             },
             "windowicon": {
                 "file": "/objects/knightfall/shops/knightfall_craftingtrading/interfaceicon.png"
             },
+			"btnCraft" : {
+				"caption" : "PURCHASE"
+			},
+			"lblProduct" : {
+				"fontSize" : 7,
+				"position" : [142, 24],
+				"value" : "^#66ccff;CAN\nPURCHASE"
+			},
             "imgPlayerMoneyIcon": {
                 "visible": true
             },
             "lblPlayerMoney": {
                 "visible": true
             },
+			
+			"lblButton1" : {
+				"type" : "label",
+				"position" : [48, 163],
+				"hAnchor" : "left",
+				"value" : "Purchase"
+			},
+			"lblButton2" : {
+				"type" : "label",
+				"position" : [48, 137],
+				"hAnchor" : "left",
+				"value" : "Trade"
+			},
 
 			"categories" : {
 				"type" : "radioGroup",
@@ -32,7 +53,7 @@
 				"buttons" : [
 					{
 						"selected" : true,
-						"position" : [22, 155],
+						"position" : [22, 156],
 						"baseImage" : "/interface/styles/tabs/knightfall_tab-buy_def.png",
 						"baseImageChecked" : "/interface/styles/tabs/knightfall_tab-buy_act.png",
 						"pressedOffset" : [0, 0],
@@ -41,7 +62,7 @@
 						}
 					},
 					{
-						"position" : [22, 129],
+						"position" : [22, 130],
 						"baseImage" : "/interface/styles/tabs/knightfall_tab-trade_def.png",
 						"baseImageChecked" : "/interface/styles/tabs/knightfall_tab-trade_act.png",
 						"pressedOffset" : [0, 0],
@@ -56,7 +77,7 @@
 		"filter" : [ "knightfall_craftingtrading" ]
     },
     "printable": false,
-    "description": "A store where you can purchase and trade for Knightfall crafting materials.",
+    "description": "A trading post where you can purchase and exchange goods for Knightfall crafting materials.",
     "shortdescription": "^#66ccff;Knightfall Materials Trading Post^reset;",
     "race": "generic",
     "category": "other",

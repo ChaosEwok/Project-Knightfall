@@ -6,8 +6,8 @@
   "rarity" : "Rare",
   "rarityLabelKind" : "knightfall",
   "category" : "^green;Scouting^reset; ^#66ccff;Headpiece^reset;",
-  "description" : "Issued to forward observers and pathfinders, this headpiece is lightweight and very reliable for scouting operations.",
-  "shortdescription" : "Trooperframe ^green;'Locator'^reset;",
+  "description" : "Small headpiece worn by Knightfall's reconnaissance infantry. Designed for scouting operations.",
+  "shortdescription" : "^3-A1;^green;Recon^reset; Face Mask",
   "tooltipKind" : "knightfall_armor_head",
 
   "maleFrames" : "head.png",

@@ -1,8 +1,8 @@
 {
 	"itemName": "knightfall_nebulizer",
-	"shortdescription": "^93;Nebulizer",
+	"shortdescription": "^3-SG;AnVA Shredder Support",
 	"category": "^#5be1eb;Support Shotgun^reset;",
-	"description": "^#66ccff;PRIMARY^reset; - Buckshots\n^#66ccff;ALTFIRE^reset; - Healing Gas\n>> Short-ranged\n>> ^green;Heals units for 2 health every 4 energy spent.^reset;\n\n^#559fd3;A Medicframe-issued assault shotgun based on the chassis of the Scatterblaze. It has gained popularity since it entered service, thanks to its excellent performance in protection and squad support.^reset;",
+	"description": "^#66ccff;PRIMARY^reset; - Buckshots\n^#66ccff;ALTFIRE^reset; - Healing Gas\n>> Short-ranged\n>> ^green;Heals units for 2 health every 4 energy spent.^reset;\n\n^#559fd3;Modified variant of the Shredder made available to Knightfall's medics. A primary weapon for medics brave enough to get into the thick of it while providing support capabilities.^reset;",
   
 	"level": 6,
 	"price": 5000,
@@ -30,24 +30,21 @@
 	"cursor" : "/cursors/knightfall/shotgun.cursor",
 	"scripts": ["/scripts/weapons/knightfall_gun.lua"],
 
-	"elementalType": "knightfall_bleed",
+	"elementalType": "knightfall_physical",
 	
 	"primaryAbility": {
-		"name": "Buckshots",
-		"description": "Fires buckshots at a steady rate of fire.",
 		"scripts": [ "/scripts/weapons/knightfall_gunfire_interval.lua", "/scripts/weapons/knightfall_shotgun.lua" ],
 		"class": "AltProjectileGunfire",
 
 		"fireTime": 0.2,
 		"baseDps": 32,
-		"energyUsage": 75,
-		"inaccuracy" : 0.05,
+		"energyUsage": 60,
+		"inaccuracy" : 0.08,
 		"fireType" : "auto",
 		
 		"projectileCount" : 12,
 		"projectileType": "knightfall_shotgunpellet",
 		"projectileParameters": {
-			"knockback" : 2,
 			"speed" : [130, 170]
 		},
 
@@ -109,8 +106,6 @@
 	
 	"altAbilityType" : "flamethrower",
 	"altAbility": {
-		"name": "Healing Gas",
-		"description": "Disperses healing gas in a short range. ^green;Heals units for 2 health every 4 energy spent.^reset;",
 		"scripts" : ["/scripts/weapons/knightfall_flamethrower.lua"],
 
 		"fireTime" : 0.01,

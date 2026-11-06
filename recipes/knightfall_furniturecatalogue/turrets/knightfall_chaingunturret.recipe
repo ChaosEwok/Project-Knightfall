@@ -1,9 +1,6 @@
 {
   "input" : [
-	{ "item" : "knightfall_alumeniteingot", "count" : 10 },
-	{ "item" : "knightfall_bulletsbox", "count" : 10 },
-	{ "item" : "knightfall_powercore", "count" : 3 },
-	{ "item" : "knightfall_advancedprocessorchip", "count" : 4 }
+	{ "item" : "money", "count" : 4000 }
   ],
   "output" : { "item" : "knightfall_chaingunturret", "count" : 1 },
   "duration" : 0,

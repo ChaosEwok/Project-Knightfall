@@ -1,8 +1,8 @@
 {
 	"itemName": "knightfall_scatterblaze",
-	"shortdescription": "^4;Scatterblaze",
+	"shortdescription": "^2-SG;AnVA Shredder",
 	"category": "^orange;Assault Shotgun^reset;",
-	"description": "^#66ccff;PRIMARY^reset; - Buckshots\n^#66ccff;ALTFIRE^reset; - Incendiary Mine\n\n^#559fd3;Designed by the now defunct Ankel Von Armaments, the late-war era Scatterblaze has seen a comeback in recent years, thanks in part to its effectiveness in clearing out rogue underground Horde nests.^reset;",
+	"description": "^#66ccff;PRIMARY^reset; - Buckshots\n^#66ccff;ALTFIRE^reset; - Incendiary Mine\n\n^#559fd3;An automatic, magazine-fed shotgun designed by the now defunct Ankel Von Armaments. Its effectiveness has earned it a cult-like following among Knightfall's infantry, despite its limited availability.^reset;",
   
 	"level": 7,
 	"price": 4000,
@@ -30,24 +30,21 @@
 	"cursor" : "/cursors/knightfall/shotgun.cursor",
 	"scripts": ["/scripts/weapons/knightfall_gun.lua"],
 
-	"elementalType": "knightfall_bleed",
+	"elementalType": "knightfall_physical",
 	
 	"primaryAbility": {
-		"name": "Buckshots",
-		"description": "Fires buckshots at a steady rate of fire.",
 		"scripts": [ "/scripts/weapons/knightfall_gunfire_interval.lua", "/scripts/weapons/knightfall_shotgun.lua" ],
 		"class": "AltProjectileGunfire",
 
 		"fireTime": 0.2,
-		"baseDps": 47.5,
-		"energyUsage": 75,
-		"inaccuracy" : 0.05,
+		"baseDps": 47,
+		"energyUsage": 60,
+		"inaccuracy" : 0.08,
 		"fireType" : "auto",
 		
 		"projectileCount" : 12,
 		"projectileType": "knightfall_shotgunpellet",
 		"projectileParameters": {
-			"knockback" : 2,
 			"speed" : [130, 170]
 		},
 
@@ -108,13 +105,11 @@
 	},
 	
 	"altAbility": {
-		"name": "Incendiary Mine",
-		"description": "Launches an incendiary mine. Arms after 3 seconds or on impact with terrain.",
 		"scripts": ["/items/active/weapons/ranged/abilities/altfire.lua"],
 		"class": "AltFireAttack",
 
 		"fireTime": 1.8,
-		"energyUsage": 27.8,
+		"energyUsage": 41.67,
 		"baseDps": 8,
 		"inaccuracy": 0.04,
 		"fireType": "auto",

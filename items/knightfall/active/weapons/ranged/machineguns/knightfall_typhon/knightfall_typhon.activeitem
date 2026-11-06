@@ -1,8 +1,8 @@
 {
 	"itemName": "knightfall_typhon",
-	"shortdescription": "^4;Typhon",
+	"shortdescription": "^2-MG;StormTech MG1 Typhon",
 	"category": "^#66ccff;Light Plasma Machinegun^reset;",
-	"description": "^#66ccff;PRIMARY^reset; - Light Plasma Bolts\n^#66ccff;ALTFIRE^reset; - Stasis Shockwave\n>> ^#66ccff;[ Hold then release to fire ]^reset;\n>> ^#a8fff9;Freezes enemies for 3 seconds.^reset;\n\n^#559fd3;Though expensive to produce, the state-of-the-art StormTech-built Typhon is a machinegun unique for its stasis shockwave generator.\n\nWhile uncommon, it strikes awe in GIs that bear witness to its flurry.^reset;",
+	"description": "^#66ccff;PRIMARY^reset; - Light Plasma Bolts\n^#66ccff;ALTFIRE^reset; - Stasis Shockwave\n>> ^#66ccff;[ Hold then release to fire ]^reset;\n>> ^#a8fff9;Freezes enemies for 3 seconds.^reset;\n\n^#559fd3;StormTech's first generation plasma light machinegun, equipped with a state-of-the-art chrono shockwave generator. Costly and seldom deployed, it leaves a lasting impression to those who witness its violent storm.^reset;",
   
 	"level": 7,
 	"price": 5000,
@@ -30,18 +30,16 @@
 	"cursor" : "/cursors/knightfall/machinegun.cursor",
 	"scripts": ["/scripts/weapons/knightfall_gun.lua"],
 
-	"elementalType": "knightfall_plasma",
+	"elementalType": "fire",
 
 	"primaryAbility": {
-		"name": "Plasma Storm",
-		"description": "Fires plasma bolts at a rapid rate of fire.",
 		"scripts": ["/items/active/weapons/ranged/gunfire.lua"],
 		"class": "GunFire",
 
 		"fireTime": 0.08,
 		"baseDps": 28,
-		"energyUsage": 37.5,
-		"inaccuracy": 0.05,
+		"energyUsage": 93.75,
+		"inaccuracy": 0.06,
 		"fireType": "auto",
 
 		"projectileCount": 1,
@@ -93,8 +91,6 @@
 	},
 	
 	"altAbility": {
-		"name": "Stasis Shockwave",
-		"description": "^#66ccff;[ Hold then release to fire ]^reset; a chrono stasis shockwave. ^#a8fff9;Freezes enemies for 3 seconds.^reset;",
 		"scripts": [ "/scripts/weapons/nebkf-enhancedchargefire.lua" ],
 		"class" : "NebKFEnhancedChargeFire",
 

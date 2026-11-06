@@ -10,6 +10,10 @@
     "category": "decorative",
     "printable": false,
     "price": 1200,
+	"pointLight": true,
+	"pointBeam": 10,
+	"beamAmbience": 0.25,
+	"lightColor": [102, 204, 255],
     "description": "A neon blue lit bar shelf, displaying a variety of alcoholic drinks.",
     "shortdescription": "Knightfall Bar Drinks",
     "race": "generic",
@@ -17,17 +21,25 @@
     "inventoryIcon": "icon.png",
     "interactAction": "OpenCraftingInterface",
     "interactData": {
-        "config": "/interface/windowconfig/knightfall_craftingmerchant.config",
+        "config": "/interface/windowconfig/knightfall_crafting.config",
         "paneLayoutOverride": {
             "windowtitle": {
                 "value": "^#66ccff;KNIGHTFALL BAR"
             },
             "windowsubtitle": {
-                "value": "Purchase some flavorful and varied alcoholic drinks!"
+                "value": "Purchase tasty alcoholic drinks!"
             },
             "windowicon": {
                 "file": "/objects/knightfall/decorative/knightfall_bartender/interfaceicon.png"
             },
+			"btnCraft" : {
+				"caption" : "PURCHASE"
+			},
+			"lblProduct" : {
+				"fontSize" : 7,
+				"position" : [36, 24],
+				"value" : "^#66ccff;CAN\nPURCHASE"
+			},
             "imgPlayerMoneyIcon": {
                 "visible": true
             },
@@ -62,13 +74,18 @@
                 -16,
                 0
             ],
+			"lightPosition": [
+				-4, 
+				1	
+			],
             "spaceScan": 0.1,
             "anchors": [
                 "bottom"
             ],
             "collision": "platform",
             "frames": 22,
-            "animationCycle": 4.4
+            "animationCycle": 4.4,
+			"beamAngle": 0
         },
         {
             "imageLayers": [
@@ -93,6 +110,10 @@
                 -16,
                 0
             ],
+			"lightPosition": [
+				4, 
+				1	
+			],
             "flipImages": true,
             "spaceScan": 0.1,
             "anchors": [
@@ -100,7 +121,8 @@
             ],
             "collision": "platform",
             "frames": 22,
-            "animationCycle": 4.4
+            "animationCycle": 4.4,
+			"beamAngle": 180
         }
     ],
     "tooltipKind": "knightfall_base"

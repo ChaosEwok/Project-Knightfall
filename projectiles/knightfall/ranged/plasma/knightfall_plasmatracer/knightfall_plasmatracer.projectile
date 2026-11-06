@@ -83,18 +83,32 @@
 	  "count" : 2,
 	  "repeat" : true,
       "rotate" : true
+    },
+	{
+      "time" : 0,
+      "repeat" : true,
+      "action" : "particle",
+      "rotate" : true,
+      "specification" : {
+        "type" : "animated",
+        "image" : "/animations/knightfall_plasmasmoke/knightfall_plasmasmoke.animation",
+        "position" : [-0.5, 0],
+        "layer" : "back",
+        "timeToLive" : 0,
+        "destructionTime" : 0.15,
+        "destructionAction" : "shrink",
+        "fullbright" : false
+      }
     }
   ],
-  "statusEffects" : [
-	"knightfall_melting"
-  ],
+  "statusEffects" : [ "knightfall_plasmaburns" ],
   "emitters" : [ "knightfall_plasmasmoke" ],
   "flippable" : true,
   "power" : 7.0,
   "speed" : 70,
   "acceleration" : 50,
   "physics" : "rocket",
-  "damageKind" : "knightfall_plasma",
+  "damageKind" : "fireplasmabullet",
 
   "scripts" : [ 
 	"/scripts/projectiles/knightfall_homingmissile.lua"

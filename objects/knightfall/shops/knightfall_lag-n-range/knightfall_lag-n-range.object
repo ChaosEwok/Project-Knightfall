@@ -8,30 +8,58 @@
     "rarity": "Essential",
     "interactAction": "OpenCraftingInterface",
     "interactData": {
-        "config": "/interface/windowconfig/knightfall_craftingmerchant-exp.config",
+        "config": "/interface/windowconfig/knightfall_crafting-exp.config",
         "paneLayoutOverride": {
             "windowtitle": {
                 "value": "LAG N' ^#fdd14d;RANGE"
             },
             "windowsubtitle": {
-                "value": "Essential supplies, fuel, snacks, and tech gear."
+                "value": "Essential supplies, fuel, food, and gear."
             },
             "windowicon": {
                 "file": "/objects/knightfall/shops/knightfall_lag-n-range/interfaceicon.png"
             },
+			"btnCraft" : {
+				"caption" : "PURCHASE"
+			},
+			"lblProduct" : {
+				"fontSize" : 7,
+				"position" : [142, 24],
+				"value" : "^#66ccff;CAN\nPURCHASE"
+			},
             "imgPlayerMoneyIcon": {
                 "visible": true
             },
             "lblPlayerMoney": {
                 "visible": true
             },
+			
+			"lblButton1" : {
+				"type" : "label",
+				"position" : [48, 163],
+				"hAnchor" : "left",
+				"value" : "Food"
+			},
+			"lblButton2" : {
+				"type" : "label",
+				"position" : [48, 137],
+				"hAnchor" : "left",
+				"value" : "Supplies"
+			},
+			"lblButton3" : {
+				"type" : "label",
+				"position" : [48, 111],
+				"hAnchor" : "left",
+				"value" : "Clothing"
+			},
+			
             "categories": {
                 "type": "radioGroup",
                 "toggleMode": true,
                 "buttons": [
                     {
                         "selected": true,
-						"position" : [22, 155],
+						"position" : [22, 156],
                         "baseImage": "/interface/styles/tabs/knightfall_tab-food_def.png",
                         "baseImageChecked": "/interface/styles/tabs/knightfall_tab-food_act.png",
 						"pressedOffset" : [0, 0],
@@ -40,7 +68,7 @@
                         }
                     },
                     {
-						"position" : [22, 129],
+						"position" : [22, 130],
                         "baseImage": "/interface/styles/tabs/knightfall_tab-supplies_def.png",
                         "baseImageChecked": "/interface/styles/tabs/knightfall_tab-supplies_act.png",
 						"pressedOffset" : [0, 0],
@@ -49,7 +77,7 @@
 						}
                     },
 					{
-						"position" : [22, 103],
+						"position" : [22, 104],
                         "baseImage": "/interface/styles/tabs/knightfall_tab-clothes_def.png",
                         "baseImageChecked": "/interface/styles/tabs/knightfall_tab-clothes_act.png",
 						"pressedOffset" : [0, 0],

@@ -1,14 +1,18 @@
 {
   "type" : "syndicate_smoker",
   "baseType" : "hostile",
+  
+  "disableWornArmor" : false,
 
-  "dropPools" : [ "banditTreasure" ],
+  "dropPools" : [ "knightfall_dropsNPC_smoker" ],
 
   "scriptConfig" : {
-    "kf-npcType" : "syndicate",
-	"kf-persistentStatusEffects" : [ "syndicate_speakerbuff_carrier_aura", "syndicate_speakerbuff" ],
-	"kf-statList" : "syndicate_carrier_statlist",
-	
+    "behaviorConfig" : {
+	  "queryRange": 80,
+      "rangedAimTime" : 0.35,
+      "rangedWindupTime" : 0.01
+    },
+  
     "dialog" : {
       "attack" : {
         "default" : {
@@ -31,9 +35,30 @@
             "head" : [ { "name" : "raider_protectedhelmethead" } ],
             "chest" : [ { "name" : "raider_chest" } ],
             "legs" : [ { "name" : "raider_smokerlegs" } ],
-            "back" : [ { "name" : "raider_speakerbackpack" } ],
+            "back" : [ 
+				{ 
+					"name" : "raider_speakerbackpack",
+					"parameters": {
+						"currentAugment": { 
+							"effects": [
+								"syndicate_speakerbuff_carrier_aura", 
+								"syndicate_speakerbuff"
+							]
+						}
+					}
+				}
+			],
             "primary" : [ "syndicate_smokelauncher" ],
-			"alt" : [ { "name" : "syndicate_energyshield" } ]
+			"sheathedprimary" : [ "electrobaton" ],
+			"sheathedalt" : [ 
+				{ 
+					"name" : "syndicate_energyshield",
+					"parameters": {
+						"baseShieldHealth": 150,
+						"cooldownTime": 0.25
+					}
+				} 
+			]
           }
         ] 
 	  ]
@@ -43,24 +68,23 @@
   "statusControllerSettings" : {
 
     "primaryScriptSources" : [
-      "/stats/npc_primary.lua",
+      "/stats/knightfall_npc-primary.lua",
       "/scripts/vec2.lua"
     ],
 
     "stats" : {
-		"maxHealth" : { "baseValue" : 200.0 },
-		"maxEnergy" : { "baseValue" : 300.0 },
-		"powerMultiplier" : { "baseValue" : 0.0 },
-		"protection" : { "baseValue" : 0.85 },
-		"energyRegenPercentageRate" : { "baseValue" : 1.5 },
-	  
-		"physicalResistance" : { "baseValue" : 0.5 },
-		"fireResistance" : { "baseValue" : -0.5 },
-		"fireStatusImmunity" : { "baseValue" : -0.5 },
-		"poisonResistance" : { "baseValue" : -0.5 },
-		"poisonStatusImmunity" : { "baseValue" : -0.5 },
+      "maxHealth" : { "baseValue" : 100.0 },
+      "maxEnergy" : { "baseValue" : 100.0 },
+      "protection" : { "baseValue" : 0.30 },
+      "energyRegenPercentageRate" : { "baseValue" : 1.5 },
+      
+      "physicalResistance" : { "baseValue" : 0.5 },
+      "fireResistance" : { "baseValue" : -0.75 },
+      "fireStatusImmunity" : { "baseValue" : -0.75 },
+      "poisonResistance" : { "baseValue" : -0.75 },
+      "poisonStatusImmunity" : { "baseValue" : -0.75 },
 		
-		"knightfall_plasmaResistance" : { "baseValue" : -0.75 }
+	  "bleedingImmunity" : { "baseValue" : -0.75 }
     }
   }
 }

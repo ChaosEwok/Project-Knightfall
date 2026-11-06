@@ -2,9 +2,15 @@
   "type" : "syndicate_raider_gunner",
   "baseType" : "hostile",
 
-  "dropPools" : [ "banditTreasure" ],
+  "dropPools" : [ "knightfall_dropsNPC_raider" ],
 
   "scriptConfig" : {
+	"behaviorConfig" : {
+	  "queryRange": 80,
+      "rangedAimTime" : 0.35,
+      "rangedWindupTime" : 0.01
+    },
+	
     "dialog" : {
       "attack" : {
         "default" : {
@@ -43,7 +49,7 @@
   "statusControllerSettings" : {
 
     "primaryScriptSources" : [
-      "/stats/npc_primary.lua",
+      "/stats/knightfall_npc-primary.lua",
       "/scripts/vec2.lua"
     ],
 
@@ -55,12 +61,12 @@
 		"energyRegenPercentageRate" : { "baseValue" : 1.5 },
 	  
 		"physicalResistance" : { "baseValue" : 0.5 },
-		"fireResistance" : { "baseValue" : -0.5 },
-		"fireStatusImmunity" : { "baseValue" : -0.5 },
-		"poisonResistance" : { "baseValue" : -0.5 },
-		"poisonStatusImmunity" : { "baseValue" : -0.5 },
+		"fireResistance" : { "baseValue" : -0.75 },
+		"fireStatusImmunity" : { "baseValue" : -0.75 },
+		"poisonResistance" : { "baseValue" : -0.75 },
+		"poisonStatusImmunity" : { "baseValue" : -0.75 },
 		
-		"knightfall_plasmaResistance" : { "baseValue" : -0.75 }
+		"bleedingImmunity" : { "baseValue" : -0.75 }
     }
   }
 }

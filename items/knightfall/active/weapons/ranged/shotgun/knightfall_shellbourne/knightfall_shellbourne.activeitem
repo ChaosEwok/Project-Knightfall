@@ -4,8 +4,8 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "rarityLabelKind" : "knightfall",
-  "description" : "^#66ccff;PRIMARY^reset; - Buckshots\n^#66ccff;ALTFIRE^reset; - Explosive Buckshots\n\n^#559fd3;Light, compact, modular, and cheap; the Shellbourne is Knightfall's most common service shotgun, in use by much of their combat engineers and domestic law enforcement.^reset;\n\n^orange;Sprite by Xelgort.^reset;",
-  "shortdescription" : "^8;Shellbourne",
+  "description" : "^#66ccff;PRIMARY^reset; - Buckshots\n^#66ccff;ALTFIRE^reset; - Explosive Buckshots\n\n^#559fd3;Pump-action shotgun of choice for Knightfall's armed forces. Compact and modular, it's made available to law enforcement and sees civilian use for self-defense.^reset;\n\n^orange;Sprite by Xelgort.^reset;",
+  "shortdescription" : "^3-SG;SG-7 Warden",
   "tooltipKind" : "knightfall_weapon",
   "category" : "^orange;Shotgun^reset;",
   "twoHanded" : true,
@@ -28,24 +28,22 @@
   "cursor" : "/cursors/knightfall/shotgun.cursor",
   "scripts": ["/scripts/weapons/knightfall_gun.lua"],
 
-  "elementalType" : "knightfall_bleed",
+  "elementalType" : "knightfall_physical",
 
   "primaryAbility" : {
-	"name": "Buckshots",
-	"description": "Fires buckshots at a slow rate of fire.",
     "scripts" : [ "/scripts/weapons/knightfall_gunfire_interval.lua", "/scripts/weapons/knightfall_shotgun.lua" ],
     "class" : "AltProjectileGunfire",
 
     "fireTime" : 0.8,
-    "baseDps" : 13,
-    "energyUsage" : 31.5,
-    "inaccuracy" : 0.03,
+    "baseDps" : 16,
+    "energyUsage" : 46.875,
+    "inaccuracy" : 0.06,
     "fireType" : "auto",
 
     "projectileCount" : 12,
     "projectileType" : "knightfall_shotgunpellet",
     "projectileParameters" : {
-      "knockback" : 2,
+      "knockback" : 8,
 	  "speed" : [130, 170]
     },
 
@@ -111,15 +109,13 @@
   },
   
   "altAbility": {
-	"name": "Explosive Buckshots",
-	"description": "Fires explosive buckshots at a slow rate of fire.",
 	"scripts": ["/items/active/weapons/ranged/abilities/altfire.lua"],
 	"class": "AltFireAttack",
 
 	"fireTime" : 0.8,
-    "baseDps" : 8,
-    "energyUsage" : 31.5,
-    "inaccuracy" : 0.05,
+    "baseDps" : 9,
+    "energyUsage" : 46.875,
+    "inaccuracy" : 0.06,
 
     "projectileCount" : 4,
     "fireType" : "auto",
@@ -127,7 +123,7 @@
     "projectileType" : "knightfall_explosivepelletstraight",
     "projectileParameters" : {
       "knockback" : 2,
-		"speed" : [130, 170]
+	  "speed" : [130, 170]
     },
     "stances" : {
       "idle" : {
@@ -175,7 +171,7 @@
         "backArmFrame" : "rotation"
       }
     }
-   },
+  },
 
-	"builder": "/items/buildscripts/knightfall_buildunrandweapon.lua"
+  "builder": "/items/buildscripts/knightfall_buildunrandweapon.lua"
 }

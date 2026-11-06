@@ -4,10 +4,10 @@
    "maxStack":1,
    "rarity":"Rare",
    "rarityLabelKind":"knightfall",
-   "description":"^#66ccff;PRIMARY^reset; - Rocket-Assisted Shells\n^#66ccff;ALTFIRE^reset; - Plunging Barrage\n>> Arcs toward your cursor.\n\n^#559fd3;Introduced alongside the Vulcan, the Thumper was designed as a short-ranged assault and fire support weapon. Its bulkiness and small magazine made it unpopular with Knightfall GIs, but has seen some niche popularity with some of Knightfall's field officers.^reset;",
-   "shortdescription":"^6;Thumper",
+   "description":"^#66ccff;PRIMARY^reset; - Rocket-Assisted Shells\n^#66ccff;ALTFIRE^reset; - Plunging Barrage\n>> Arcs toward your cursor.\n\n^#559fd3;Developed by Rivenshaw Ballistic Works, this large-caliber rifle is chambered for the .50 RAC, a cartridge engineered for sheer stopping power. Its limited magazine capacity and bulky frame prevented its adoption into active service.^reset;",
+   "shortdescription":"^3-C;RBW5A Ripfire",
    "tooltipKind":"knightfall_weapon",
-   "category":"^orange;Artillery Cannon^reset;",
+   "category":"^orange;Rocket-Assisted Rifle^reset;",
    "twoHanded":true,
    "itemTags":[
       "weapon",
@@ -35,7 +35,7 @@
    "scripts":[
       "/scripts/weapons/knightfall_gun.lua"
    ],
-   "elementalType":"knightfall_explosive",
+   "elementalType":"knightfall_physical",
    "primaryAbility":{
       "name":"Rocket Assis. Shells",
       "description":"Fires high explosive, rocket assisted shells at a steady rate of fire.",
@@ -45,13 +45,13 @@
       "class":"GunFire",
       "fireTime":0.5,
       "baseDps":14,
-      "energyUsage":50,
+      "energyUsage":60,
       "inaccuracy":0.02,
       "projectileCount":1,
       "fireType":"auto",
       "projectileType":"knightfall_rocketassistedshell",
       "projectileParameters":{
-         "knockback":2
+         "knockback":10
       },
       "stances":{
          "idle":{

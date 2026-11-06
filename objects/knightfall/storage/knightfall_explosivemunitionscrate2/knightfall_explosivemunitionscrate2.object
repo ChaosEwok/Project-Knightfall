@@ -1,0 +1,58 @@
+{
+  "objectName": "knightfall_explosivemunitionscrate2",
+  "colonyTags": [ "knightfall", "storage" ],
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 120,
+  "objectType": "container",
+  "tooltipKind": "knightfall_container",
+  "description": "Modified cargo crate distributed by GUILLERMO Industries for their explosive munitions. Shock-resistant ceramic plates cover the crate's walls to ensure the safe shipment of its cargo.",
+  "shortdescription": "4 x 2 GUILLERMO Ordnance Crate",
+  "race": "generic",
+  "health": 1.5,
+  "apexDescription": "I better be careful around this crate. That red paint signifies danger.",
+  "avianDescription": "This crate looks dangerous to be around. I need to take caution.",
+  "floranDescription": "Floran wantsss to make huge boom!",
+  "glitchDescription": "Cautious. This container has explosives in it.",
+  "humanDescription": "This thing looks dangerous. Better store it somewhere safe.",
+  "hylotlDescription": "A dangerous looking container. Better exercise caution.",
+  "novakidDescription": "A dangerous lookin' crate. Reckon I could have fun using these...",
+  "inventoryIcon": "icon.png",
+  "orientations": [
+    {
+      "imageLayers": [
+        {
+          "image": "left.png:<color>.<key>",
+          "fullbright": true
+        },
+        { "image": "leftlit.png:<color>.<key>" }
+      ],
+      "direction": "left",
+      "imagePosition": [-16, 0],
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    },
+    {
+      "imageLayers": [
+        {
+          "image": "right.png:<color>.<key>",
+          "fullbright": true
+        },
+        { "image": "rightlit.png:<color>.<key>" }
+      ],
+      "direction": "right",
+      "imagePosition": [-16, 0],
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    }
+  ],
+  "openSounds": ["/sfx/objects/metalbox_open.ogg"],
+  "closeSounds": ["/sfx/objects/metalbox_close.ogg"],
+  "slotCount": 12,
+  "uiConfig": "/interface/chests/chest<slots>.config",
+  "frameCooldown": 5,
+  "openFrameIndex": 4,
+  "autoCloseCooldown": 3600
+}

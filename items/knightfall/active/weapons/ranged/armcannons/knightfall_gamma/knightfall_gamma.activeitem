@@ -1,8 +1,8 @@
 {
 	"itemName": "knightfall_gamma",
-	"shortdescription": "^5;Aludra",
-	"category": "^#66ccff;Plasma Arm Gun^reset;",
-	"description": "^#66ccff;PRIMARY^reset; - Light Plasma Burst\n\n^#559fd3;Intended to compete with the Vulcan, the Aludra is StormTech's answer to GUILLERMO's lineup of compact arm weapons.\n\nCompared to its competition, the Aludra rapid-fires a spread of light plasma bolts intended to saturate an opponent or an area, making dodging particularly difficult.^reset;",
+	"shortdescription": "^3-AC;StormTech SG4 Vaporizer",
+	"category": "^#66ccff;Plasma Arm Shotgun^reset;",
+	"description": "^#66ccff;PRIMARY^reset; - Light Plasma Burst\n\n^#559fd3;An arm-mounted sister weapon to the SG3 Atomizer. Improves upon its predecessor with an automatic operation, at the expense of losing out on firepower. Can be overcharged for a more powerful but short-ranged burst.^reset;",
   
 	"level": 6,
 	"price": 3000,
@@ -30,7 +30,7 @@
 	"cursor" : "/cursors/knightfall/shotgun.cursor",
 	"scripts": ["/scripts/weapons/knightfall_gun.lua"],
 
-	"elementalType": "knightfall_plasma",
+	"elementalType": "fire",
 	"handGrip" : "wrap",
 	
 	"primaryAbility": {

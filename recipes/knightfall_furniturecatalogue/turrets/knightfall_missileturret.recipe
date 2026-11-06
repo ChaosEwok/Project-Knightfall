@@ -1,9 +1,6 @@
 {
   "input" : [
-	{ "item" : "knightfall_alumeniteingot", "count" : 16 },
-	{ "item" : "knightfall_heatcell", "count" : 12 },
-	{ "item" : "knightfall_powercore", "count" : 2 },
-	{ "item" : "knightfall_advancedprocessorchip", "count" : 4 }
+	{ "item" : "money", "count" : 12000 }
   ],
   "output" : { "item" : "knightfall_missileturret", "count" : 1 },
   "duration" : 0,

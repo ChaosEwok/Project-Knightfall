@@ -1,6 +1,6 @@
 {
 	"itemName": "knightfall_pulverizer_onehand",
-	"shortdescription": "^91;Sawed-Off Pulverizer",
+	"shortdescription": "^3-SG;Cidwell Pulverizer Sawed-Off",
 	"category": "^red;Double-Barreled Shotgun^reset;",
 	"description": "^#66ccff;PRIMARY^reset; - Incendiary Buckshots x2\n\n^#559fd3;A sawed-off variant of the original Pulverizer.^reset;",
 	"warning": "FRIENDLY FIRE",
@@ -33,15 +33,13 @@
 	"elementalType": "fire",
 	
 	"primaryAbility": {
-		"name": "Incendiary Buckshots",
-		"description": "Fires 2 bursts of incendiary buckshots.",
 		"scripts" : [ "/scripts/weapons/knightfall_gunfire_interval.lua", "/scripts/weapons/knightfall_shotgun.lua" ],
 		"class" : "AltProjectileGunfire",
 
 		"fireTime": 0.9,
 		"baseDps": 7,
 		"energyUsage": 75,
-		"inaccuracy" : 0.03,
+		"inaccuracy" : 0.04,
 		
 		"burstCount" : 2,
 		"burstTime" : 0.2,
@@ -50,7 +48,7 @@
 		"projectileCount" : 12,
 		"projectileType": "knightfall_incendiaryshotgunpellet",
 		"projectileParameters": {
-			"knockback" : 4,
+			"knockback" : 6,
 			"speed" : [130, 170]
 		},
 

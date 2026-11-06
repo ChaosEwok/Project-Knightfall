@@ -1,0 +1,14 @@
+{
+  "itemName" : "knightfallsupport",
+  "price" : 0, 
+  "tooltipKind": "knightfall_base",
+  "category" : "block",
+  "rarity" : "Rare",
+  "inventoryIcon" : "knightfallsupport.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  
+  "shortdescription" : "Sleek Support Beam",
+  "description" : "Strong structural support beams commonly used in construction.",
+
+  "materialId" : 50795
+}

@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "rarityLabelKind" : "knightfall",
-  "description" : "^#66ccff;PRIMARY^reset; - Concussive Blows\n>> Stuns Enemies\n>> ^red;Breaks Armor^reset;\n\n^#559fd3;A heavy plasma mace wielded by Knightfall's elite frontline tanks as their primary weapon. It's potent at dealing with heavy armor, but lacks the range to keep enemies at bay.^reset;",
-  "shortdescription" : "Bonecrusher",
+  "description" : "^#66ccff;PRIMARY^reset; - Concussive Blows\n>> Stuns Enemies\n>> ^red;Breaks Armor^reset;\n\n^#559fd3;A heavy plasma mace wielded by Knightfall's elite frontline tanks as their primary weapon. Potent at dealing with heavy armor, but lacks the range to keep enemies at bay.^reset;",
+  "shortdescription" : "^2-MC;Spiked Plasma Mace",
   "tooltipKind" : "knightfall_meleeweapon",
   "category" : "^#66ccff;Plasma Mace^reset;",
   "twoHanded" : false,
@@ -37,7 +37,7 @@
 
   "activeTime" : 5.0,
 
-  "elementalType" : "knightfall_plasma",
+  "elementalType" : "fire",
 
   "primaryAbilityType" : "shortswordcombo",
   "primaryAbility" : {
@@ -55,8 +55,8 @@
     ],
 	
 	"damageConfig": {
-		"damageSourceKind" : "knightfall_plasma_blunt",
-		"statusEffects" : [ "knightfall_armorbreak", "knightfall_stun", "knightfall_melting" ]
+		"damageSourceKind" : "firehammer",
+		"statusEffects" : [ "knightfall_armorbreak", "knightfall_stun", "knightfall_plasmaburns" ]
 	},
 	
 	"stepDamageConfig" : [

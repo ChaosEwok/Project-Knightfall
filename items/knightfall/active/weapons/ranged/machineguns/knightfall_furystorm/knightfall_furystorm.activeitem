@@ -1,8 +1,8 @@
 {
 	"itemName": "knightfall_furystorm",
-	"shortdescription": "^1;Furystorm",
+	"shortdescription": "^1-MG;KX Furystorm",
 	"category": "^orange;Heavy Machinegun^reset;",
-	"description": "^#66ccff;PRIMARY^reset; - Heavy Caliber Bullets\n^#66ccff;ALTFIRE^reset; - Firestorm\n\n^#559fd3;A powerful .50 caliber heavy machinegun wielded by the Mightframe Corps, bearing an infamous reputation for keeping heavily-armored enemies in check with its thundering armor-piercing bullets.^reset;\n\n^yellow;Created by LK.^reset;",
+	"description": "^#66ccff;PRIMARY^reset; - Heavy Caliber Bullets\n^#66ccff;ALTFIRE^reset; - Firestorm\n\n^#559fd3;A man-portable heavy machinegun chambered for the .400 Wittman. Bears a reputation for keeping armored enemies in check, and a recoil as powerful as its bite.^reset;\n\n^yellow;Created by LK.^reset;",
   
 	"level": 8,
 	"price": 12500,
@@ -30,18 +30,16 @@
 	"cursor" : "/cursors/knightfall/machinegun.cursor",
 	"scripts": ["/scripts/weapons/knightfall_gun.lua"],
 
-	"elementalType": "knightfall_bleed",
+	"elementalType": "knightfall_physical",
 
 	"primaryAbility": {
-		"name": "Heavy Bullets",
-		"description": "Fires heavy caliber bullets at a rapid rate of fire.",
 		"scripts": ["/scripts/weapons/knightfall_gunfire_interval.lua"],
 		"class": "AltProjectileGunfire",
 
 		"fireTime": 0.1,
 		"baseDps": 34,
-		"energyUsage": 60,
-		"inaccuracy": 0.06,
+		"energyUsage": 75,
+		"inaccuracy": 0.08,
 		"fireType": "auto",
 
 		"altProjectile" : {
@@ -106,8 +104,6 @@
 	},
 	
 	"altAbility": {
-		"name": "Firestorm",
-		"description": "Launches a burst of 3 explosive fireballs in an arc.",
 		"scripts": ["/scripts/weapons/knightfall_altfire.lua"],
 		"class": "AltFireAttack",
 

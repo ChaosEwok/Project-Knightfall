@@ -1,8 +1,8 @@
 {
 	"itemName": "knightfall_rigel",
-	"shortdescription": "^3;Rigel",
+	"shortdescription": "^2-C;StormTech Rigel",
 	"category": "^#66ccff;Heavy Plasma Railgun^reset;",
-	"description": "^#66ccff;PRIMARY^reset; - Heavy Plasma Bolt\n>> ^#66ccff;[ Hold to fire ]^reset;\n\n^#66ccff;ALTFIRE^reset; - Plasma Lance\n\n^#559fd3;Introduced to compete with GUILLERMO's Centurion, the Rigel is the latest in precision and power from StormTech. It uses a pair of electromagnetic rails to propel a plasma bolt at tremendous speeds, delivering a devastating impact.^reset;",
+	"description": "^#66ccff;PRIMARY^reset; - Heavy Plasma Bolt\n>> ^#66ccff;[ Hold to fire ]^reset;\n\n^#66ccff;ALTFIRE^reset; - Plasma Lance\n\n^#559fd3;Shoulder-mounted plasma cannon developed in collaboration with Camelot Heavy Arms. Designed to be an anti-armor platform, it uses twin 300 kJ electromagnetic rails to accelerate its plasma bolts with devastating force.^reset;",
   
 	"level": 7,
 	"price": 12000,
@@ -68,7 +68,7 @@
 		},
 
 		"lights" : {
-			"knightfall_plasmaflash" : {
+			"fireflash" : {
 				"active" : false,
 				"position" : [3.0, 0.0],
 				"color" : [150, 203, 231]
@@ -76,11 +76,11 @@
 		},
 
 		"sounds": {
-			"knightfall_plasmalancefire" : [ "/sfx/gun/knightfall_energyblast.wav" ]
+			"firelancefire" : [ "/sfx/gun/knightfall_energyblast.wav" ]
 		},
 		
 		"particleEmitters" : {
-			"knightfall_plasmablast" : {
+			"fireblast" : {
 				"active" : false,
 				"transformationGroups" : ["muzzle"],
 				"offsetRegion" : [1, -0.125, 1, -0.125],
@@ -99,7 +99,7 @@
 	"cursor" : "/cursors/knightfall/heavy.cursor",
     "scripts": ["/scripts/weapons/knightfall_gun.lua"],
 
-	"elementalType": "knightfall_plasma",
+	"elementalType": "fire",
 	
 	"primaryAbility": {
 		"name": "Heavy Plasma Shell",
@@ -109,12 +109,12 @@
 
 		"fireTime": 0.9,
 		"baseDps": 7,
-		"energyUsage": 50,
+		"energyUsage": 55.56,
 
 		"chargeLevels" : [
 			{
 				"time" : 0.6,
-				"energyCost" : 50,
+				"energyCost" : 55.56,
 				"cooldown" : 0.9,
 
 				"projectileCount": 1,
@@ -228,7 +228,7 @@
 		"energyUsage" : 100,
 
 		"damageConfig" : {
-			"damageSourceKind" : "knightfall_plasma",
+			"damageSourceKind" : "fire",
 			"baseDamage" : 28,
 			"knockback" : 12,
 			"timeoutGroup" : "alt",
@@ -238,9 +238,9 @@
 		"useParticleEmitter": true,
 
 		"elementalConfig" : {
-			"knightfall_plasma" : { 
+			"fire" : { 
 				"damageConfig" : { 
-					"statusEffects" : [ "knightfall_melting" ] 
+					"statusEffects" : [ "knightfall_plasmaburns" ] 
 				} 
 			}
 		},

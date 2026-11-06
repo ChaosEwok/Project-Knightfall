@@ -1,0 +1,49 @@
+{
+  "itemName" : "knightfall_area-denialmine_thrown",
+  "price" : 500,
+  "rarity" : "Rare",
+  "rarityLabelKind" : "knightfall",
+  "category" : "^green;Throwable Mine^reset;",
+  "inventoryIcon" : "image.png",
+  "image" : "image.png",
+  "shortdescription" : "^3-MN;Area-Denial Mine",
+  "description" : "A deployable mine variant of the Area-Denial Device. Creates a molecular disruption field, hindering movement and increasing damage susceptibility for all entities caught within its range.\n\n>> Arms after 8 seconds.\n>> ^#66ccff;Creates a slow and armor reduction field that lasts for 5 seconds.^reset;",
+  "tooltipKind": "knightfall_grenade",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.30,
+  "cooldown" : 1,
+
+  "projectileType" : "knightfall_area-denial_mine",
+  "projectileConfig" : {
+    "speed" : 50,
+    "power" : 0,
+    "periodicActions" : [
+		{
+			"time" : 0,
+			"repeat" : false,
+			"action" : "sound",
+			"options" : [ "/sfx/projectiles/throw_item.ogg" ]
+		},
+		{
+			"time" : 0.001,
+			"repeat" : true,
+			"action" : "particle",
+			"rotate" : true,
+			"specification" : {
+				"type" : "animated",
+				"image" : "/animations/dust1/dust1.animation",
+				"position" : [0, 0],
+				"layer" : "back",
+				"timeToLive" : 0.2,
+				"destructionTime" : 0.2,
+				"destructionAction" : "fade"
+			}
+		}
+    ]
+  },
+
+  "builder": "/items/buildscripts/knightfall_builditem.lua"
+}

@@ -1,0 +1,1929 @@
+{
+	"animatedParts" : {
+		"stateTypes" : {
+			"movement" : {
+				// "priority" : 1,
+				
+				"default" : "off",
+				"states" : {
+					"off" : {},
+					"moving1" : {
+						"frames" : 3,
+						"cycle" : 0.225,
+						"mode" : "loop"
+					},
+					"moving2" : {
+						"frames" : 3,
+						"cycle" : 0.18,
+						"mode" : "loop"
+					},
+					"moving3" : {
+						"frames" : 3,
+						"cycle" : 0.12,
+						"mode" : "loop"
+					},
+					"slowdown1" : {
+						"frames" : 3,
+						"cycle" : 0.18,
+						"mode" : "loop"
+					},
+					"slowdown2" : {
+						"frames" : 3,
+						"cycle" : 0.225,
+						"mode" : "loop"
+					}
+				}
+			},
+			
+			"autocannons" : {
+				// "priority" : 1,
+				
+				"default" : "idle",
+				"states" : {
+					"idle" : {
+						"frames" : 1,
+						"cycle" : 0.5,
+						"mode" : "loop"
+					},
+					"firing" : {
+						"frames" : 4,
+						"cycle" : 0.18,
+						"mode" : "transition",
+						"transition" : "idle",
+						"properties" : {
+							"immediateSound" : "/sfx/gun/knightfall_heavy-gunfire4.ogg"
+						}
+					}
+				}
+			},
+			
+			"missiles" : {
+				// "priority" : 1,
+				
+				"default" : "idle",
+				"states" : {
+					"idle" : {
+						"frames" : 1,
+						"cycle" : 0.5,
+						"mode" : "loop"
+					},
+					"launch1" : {
+						"frames" : 2,
+						"cycle" : 0.1,
+						"mode" : "transition",
+						"transition" : "launch2",
+						"properties" : {
+							"immediateSound" : "/sfx/gun/rocket1.ogg"
+						}
+					},
+					"launch2" : {
+						"frames" : 2,
+						"cycle" : 0.1,
+						"mode" : "transition",
+						"transition" : "launch3",
+						"properties" : {
+							"immediateSound" : "/sfx/gun/rocket1.ogg"
+						}
+					},
+					"launch3" : {
+						"frames" : 2,
+						"cycle" : 0.1,
+						"mode" : "transition",
+						"transition" : "launch1_buffer",
+						"properties" : {
+							"immediateSound" : "/sfx/gun/rocket1.ogg"
+						}
+					},
+					"launch1_buffer" : {
+						"frames" : 1,
+						"cycle" : 1,
+						"mode" : "transition",
+						"transition" : "launch4"
+					},
+					"launch4" : {
+						"frames" : 2,
+						"cycle" : 0.1,
+						"mode" : "transition",
+						"transition" : "launch5",
+						"properties" : {
+							"immediateSound" : "/sfx/gun/rocket1.ogg"
+						}
+					},
+					"launch5" : {
+						"frames" : 2,
+						"cycle" : 0.1,
+						"mode" : "transition",
+						"transition" : "launch6",
+						"properties" : {
+							"immediateSound" : "/sfx/gun/rocket1.ogg"
+						}
+					},
+					"launch6" : {
+						"frames" : 2,
+						"cycle" : 0.1,
+						"mode" : "transition",
+						"transition" : "launch2_buffer",
+						"properties" : {
+							"immediateSound" : "/sfx/gun/rocket1.ogg"
+						}
+					},
+					"launch2_buffer" : {
+						"frames" : 1,
+						"cycle" : 1,
+						"mode" : "transition",
+						"transition" : "launch7"
+					},
+					"launch7" : {
+						"frames" : 2,
+						"cycle" : 0.1,
+						"mode" : "transition",
+						"transition" : "launch8",
+						"properties" : {
+							"immediateSound" : "/sfx/gun/rocket1.ogg"
+						}
+					},
+					"launch8" : {
+						"frames" : 2,
+						"cycle" : 0.1,
+						"mode" : "transition",
+						"transition" : "launch9",
+						"properties" : {
+							"immediateSound" : "/sfx/gun/rocket1.ogg"
+						}
+					},
+					"launch9" : {
+						"frames" : 2,
+						"cycle" : 0.1,
+						"mode" : "transition",
+						"transition" : "launch3_buffer",
+						"properties" : {
+							"immediateSound" : "/sfx/gun/rocket1.ogg"
+						}
+					},
+					"launch3_buffer" : {
+						"frames" : 1,
+						"cycle" : 1,
+						"mode" : "transition",
+						"transition" : "launch10"
+					},
+					"launch10" : {
+						"frames" : 2,
+						"cycle" : 0.1,
+						"mode" : "transition",
+						"transition" : "launch11",
+						"properties" : {
+							"immediateSound" : "/sfx/gun/rocket1.ogg"
+						}
+					},
+					"launch11" : {
+						"frames" : 2,
+						"cycle" : 0.1,
+						"mode" : "transition",
+						"transition" : "launch12",
+						"properties" : {
+							"immediateSound" : "/sfx/gun/rocket1.ogg"
+						}
+					},
+					"launch12" : {
+						"frames" : 2,
+						"cycle" : 0.1,
+						"mode" : "transition",
+						"transition" : "launch4_buffer",
+						"properties" : {
+							"immediateSound" : "/sfx/gun/rocket1.ogg"
+						}
+					},
+					"launch4_buffer" : {
+						"frames" : 1,
+						"cycle" : 1,
+						"mode" : "transition",
+						"transition" : "reloading"
+					},
+					"reloading" : {
+						"frames" : 3,
+						"cycle" : 0.3,
+						"mode" : "transition",
+						"transition" : "idle"
+					}
+				}
+			},
+			
+			"mortars" : {
+				// "priority" : 1,
+				
+				"default" : "idle",
+				"states" : {
+					"idle" : {
+						"frames" : 1,
+						"cycle" : 0.5,
+						"mode" : "loop"
+					},
+					"firing1" : {
+						"frames" : 5,
+						"cycle" : 0.225,
+						"mode" : "transition",
+						"transition" : "firing1_buffer",
+						"properties" : {
+							"immediateSound" : "/sfx/explosions/knightfall_explosion2.ogg"
+						}
+					},
+					"firing1_buffer" : {
+						"frames" : 1,
+						"cycle" : 0.2,
+						"mode" : "transition",
+						"transition" : "firing2"
+					},
+					"firing2" : {
+						"frames" : 5,
+						"cycle" : 0.225,
+						"mode" : "transition",
+						"transition" : "firing2_buffer",
+						"properties" : {
+							"immediateSound" : "/sfx/explosions/knightfall_explosion2.ogg"
+						}
+					},
+					"firing2_buffer" : {
+						"frames" : 1,
+						"cycle" : 0.2,
+						"mode" : "transition",
+						"transition" : "firing3"
+					},
+					"firing3" : {
+						"frames" : 5,
+						"cycle" : 0.225,
+						"mode" : "transition",
+						"transition" : "firing3_buffer",
+						"properties" : {
+							"immediateSound" : "/sfx/explosions/knightfall_explosion2.ogg"
+						}
+					},
+					"firing3_buffer" : {
+						"frames" : 1,
+						"cycle" : 0.2,
+						"mode" : "transition",
+						"transition" : "idle"
+					}
+				}
+			},
+			
+			"smoke_grenades" : {
+				// "priority" : 1,
+				
+				"default" : "idle",
+				"states" : {
+					"idle" : {
+						"frames" : 1,
+						"cycle" : 0.5,
+						"mode" : "loop"
+					},
+					"firing1" : {
+						"frames" : 3,
+						"cycle" : 0.135,
+						"mode" : "transition",
+						"transition" : "firing2",
+						"properties" : {
+							"immediateSound" : "/sfx/gun/grenade1.ogg"
+						}
+					},
+					"firing2" : {
+						"frames" : 3,
+						"cycle" : 0.135,
+						"mode" : "transition",
+						"transition" : "firing3",
+						"properties" : {
+							"immediateSound" : "/sfx/gun/grenade1.ogg"
+						}
+					},
+					"firing3" : {
+						"frames" : 3,
+						"cycle" : 0.135,
+						"mode" : "transition",
+						"transition" : "reloading",
+						"properties" : {
+							"immediateSound" : "/sfx/gun/grenade1.ogg"
+						}
+					},
+					"reloading" : {
+						"frames" : 9,
+						"cycle" : 0.9,
+						"mode" : "transition",
+						"transition" : "idle"
+					}
+				}
+			},
+			
+			"laser_cannon" : {
+				// "priority" : 1,
+				
+				//	Will add sound to these later. ~Nitrosteel
+				"default" : "idle",
+				"states" : {
+					"idle" : {
+						"frames" : 1,
+						"cycle" : 0.5,
+						"mode" : "loop",
+						"properties": {
+							"particleEmittersOff": [ "laserCannonHeatsink" ]
+						}
+					},
+					"opening" : {
+						"frames" : 12,
+						"cycle" : 1.2,
+						"mode" : "transition",
+						"transition" : "overheating",
+						"persistentSound": "/sfx/other/knightfall_overheating.ogg",
+						"properties": {
+							"particleEmittersOn": [ "laserCannonHeatsink" ]
+						}
+					},
+					"overheating" : {
+						"frames" : 40,
+						"cycle" : 4,
+						"mode" : "transition",
+						"transition" : "closing",
+						"properties": {
+							"particleEmittersOn": [ "laserCannonHeatsink" ]
+						}
+					},
+					"closing" : {
+						"frames" : 4,
+						"cycle" : 0.4,
+						"mode" : "transition",
+						"transition" : "idle",
+						"properties": {
+							"particleEmittersOn": [ "laserCannonHeatsink" ]
+						}
+					},
+					"charging1" : {
+						"frames" : 4,
+						"cycle" : 0.18,
+						"mode" : "loop"
+					},
+					"charging2" : {
+						"frames" : 4,
+						"cycle" : 0.18,
+						"mode" : "loop"
+					},
+					"charging3" : {
+						"frames" : 4,
+						"cycle" : 0.18,
+						"mode" : "loop"
+					},
+					"charging4" : {
+						"frames" : 13,
+						"cycle" : 0.585,
+						"mode" : "transition",
+						"transition" : "charging4_loop"
+					},
+					"charging4_loop" : {
+						"frames" : 2,
+						"cycle" : 0.09,
+						"mode" : "loop"
+					},
+					"charging_pulse1" : {
+						"frames" : 3,
+						"cycle" : 0.135,
+						"mode" : "loop"
+					},
+					"charging_pulse2" : {
+						"frames" : 3,
+						"cycle" : 0.135,
+						"mode" : "loop"
+					},
+					"firing1" : {
+						"frames" : 4,
+						"cycle" : 0.14,
+						"mode" : "transition",
+						"transition" : "firing1_post"
+					},
+					"firing1_post" : {
+						"frames" : 6,
+						"cycle" : 0.27,
+						"mode" : "transition",
+						"transition" : "opening"
+					},
+					"firing2_pre" : {
+						"frames" : 2,
+						"cycle" : 0.09,
+						"mode" : "transition",
+						"transition" : "firing2"
+					},
+					"firing2" : {
+						"frames" : 4,
+						"cycle" : 0.18,
+						"mode" : "loop"
+					},
+					"firing2_post" : {
+						"frames" : 12,
+						"cycle" : 0.54,
+						"mode" : "transition",
+						"transition" : "opening"
+					}
+				}
+			},
+
+			"hull" : {
+				"priority" : 1,
+				
+				"default" : "idle",
+				"states" : {
+					"idle" : {
+						"frames" : 2,
+						"cycle" : 0.15,
+						"mode" : "loop"
+					},
+					
+					"destroyed" : {
+						"frames" : 1,
+						"cycle" : 2,
+						"mode" : "loop"
+					}
+				}
+			}
+			/*
+			"hull-overheating" : {
+				// "priority" : 0,
+				
+				"default" : "off",
+				"states" : {
+					"off" : {},
+					"start" : {
+						"frames" : 12,
+						"cycle" : 0.9,
+						"mode" : "transition",
+						"transition" : "loop"
+					},
+					"loop" : {
+						"frames" : 40,
+						"cycle" : 3,
+						"mode" : "transition",
+						"transition" : "end"
+					},
+					"end" : {
+						"frames" : 8,
+						"cycle" : 0.6,
+						"mode" : "transition",
+						"transition" : "off"
+					}
+				}
+			}*/
+		},
+		
+		// Layer Names : Z-Level
+		// _____________________
+		//
+		// hull_overheating : 5
+		// missiles-front : 4
+		// smoke_grenades : 3
+		// hull-front : 2
+		// laser_cannon-fullbright : 1
+		// laser_cannon : 0
+		// autocannons : -1
+		// hull-rear : -2
+		// mortars : -3
+		// missiles-back : -4
+
+		"parts" : {
+			"hull-overheating" : {
+				"properties" : {
+					"fullbright" : true,
+					"zLevel" : 5
+				},
+
+				"partStates" : {
+					"hull" : {
+						"destroyed" : {
+							"properties" : {
+								"image" : ""
+							}
+						}
+					},
+					
+					"laser_cannon" : {
+						"opening" : {
+							"properties" : {
+								"image" : "<partImage>:start.<frame>"
+							}
+						},
+						"overheating" : {
+							"properties" : {
+								"image" : "<partImage>:loop.<frame>"
+							}
+						},
+						"closing" : {
+							"properties" : {
+								"image" : "<partImage>:end.<frame>"
+							}
+						}
+					}
+				}
+			},
+			
+			"missiles-front" : {
+				"properties" : {
+					"zLevel" : 4,
+					"offset" : [-7.5, 0],
+					"muzzlePoint" : [0, 0]
+				},
+
+				"partStates" : {
+					"hull" : {
+						"destroyed" : {
+							"properties" : {
+								"image" : ""
+							}
+						}
+					},
+				
+					"missiles" : {
+						"idle" : {
+							"properties" : {
+								"image" : "<partImage>:idle.<frame>"
+							}
+						},
+						"launch1" : {
+							"properties" : {
+								"image" : "<partImage>:launch1.<frame>"
+							}
+						},
+						"launch2" : {
+							"properties" : {
+								"image" : "<partImage>:launch2.<frame>"
+							}
+						},
+						"launch3" : {
+							"properties" : {
+								"image" : "<partImage>:launch3.<frame>"
+							}
+						},
+						"launch1_buffer" : {
+							"properties" : {
+								"image" : "<partImage>:launch1_buffer.<frame>"
+							}
+						},
+						"launch4" : {
+							"properties" : {
+								"image" : "<partImage>:launch4.<frame>"
+							}
+						},
+						"launch5" : {
+							"properties" : {
+								"image" : "<partImage>:launch5.<frame>"
+							}
+						},
+						"launch6" : {
+							"properties" : {
+								"image" : "<partImage>:launch6.<frame>"
+							}
+						},
+						"launch2_buffer" : {
+							"properties" : {
+								"image" : "<partImage>:launch2_buffer.<frame>"
+							}
+						},
+						"launch7" : {
+							"properties" : {
+								"image" : "<partImage>:launch7.<frame>"
+							}
+						},
+						"launch8" : {
+							"properties" : {
+								"image" : "<partImage>:launch8.<frame>"
+							}
+						},
+						"launch9" : {
+							"properties" : {
+								"image" : "<partImage>:launch9.<frame>"
+							}
+						},
+						"launch3_buffer" : {
+							"properties" : {
+								"image" : "<partImage>:launch3_buffer.<frame>"
+							}
+						},
+						"launch10" : {
+							"properties" : {
+								"image" : "<partImage>:launch10.<frame>"
+							}
+						},
+						"launch11" : {
+							"properties" : {
+								"image" : "<partImage>:launch11.<frame>"
+							}
+						},
+						"launch12" : {
+							"properties" : {
+								"image" : "<partImage>:launch12.<frame>"
+							}
+						},
+						"launch4_buffer" : {
+							"properties" : {
+								"image" : "<partImage>:launch4_buffer.<frame>"
+							}
+						},
+						"reloading" : {
+							"properties" : {
+								"image" : "<partImage>:reloading.<frame>"
+							}
+						}
+					},
+					
+					"movement" : {
+						"moving1" : {
+							"properties" : {
+								"image" : "<partImage>:moving1.<frame>"
+							}
+						},
+						"moving2" : {
+							"properties" : {
+								"image" : "<partImage>:moving2.<frame>"
+							}
+						},
+						"moving3" : {
+							"properties" : {
+								"image" : "<partImage>:moving3.<frame>"
+							}
+						},
+						"slowdown1" : {
+							"properties" : {
+								"image" : "<partImage>:slowdown1.<frame>"
+							}
+						},
+						"slowdown2" : {
+							"properties" : {
+								"image" : "<partImage>:slowdown2.<frame>"
+							}
+						}
+					}
+				}
+			},
+			
+			"smoke_grenades" : {
+				"properties" : {
+					"offset" : [-1.875, -1],
+					"firePoint" : [-0.5, 0],
+					"zLevel" : 3
+				},
+
+				"partStates" : {
+					"hull" : {
+						"destroyed" : {
+							"properties" : {
+								"image" : ""
+							}
+						}
+					},
+				
+					"smoke_grenades" : {
+						"idle" : {
+							"properties" : {
+								"image" : "<partImage>:idle.<frame>"
+							}
+						},
+						"firing1" : {
+							"properties" : {
+								"image" : "<partImage>:firing1.<frame>"
+							}
+						},
+						"firing2" : {
+							"properties" : {
+								"image" : "<partImage>:firing2.<frame>"
+							}
+						},
+						"firing3" : {
+							"properties" : {
+								"image" : "<partImage>:firing3.<frame>"
+							}
+						},
+						"reloading" : {
+							"properties" : {
+								"image" : "<partImage>:reloading.<frame>"
+							}
+						}
+					},
+					
+					"movement" : {
+						"moving1" : {
+							"properties" : {
+								"image" : "<partImage>:moving1.<frame>"
+							}
+						},
+						"moving2" : {
+							"properties" : {
+								"image" : "<partImage>:moving2.<frame>"
+							}
+						},
+						"moving3" : {
+							"properties" : {
+								"image" : "<partImage>:moving3.<frame>"
+							}
+						},
+						"slowdown1" : {
+							"properties" : {
+								"image" : "<partImage>:slowdown1.<frame>"
+							}
+						},
+						"slowdown2" : {
+							"properties" : {
+								"image" : "<partImage>:slowdown2.<frame>"
+							}
+						}
+					}
+				}
+			},
+		
+			"hull-front" : {
+				"properties" : {
+					"zLevel" : 2
+				},
+
+				"partStates" : {
+					"hull" : {
+						"idle" : {
+							"properties" : {
+								"image" : "<partImage>:idle.<frame>"
+							}
+						},
+						
+						"destroyed" : {
+							"properties" : {
+								"image" : ""
+							}
+						}
+					},
+					
+					"movement" : {
+						"moving1" : {
+							"properties" : {
+								"image" : "<partImage>:moving1.<frame>"
+							}
+						},
+						"moving2" : {
+							"properties" : {
+								"image" : "<partImage>:moving2.<frame>"
+							}
+						},
+						"moving3" : {
+							"properties" : {
+								"image" : "<partImage>:moving3.<frame>"
+							}
+						},
+						"slowdown1" : {
+							"properties" : {
+								"image" : "<partImage>:slowdown1.<frame>"
+							}
+						},
+						"slowdown2" : {
+							"properties" : {
+								"image" : "<partImage>:slowdown2.<frame>"
+							}
+						}
+					}
+				}
+			},
+			
+			"laser_cannon-fullbright" : {
+				"properties" : {
+					"fullbright" : true,
+					"offset" : [13.5, -0.5],
+					"zLevel" : 1,
+          			"transformationGroups" : [ "lasercannon" ]
+				},
+
+				"partStates" : {
+					"hull" : {
+						"destroyed" : {
+							"properties" : {
+								"image" : ""
+							}
+						}
+					},
+				
+					"laser_cannon" : {
+						"idle" : {
+							"properties" : {
+								"image" : "<partImage>:idle.<frame>"
+							}
+						},
+						"opening" : {
+							"properties" : {
+								"image" : "<partImage>:opening.<frame>"
+							}
+						},
+						"overheating" : {
+							"properties" : {
+								"image" : "<partImage>:overheating.<frame>"
+							}
+						},
+						"closing" : {
+							"properties" : {
+								"image" : "<partImage>:closing.<frame>"
+							}
+						},
+						"charging1" : {
+							"properties" : {
+								"image" : "<partImage>:charging1.<frame>"
+							}
+						},
+						"charging2" : {
+							"properties" : {
+								"image" : "<partImage>:charging2.<frame>"
+							}
+						},
+						"charging3" : {
+							"properties" : {
+								"image" : "<partImage>:charging3.<frame>"
+							}
+						},
+						"charging4" : {
+							"properties" : {
+								"image" : "<partImage>:charging4.<frame>"
+							}
+						},
+						"charging4_loop" : {
+							"properties" : {
+								"image" : "<partImage>:charging4_loop.<frame>"
+							}
+						},
+						"charging_pulse1" : {
+							"properties" : {
+								"image" : "<partImage>:charging_pulse1.<frame>"
+							}
+						},
+						"charging_pulse2" : {
+							"properties" : {
+								"image" : "<partImage>:charging_pulse2.<frame>"
+							}
+						},
+						"firing1" : {
+							"properties" : {
+								"image" : "<partImage>:firing1.<frame>"
+							}
+						},
+						"firing1_post" : {
+							"properties" : {
+								"image" : "<partImage>:firing1_post.<frame>"
+							}
+						},
+						"firing2_pre" : {
+							"properties" : {
+								"image" : "<partImage>:firing2_pre.<frame>"
+							}
+						},
+						"firing2" : {
+							"properties" : {
+								"image" : "<partImage>:firing2.<frame>"
+							}
+						},
+						"firing2_post" : {
+							"properties" : {
+								"image" : "<partImage>:firing2_post.<frame>"
+							}
+						}
+					},
+					
+					"movement" : {
+						"moving1" : {
+							"properties" : {
+								"image" : "<partImage>:moving1.<frame>"
+							}
+						},
+						"moving2" : {
+							"properties" : {
+								"image" : "<partImage>:moving2.<frame>"
+							}
+						},
+						"moving3" : {
+							"properties" : {
+								"image" : "<partImage>:moving3.<frame>"
+							}
+						},
+						"slowdown1" : {
+							"properties" : {
+								"image" : "<partImage>:slowdown1.<frame>"
+							}
+						},
+						"slowdown2" : {
+							"properties" : {
+								"image" : "<partImage>:slowdown2.<frame>"
+							}
+						}
+					}
+				}
+			},
+			
+			"laser_cannon" : {
+				"properties" : {
+					"zLevel" : 0,
+					"offset" : [13.5, -0.5],
+
+        		  	"beamSource" : [0.0, 0.0],
+					"beamEnd" : [500.0, 0.0],
+
+          			"transformationGroups" : [ "lasercannon" ],
+					"muzzlePoint" : [7, 0],
+					"rotationCentre" : [-10, 0]
+				},
+
+				"partStates" : {
+					"hull" : {
+						"destroyed" : {
+							"properties" : {
+								"image" : ""
+							}
+						}
+					},
+				
+					"laser_cannon" : {
+						"idle" : {
+							"properties" : {
+								"image" : "<partImage>:idle.<frame>"
+							}
+						},
+						"opening" : {
+							"properties" : {
+								"image" : "<partImage>:opening.<frame>"
+							}
+						},
+						"overheating" : {
+							"properties" : {
+								"image" : "<partImage>:overheating.<frame>"
+							}
+						},
+						"closing" : {
+							"properties" : {
+								"image" : "<partImage>:closing.<frame>"
+							}
+						},
+						"charging1" : {
+							"properties" : {
+								"image" : "<partImage>:charging1.<frame>"
+							}
+						},
+						"charging2" : {
+							"properties" : {
+								"image" : "<partImage>:charging2.<frame>"
+							}
+						},
+						"charging3" : {
+							"properties" : {
+								"image" : "<partImage>:charging3.<frame>"
+							}
+						},
+						"charging4" : {
+							"properties" : {
+								"image" : "<partImage>:charging4.<frame>"
+							}
+						},
+						"charging4_loop" : {
+							"properties" : {
+								"image" : "<partImage>:charging4_loop.<frame>"
+							}
+						},
+						"charging_pulse1" : {
+							"properties" : {
+								"image" : "<partImage>:charging_pulse1.<frame>"
+							}
+						},
+						"charging_pulse2" : {
+							"properties" : {
+								"image" : "<partImage>:charging_pulse2.<frame>"
+							}
+						},
+						"firing1" : {
+							"properties" : {
+								"image" : "<partImage>:firing1.<frame>"
+							}
+						},
+						"firing1_post" : {
+							"properties" : {
+								"image" : "<partImage>:firing1_post.<frame>"
+							}
+						},
+						"firing2_pre" : {
+							"properties" : {
+								"image" : "<partImage>:firing2_pre.<frame>"
+							}
+						},
+						"firing2" : {
+							"properties" : {
+								"image" : "<partImage>:firing2.<frame>"
+							}
+						},
+						"firing2_post" : {
+							"properties" : {
+								"image" : "<partImage>:firing2_post.<frame>"
+							}
+						}
+					},
+					
+					"movement" : {
+						"moving1" : {
+							"properties" : {
+								"image" : "<partImage>:moving1.<frame>"
+							}
+						},
+						"moving2" : {
+							"properties" : {
+								"image" : "<partImage>:moving2.<frame>"
+							}
+						},
+						"moving3" : {
+							"properties" : {
+								"image" : "<partImage>:moving3.<frame>"
+							}
+						},
+						"slowdown1" : {
+							"properties" : {
+								"image" : "<partImage>:slowdown1.<frame>"
+							}
+						},
+						"slowdown2" : {
+							"properties" : {
+								"image" : "<partImage>:slowdown2.<frame>"
+							}
+						}
+					}
+				}
+			},
+			
+			"autocannons" : {
+				"properties" : {
+          			"transformationGroups" : [ "autocannons" ],
+					"muzzlePoint" : [2, 0],
+					"rotationCentre" : [-3.5, -2.5],
+					"offset" : [6, 2],
+					"zLevel" : -1
+				},
+
+				"partStates" : {
+					"hull" : {
+						"destroyed" : {
+							"properties" : {
+								"image" : ""
+							}
+						}
+					},
+				
+					"autocannons" : {
+						"idle" : {
+							"properties" : {
+								"image" : "<partImage>:idle.<frame>"
+							}
+						},
+						"firing" : {
+							"properties" : {
+								"image" : "<partImage>:firing.<frame>"
+							}
+						}
+					},
+					
+					"movement" : {
+						"moving1" : {
+							"properties" : {
+								"image" : "<partImage>:moving1.<frame>"
+							}
+						},
+						"moving2" : {
+							"properties" : {
+								"image" : "<partImage>:moving2.<frame>"
+							}
+						},
+						"moving3" : {
+							"properties" : {
+								"image" : "<partImage>:moving3.<frame>"
+							}
+						},
+						"slowdown1" : {
+							"properties" : {
+								"image" : "<partImage>:slowdown1.<frame>"
+							}
+						},
+						"slowdown2" : {
+							"properties" : {
+								"image" : "<partImage>:slowdown2.<frame>"
+							}
+						}
+					}
+				}
+			},
+			
+			"hull-rear" : {
+				"properties" : {
+					"zLevel" : -2
+				},
+
+				"partStates" : {
+					"hull" : {
+						"idle" : {
+							"properties" : {
+								"image" : "<partImage>:idle.<frame>"
+							}
+						},
+						
+						"destroyed" : {
+							"properties" : {
+								"image" : "<partImage>:destroyed"
+							}
+						}
+					},
+					
+					"movement" : {
+						"moving1" : {
+							"properties" : {
+								"image" : "<partImage>:moving1.<frame>"
+							}
+						},
+						"moving2" : {
+							"properties" : {
+								"image" : "<partImage>:moving2.<frame>"
+							}
+						},
+						"moving3" : {
+							"properties" : {
+								"image" : "<partImage>:moving3.<frame>"
+							}
+						},
+						"slowdown1" : {
+							"properties" : {
+								"image" : "<partImage>:slowdown1.<frame>"
+							}
+						},
+						"slowdown2" : {
+							"properties" : {
+								"image" : "<partImage>:slowdown2.<frame>"
+							}
+						}
+					}
+				}
+			},
+			
+			"mortars" : {
+				"properties" : {
+					"zLevel" : -3,
+					"offset" : [-7, 3],
+					"muzzlePoint" : [-2, 0]
+				},
+
+				"partStates" : {
+					"hull" : {
+						"destroyed" : {
+							"properties" : {
+								"image" : ""
+							}
+						}
+					},
+				
+					"mortars" : {
+						"idle" : {
+							"properties" : {
+								"image" : "<partImage>:idle.<frame>"
+							}
+						},
+						"firing1" : {
+							"properties" : {
+								"image" : "<partImage>:firing1.<frame>"
+							}
+						},
+						"firing1_buffer" : {
+							"properties" : {
+								"image" : "<partImage>:firing1_buffer.<frame>"
+							}
+						},
+						"firing2" : {
+							"properties" : {
+								"image" : "<partImage>:firing2.<frame>"
+							}
+						},
+						"firing2_buffer" : {
+							"properties" : {
+								"image" : "<partImage>:firing2_buffer.<frame>"
+							}
+						},
+						"firing3" : {
+							"properties" : {
+								"image" : "<partImage>:firing3.<frame>"
+							}
+						},
+						"firing3_buffer" : {
+							"properties" : {
+								"image" : "<partImage>:firing3_buffer.<frame>"
+							}
+						}
+					},
+					
+					"movement" : {
+						"moving1" : {
+							"properties" : {
+								"image" : "<partImage>:moving1.<frame>"
+							}
+						},
+						"moving2" : {
+							"properties" : {
+								"image" : "<partImage>:moving2.<frame>"
+							}
+						},
+						"moving3" : {
+							"properties" : {
+								"image" : "<partImage>:moving3.<frame>"
+							}
+						},
+						"slowdown1" : {
+							"properties" : {
+								"image" : "<partImage>:slowdown1.<frame>"
+							}
+						},
+						"slowdown2" : {
+							"properties" : {
+								"image" : "<partImage>:slowdown2.<frame>"
+							}
+						}
+					}
+				}
+			},
+			
+			"missiles-back" : {
+				"properties" : {
+					"zLevel" : -4,
+					"offset" : [5, 0],
+					"muzzlePoint" : [0, 0]
+				},
+
+				"partStates" : {
+					"hull" : {
+						"destroyed" : {
+							"properties" : {
+								"image" : ""
+							}
+						}
+					},
+				
+					"missiles" : {
+						"idle" : {
+							"properties" : {
+								"image" : "<partImage>:idle.<frame>"
+							}
+						},
+						"launch1" : {
+							"properties" : {
+								"image" : "<partImage>:launch1.<frame>"
+							}
+						},
+						"launch2" : {
+							"properties" : {
+								"image" : "<partImage>:launch2.<frame>"
+							}
+						},
+						"launch3" : {
+							"properties" : {
+								"image" : "<partImage>:launch3.<frame>"
+							}
+						},
+						"launch1_buffer" : {
+							"properties" : {
+								"image" : "<partImage>:launch1_buffer.<frame>"
+							}
+						},
+						"launch4" : {
+							"properties" : {
+								"image" : "<partImage>:launch4.<frame>"
+							}
+						},
+						"launch5" : {
+							"properties" : {
+								"image" : "<partImage>:launch5.<frame>"
+							}
+						},
+						"launch6" : {
+							"properties" : {
+								"image" : "<partImage>:launch6.<frame>"
+							}
+						},
+						"launch2_buffer" : {
+							"properties" : {
+								"image" : "<partImage>:launch2_buffer.<frame>"
+							}
+						},
+						"launch7" : {
+							"properties" : {
+								"image" : "<partImage>:launch7.<frame>"
+							}
+						},
+						"launch8" : {
+							"properties" : {
+								"image" : "<partImage>:launch8.<frame>"
+							}
+						},
+						"launch9" : {
+							"properties" : {
+								"image" : "<partImage>:launch9.<frame>"
+							}
+						},
+						"launch3_buffer" : {
+							"properties" : {
+								"image" : "<partImage>:launch3_buffer.<frame>"
+							}
+						},
+						"launch10" : {
+							"properties" : {
+								"image" : "<partImage>:launch10.<frame>"
+							}
+						},
+						"launch11" : {
+							"properties" : {
+								"image" : "<partImage>:launch11.<frame>"
+							}
+						},
+						"launch12" : {
+							"properties" : {
+								"image" : "<partImage>:launch12.<frame>"
+							}
+						},
+						"launch4_buffer" : {
+							"properties" : {
+								"image" : "<partImage>:launch4_buffer.<frame>"
+							}
+						},
+						"reloading" : {
+							"properties" : {
+								"image" : "<partImage>:reloading.<frame>"
+							}
+						}
+					},
+					
+					"movement" : {
+						"moving1" : {
+							"properties" : {
+								"image" : "<partImage>:moving1.<frame>"
+							}
+						},
+						"moving2" : {
+							"properties" : {
+								"image" : "<partImage>:moving2.<frame>"
+							}
+						},
+						"moving3" : {
+							"properties" : {
+								"image" : "<partImage>:moving3.<frame>"
+							}
+						},
+						"slowdown1" : {
+							"properties" : {
+								"image" : "<partImage>:slowdown1.<frame>"
+							}
+						},
+						"slowdown2" : {
+							"properties" : {
+								"image" : "<partImage>:slowdown2.<frame>"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+  
+	"globalTagDefaults" : {
+	
+	},
+
+	"transformationGroups" : {
+		"autocannons" : {},
+		"lasercannon" : {},
+		"beamend" : {}
+	},
+
+	"particleEmitters" : {
+		"damage" : {
+			"emissionRate" : 0.7,
+			"particles" : [
+			]
+		},
+		"deathPoof" : {
+			"burstCount" : 25,
+			"offsetRegion" : [-16, -5, 16, 2],
+			"particles" : [
+				{
+					"particle" : {
+						"type" : "animated",
+						"animation" : "/animations/smoke/smoke.animation",
+						"approach" : [0.5, 0.5],
+						"timeToLive" : 0.6,
+						"variance" : {
+							"position" : [5, 5],
+							"initialVelocity" : [1, 1],
+							"timeToLive" : 0.15,
+							"rotation" : 180
+						}
+					}
+				},
+				{
+					"particle" : {
+						"type" : "animated",
+						"animation" : "/animations/knightfall_flamemedium/knightfall_flamemedium.animation",
+						"fullbright" : true,
+						"approach" : [0.5, 0.5],
+						"size" : 1,
+						"timeToLive" : 0.6,
+						"layer" : "middle",
+						"variance" : {
+							"position" : [5, 5],
+							"initialVelocity" : [1, 1],
+							"size" : 1.5,
+							"timeToLive" : 0.15,
+							"layer" : "middle",
+							"rotation" : 180
+						}
+					}
+				},
+				{
+					"particle" : {
+						"type" : "ember",
+						"size" : 3,
+						"color" : [253, 209, 77, 255],
+						"light" : [128, 0, 0],
+						"fullbright" : true,
+						"destructionTime" : 0.5,
+						"destructionAction" : "shrink",
+						"fade" : 0.9,
+						"initialVelocity" : [0, 5],
+						"finalVelocity" : [0.0, -50.0],
+						"approach" : [0, 30],
+						"timeToLive" : 0.2,
+						"layer" : "middle",
+						"variance" : {
+							"position" : [0.25, 0.25],
+							"size" : 0.5,
+							"initialVelocity" : [50, 50],
+							"timeToLive" : 0.2
+						}
+					}
+				}
+			]
+		},
+
+		"phaseTransition" : {
+			"burstCount" : 1,
+			"offsetRegion" : [-16, -5, 16, 2],
+			"particles" : [
+				{
+					"particle" : {
+						"type" : "animated",
+						"animation" : "/animations/knightfall_debris1/knightfall_debris1.animation",
+						"position" : [0, 0],
+						"initialVelocity" : [7, 10.0],
+						"finalVelocity" : [7, -10.0],
+						"approach" : [0, 20],
+						"timeToLive" : 0.9,
+						"layer" : "front",
+						"collidesForeground" : true,
+						"variance" : {
+						  "initialVelocity" : [7, 4.0]
+						}
+					}
+				},
+				{
+					"particle" : {
+						"type" : "animated",
+						"animation" : "/animations/knightfall_debris2/knightfall_debris2.animation",
+						"position" : [0, 0],
+						"initialVelocity" : [6, 8.0],
+						"finalVelocity" : [6, -8.0],
+						"approach" : [0, 20],
+						"timeToLive" : 0.9,
+						"layer" : "front",
+						"collidesForeground" : true,
+						"variance" : {
+						  "initialVelocity" : [7, 4.0]
+						}
+					}
+				},
+				{
+					"particle" : {
+						"type" : "animated",
+						"animation" : "/animations/knightfall_debris3/knightfall_debris3.animation",
+						"position" : [0, 0],
+						"initialVelocity" : [8, 6.0],
+						"finalVelocity" : [8, -6.0],
+						"approach" : [0, 20],
+						"timeToLive" : 0.9,
+						"layer" : "front",
+						"collidesForeground" : true,
+						"variance" : {
+						  "initialVelocity" : [6, 8.0]
+						}
+					}
+				},
+				{
+					"particle" : {
+						"type" : "animated",
+						"animation" : "/animations/knightfall_debris4/knightfall_debris4.animation",
+						"position" : [0, 0],
+						"initialVelocity" : [2, 10.0],
+						"finalVelocity" : [4, -10.0],
+						"approach" : [0, 20],
+						"timeToLive" : 0.9,
+						"layer" : "front",
+						"collidesForeground" : true,
+						"variance" : {
+						  "initialVelocity" : [6, 4.0]
+						}
+					}
+				},
+				{
+					"particle" : {
+						"type" : "animated",
+						"animation" : "/animations/knightfall_debris5/knightfall_debris5.animation",
+						"position" : [0, 0],
+						"initialVelocity" : [6, 8.0],
+						"finalVelocity" : [6, -8.0],
+						"approach" : [0, 20],
+						"timeToLive" : 0.9,
+						"layer" : "front",
+						"collidesForeground" : true,
+						"variance" : {
+						  "initialVelocity" : [8, 6.0]
+						}
+					}
+				}
+			]
+		},
+		"phaseTransitionLoop" : {
+			"emissionRate" : 100,
+			"offsetRegion" : [-16, -3, 16, 1],
+			"particles" : [
+				{
+					"particle" : {
+						"type" : "animated",
+						"animation" : "/animations/electroshock/electroshock.animation",
+						"timeToLive" : 0.2,
+						"rotation" : 0,
+						"fullbright" : true,
+						"initialVelocity" : [0, 0],
+						"layer" : "front",
+							"variance" : {
+							"rotation" : 180
+						}
+					}
+				}
+			]
+		},
+
+		"autocannonMuzzleFlash" : {
+			"transformationGroups" : [ "autocannons" ],
+			"offsetRegion" : [0, 0, 0, 0],
+			"particles" : [
+				{ "particle" : "knightfall_bigbulletshellfront", "offset" : [2, 2.375] }
+			]
+		},
+		"mortarMuzzleFlash" : {
+			"offsetRegion" : [0, 0, 0, 0],
+			"particles" : [
+				{ "particle" : "rocketbarrelpuff", "offset" : [-6.75, 4] },
+				{ "particle" : "rocketbarrelpuff", "offset" : [-6.75, 4] },
+				{ "particle" : "rocketbarrelpuff", "offset" : [-6.75, 4] },
+				{ "particle" : "rocketbarrelpuff", "offset" : [-6.75, 4] },
+				{ "particle" : "rocketbarrelpuff", "offset" : [-6.75, 4] },
+				{ "particle" : "rocketbarrelpuff", "offset" : [-6.75, 4] },
+				{ "particle" : "rocketbarrelpuff", "offset" : [-6.75, 4] },
+				{ "particle" : "rocketbarrelpuff", "offset" : [-6.75, 4] },
+				{ "particle" : "rocketbarrelpuff", "offset" : [-6.75, 4] },
+				{ "particle" : "rocketbarrelpuff", "offset" : [-6.75, 4] }			
+			]
+		},
+		"missileMuzzleFlash" : {
+			"offsetRegion" : [0, 0, 0, 0],
+			"burstCount" : 15,
+			"particles" : [
+				{ "particle" : "rocketbarrelpuff", "offset" : [-5.5, 0.5] },
+				{ 
+					"particle" : {
+		                "type" : "animated",
+						"animation" : "/animations/dust2/dust2.animation",
+						"position" : [-8.5, 0],
+						"initialVelocity" : [-10, -2],
+						"finalVelocity" : [0, 4],
+						"approach" : [0, 0],
+						"destructionAction" : "shrink",
+						"destructionTime" : 0.85,
+						"fade" : 1,
+						"size" : 1,
+						"layer" : "front",
+						"timeToLive" : 0.45,
+						"variance" : {
+						  "initialVelocity" : [-8, -2],
+						  "rotation" : 180
+						}
+		            }
+				}
+			]
+		},
+		"laserCannonMuzzleFlash" : {
+			"offsetRegion" : [7, -1, 12, -2],
+			"emissionRate" : 5,
+			"transformationGroups" : [ "lasercannon" ],
+			"particles" : [
+				{
+					"particle" : {
+						"type" : "animated",
+						"animation" : "/animations/knightfall_fadedsmoke/knightfall_fadedsmoke.animation",
+						"initialVelocity" : [-5, 15],
+						"size" : 0.75,
+						"fade" : 0.25,
+						"timeToLive" : 0.4,
+						"layer" : "middle",
+						"variance" : {
+							"initialVelocity" : [5, 15],
+							"size" : 1,
+							"layer" : "middle"
+						}
+					}
+				},
+				{
+					"particle" : {
+						"type" : "animated",
+						"animation" : "/animations/knightfall_fadedsmoke/knightfall_fadedsmoke.animation",
+						"initialVelocity" : [-5, 15],
+						"size" : 0.75,
+						"fade" : 0.25,
+						"timeToLive" : 0.4,
+						"layer" : "middle",
+						"variance" : {
+							"initialVelocity" : [5, 15],
+							"size" : 1,
+							"layer" : "middle"
+						}
+					}
+				},
+				{
+					"particle" : {
+						"type" : "animated",
+						"animation" : "/animations/groundmist/groundmist.animation",
+						"approach" : [1, 1],
+						"size" : 3,
+						"timeToLive" : 0.4,
+						"layer" : "middle",
+						"variance" : {
+							"position" : [5, 5],
+							"initialVelocity" : [1, 1],
+							"size" : 2,
+							"layer" : "middle"
+						}
+					}
+				}
+			]
+		},
+		"laserCannonHeatsink" : {
+			"offsetRegion" : [-5, -1, -9, -2],
+			"emissionRate" : 5,
+			"particles" : [
+				{
+					"particle" : {
+						"type" : "animated",
+						"animation" : "/animations/knightfall_fadedsmoke/knightfall_fadedsmoke.animation",
+						"initialVelocity" : [-5, 15],
+						"size" : 0.75,
+						"fade" : 0.25,
+						"timeToLive" : 0.4,
+						"layer" : "middle",
+						"variance" : {
+							"initialVelocity" : [5, 15],
+							"size" : 1,
+							"layer" : "middle"
+						}
+					}
+				},
+				{
+					"particle" : {
+						"type" : "animated",
+						"animation" : "/animations/knightfall_fadedsmoke/knightfall_fadedsmoke.animation",
+						"initialVelocity" : [-5, 15],
+						"size" : 0.75,
+						"fade" : 0.25,
+						"timeToLive" : 0.4,
+						"layer" : "middle",
+						"variance" : {
+							"initialVelocity" : [5, 15],
+							"size" : 1,
+							"layer" : "middle"
+						}
+					}
+				},
+				{
+					"particle" : {
+						"type" : "animated",
+						"animation" : "/animations/groundmist/groundmist.animation",
+						"approach" : [1, 1],
+						"size" : 3,
+						"timeToLive" : 0.4,
+						"layer" : "middle",
+						"variance" : {
+							"position" : [5, 5],
+							"initialVelocity" : [1, 1],
+							"size" : 2,
+							"layer" : "middle"
+						}
+					}
+				}
+			]
+		},
+		"beamEnd" : {
+			"offsetRegion" : [-4, -4, 4, 4],
+			"transformationGroups" : [ "beamend" ],
+			"burstCount" : 5,
+			"particles" : [
+				{ 
+					"particle" : {
+		                "type" : "animated",
+						"animation" : "/animations/syndicate_laserexplosion/syndicate_laserexplosion.animation",
+						"position" : [0, 0],
+						"initialVelocity" : [0, 0],
+						"approach" : [0, 0],
+						"fade" : 1,
+						"size" : 1,
+						"layer" : "front",
+						"timeToLive" : 0.2,
+						"variance" : {
+						  "rotation" : 180
+						}
+		            }
+				},
+				{ 
+					"particle" : {
+		                "type" : "animated",
+						"animation" : "/animations/syndicate_laserexplosion/syndicate_laserexplosion.animation",
+						"position" : [0, 0],
+						"initialVelocity" : [0, 0],
+						"approach" : [0, 0],
+						"fade" : 1,
+						"size" : 1,
+						"layer" : "middle",
+						"timeToLive" : 0.2,
+						"variance" : {
+						  "rotation" : 180
+						}
+		            }
+				},
+				{
+					"particle" : {
+						"type" : "streak",
+						"position" : [0, 0],
+						"initialVelocity" : [50, 50],
+						"finalVelocity" : [0, 0],
+						"approach" : [1, 1],
+						"color" : [255, 255, 255, 255],
+						"collidesForeground" : false,
+						"timeToLive" : 0.3,
+						"destructionTime" : 0.3,
+						"destructionAction" : "shrink",
+						"fullbright" : true,
+						"size" : 0.2,
+						"layer" : "back",
+						"variance" : {
+							"size" : 0.5,
+							"initialVelocity" : [100, 100],
+							"color" : [228, 73, 113, 200]
+						}
+					}
+				},
+				{
+					"particle" : {
+						"type" : "streak",
+						"position" : [0, 0],
+						"initialVelocity" : [-50, 50],
+						"finalVelocity" : [0, 0],
+						"approach" : [-1, 1],
+						"color" : [255, 255, 255, 255],
+						"collidesForeground" : false,
+						"timeToLive" : 0.3,
+						"destructionTime" : 0.3,
+						"destructionAction" : "shrink",
+						"fullbright" : true,
+						"size" : 0.2,
+						"layer" : "back",
+						"variance" : {
+							"size" : 0.5,
+							"initialVelocity" : [-100, 100],
+							"color" : [228, 73, 113, 200]
+						}
+					}
+				},
+				{
+					"particle" : {
+						"type" : "streak",
+						"position" : [0, 0],
+						"initialVelocity" : [-50, -50],
+						"finalVelocity" : [0, 0],
+						"approach" : [-1, -1],
+						"color" : [255, 255, 255, 255],
+						"collidesForeground" : false,
+						"timeToLive" : 0.3,
+						"destructionTime" : 0.3,
+						"destructionAction" : "shrink",
+						"fullbright" : true,
+						"size" : 0.2,
+						"layer" : "back",
+						"variance" : {
+							"size" : 0.5,
+							"initialVelocity" : [-100, -100],
+							"color" : [228, 73, 113, 200]
+						}
+					}
+				},
+				{
+					"particle" : {
+						"type" : "streak",
+						"position" : [0, 0],
+						"initialVelocity" : [50, -50],
+						"finalVelocity" : [0, 0],
+						"approach" : [1, -1],
+						"color" : [255, 255, 255, 255],
+						"collidesForeground" : false,
+						"timeToLive" : 0.3,
+						"destructionTime" : 0.3,
+						"destructionAction" : "shrink",
+						"fullbright" : true,
+						"size" : 0.2,
+						"layer" : "back",
+						"variance" : {
+							"size" : 0.5,
+							"initialVelocity" : [100, -100],
+							"color" : [228, 73, 113, 200]
+						}
+					}
+				}
+			]
+		}
+	},
+
+	"effects" : {
+		"blink" : {
+			"type" : "flash",
+			"time" : 0.25,
+			"directives" : "fade=ffffff;0.5"
+		}
+	},
+
+	"sounds" : {
+		"deathPuff" : {
+			"pool" : [ "/sfx/npc/enemydeathpuff.ogg" ],
+			"rangeMultiplier" : 1.5
+		},
+		"phaseTransition" : { 
+            "volume" : 2.0,
+            "pool" : [ "/sfx/explosions/knightfall_explosion4.ogg" ]
+		},
+		"phaseTransitionFlare" : { 
+            "volume" : 2.0,
+            "pool" : [ "/sfx/other/knightfall_flarelaunch.ogg" ]
+		},
+		"phaseTransitionLoop" : { 
+            "volume" : 3.0,
+            "pool" : [ "/sfx/objects/teslaspike.ogg" ]
+		},
+		
+		"idle" : {
+			"volume" : 2,
+			"pool" : [ "/sfx/other/knightfall_tankidle.ogg" ]
+		},
+		"charge" : {
+			"volume" : 1.5,
+			"pool" : [ "/sfx/other/knightfall_tankengine-charge.ogg" ]
+		},
+
+		"autocannonFire" : {
+			"volume" : 0.50,
+			"pool" : [ "/sfx/gun/knightfall_heavy-gunfire4.ogg" ]
+		},
+		"mortarFire" : {
+			"pitchMultiplier" : 1.1,
+            "volume" : 1.2,
+            "pool" : [ "/sfx/explosions/knightfall_explosion2.ogg" ]
+		},
+		"missileFire" : [ "/sfx/gun/rocket1.ogg" ],
+		"laserChargeup" : {
+			"volume" : 2.5,
+			"pool" : [ "/sfx/gun/knightfall_chargeup2.ogg" ]
+		},
+		"laserBeamStart" : {
+			"volume" : 1.5,
+			"pool" : [ "/sfx/gun/knightfall_heavylaser_start.ogg" ]
+		},
+		"laserBeamLoop" : {
+			"volume" : 2.5,
+			"pool" : [ "/sfx/gun/knightfall_heavylaser_loop.ogg" ]
+		},
+		"laserBeamEnd" : {
+			"volume" : 2.5,
+			"pool" : [ "/sfx/gun/knightfall_heavylaser_end.ogg" ]
+		},
+		"laserWarning" : {
+			"volume" : 2.5,
+			"pool" : [ "/sfx/other/knightfall_warningalert.ogg" ]
+		},
+		"laserCannonFire" : {
+			"volume" : 3,
+			"pool" : [ "/sfx/gun/knightfall_heavylaser_gunfire2.ogg" ]
+		}
+	}
+}

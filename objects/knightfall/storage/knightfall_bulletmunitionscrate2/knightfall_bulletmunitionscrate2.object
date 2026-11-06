@@ -1,0 +1,47 @@
+{
+  "objectName": "knightfall_bulletmunitionscrate2",
+  "colonyTags": [ "knightfall", "decorative" ],
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 100,
+  "tooltipKind": "knightfall_base",
+  "description": "An open container that prioritizes ease-of-access over protection. Used for resupplying kinetic ammunition to gun teams or rearming strike craft between engagements.",
+  "shortdescription": "Kinetic Ammo Carrier",
+  "race": "generic",
+  "apexDescription": "A crate full of ballistic ammo.",
+  "avianDescription": "This crate is loaded with ammunition.",
+  "floranDescription": "Floran can go ssshooting!",
+  "glitchDescription": "Observant. This crate is for storing kinetic rounds.",
+  "humanDescription": "A secured crate for storing ammunition.",
+  "hylotlDescription": "A cargo container for ballistic ammo.",
+  "novakidDescription": "A crate for storin' bullets and slugs.",
+  "inventoryIcon": "icon.png",
+  "orientations": [
+    {
+      "imageLayers": [
+        {
+          "image": "left.png:<color>"
+        }
+      ],
+      "direction": "left",
+      "imagePosition": [-16, 0],
+	  "frames": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    },
+    {
+      "imageLayers": [
+        {
+          "image": "right.png:<color>"
+        }
+      ],
+      "direction": "right",
+      "imagePosition": [-16, 0],
+	  "frames": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    }
+  ]
+}

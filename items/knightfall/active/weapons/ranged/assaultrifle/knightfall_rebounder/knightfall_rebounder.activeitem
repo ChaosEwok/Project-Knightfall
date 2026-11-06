@@ -1,8 +1,8 @@
 {
 	"itemName": "knightfall_rebounder",
-	"shortdescription": "^4;Rebounder",
+	"shortdescription": "^2-AR;StormTech ARB3 Rebounder",
 	"category": "^#66ccff;Plasma Bouncer Rifle^reset;",
-	"description": "^#66ccff;PRIMARY^reset; - Medium Bouncer Bolts\n^#66ccff;ALTFIRE^reset; - Plasma Bouncer Orbs\n>> ^#66ccff;[ Hold to fire ]^reset;\n>> Launches 1-3 orbs depending on charge length.\n\n^#559fd3;The second generation upgrade of the Snapback, the Rebounder boasts a unique orb launcher capable of launching magnetized plasma orbs that wreak havoc in confined spaces.^reset;",
+	"description": "^#66ccff;PRIMARY^reset; - Medium Bouncer Bolts\n^#66ccff;ALTFIRE^reset; - Plasma Bouncer Orbs\n>> ^#66ccff;[ Hold to fire ]^reset;\n>> Launches 1-3 orbs depending on charge length.\n\n^#559fd3;StormTech's premier second generation plasma rifle. Features a patented orb launcher capable of launching magnetized balls coated in hot plasma, creating carnage in confined spaces.^reset;",
 
 	"level": 7,
 	"price": 5000,
@@ -30,7 +30,7 @@
 	"cursor" : "/cursors/knightfall/rifle.cursor",
 	"scripts": ["/scripts/weapons/knightfall_gun.lua"],
 
-	"elementalType": "knightfall_plasma",
+	"elementalType": "fire",
 
 	"primaryAbility": {
 		"name": "Bouncing Bolts",
@@ -39,8 +39,8 @@
 		"class": "GunFire",
 
 		"fireTime": 0.25,
-		"baseDps": 12,
-		"energyUsage": 40,
+		"baseDps": 13,
+		"energyUsage": 100,
 		"inaccuracy": 0.02,
 		"fireType": "auto",
 

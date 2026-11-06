@@ -1,8 +1,8 @@
 {
 	"itemName": "knightfall_aeroscorn",
-	"shortdescription": "^8;Aeroscorn",
+	"shortdescription": "^3-AR;KX Blitzer Support",
 	"category": "^#5be1eb;Support Assault Rifle^reset;",
-	"description": "^#66ccff;PRIMARY^reset; - Rifle Bullets\n^#66ccff;ALTFIRE^reset; - Healing Grenade\n>> ^green;Heals units for 75 health.^reset;\n\n^#559fd3;Based off the chassis of the Blitzhunter, the Aeroscorn is the standard service rifle of Knightfall's Medicframes.\n\nIn recent years, its use has declined in favor of the tactical Nebulizer.^reset;",
+	"description": "^#66ccff;PRIMARY^reset; - Rifle Bullets\n^#66ccff;ALTFIRE^reset; - Healing Grenade\n>> ^green;Heals units for 75 health.^reset;\n\n^#559fd3;Issued to Knightfall's medics, this modified variant of the Blitzer features a shorter barrel chambered in 5.60x45mm instead. The reduction in weight makes it easier to carry, at the cost of losing range and power.^reset;",
   
 	"level": 6,
 	"price": 5000,
@@ -44,7 +44,7 @@
 	"cursor" : "/cursors/knightfall/rifle.cursor",
 	"scripts": ["/scripts/weapons/knightfall_gun.lua"],
 
-	"elementalType": "knightfall_bleed",
+	"elementalType": "knightfall_physical",
 
 	"primaryAbility": {
 		"name": "Rifle Bullets",
@@ -52,10 +52,10 @@
 		"scripts": ["/items/active/weapons/ranged/gunfire.lua"],
 		"class": "GunFire",
 
-		"fireTime": 0.11,
-		"baseDps": 14,
-		"energyUsage": 91,
-		"inaccuracy": 0.03,
+		"fireTime": 0.15,
+		"baseDps": 15,
+		"energyUsage": 66.67,
+		"inaccuracy": 0.02,
 		"fireType": "auto",
 
 		"projectileCount": 1,

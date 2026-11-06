@@ -1,8 +1,8 @@
 {
 	"itemName": "knightfall_snapback",
-	"shortdescription": "^7;Snapback",
+	"shortdescription": "^3-AR;StormTech ARB2 Snapback",
 	"category": "^#66ccff;Plasma Bouncer Rifle^reset;",
-	"description": "^#66ccff;PRIMARY^reset; - Light Bouncer Bolts\n^#66ccff;ALTFIRE^reset; - Charged Plasma Bolt\n>> ^#66ccff;[ Hold to fire ]^reset;\n\n^#559fd3;A first generation plasma rifle designed by StormTech, featuring plasma bolts attracted to a magnetic ball. It's often used in confined or tactical settings, as well as in tactical law enforcement.^reset;",
+	"description": "^#66ccff;PRIMARY^reset; - Light Bouncer Bolts\n^#66ccff;ALTFIRE^reset; - Charged Plasma Bolt\n>> ^#66ccff;[ Hold to fire ]^reset;\n\n^#559fd3;StormTech's first generation plasma rifle, featuring plasma bolts attracted to a magnetic ball. Effective in urban or enclosed areas, often used by law enforcement in tactical settings.^reset;",
 
 	"level": 6,
 	"price": 2400,
@@ -30,7 +30,7 @@
 	"cursor" : "/cursors/knightfall/rifle.cursor",
 	"scripts": ["/scripts/weapons/knightfall_gun.lua"],
 
-	"elementalType": "knightfall_plasma",
+	"elementalType": "fire",
 
 	"primaryAbility": {
 		"name": "Bouncing Bolts",
@@ -40,7 +40,7 @@
 
 		"fireTime": 0.2,
 		"baseDps": 6,
-		"energyUsage": 50,
+		"energyUsage": 75,
 		"inaccuracy": 0.02,
 		
 		"burstCount" : 3,
@@ -115,7 +115,7 @@
 
 				"inaccuracy" : 0.02,
 				"spreadAngle" : 0,
-				"baseDamage" : 5,
+				"baseDamage" : 6,
 				"fireSound" : "altFire",
 
 				"chargeAnimationState" : "charge",

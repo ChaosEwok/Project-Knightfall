@@ -1,8 +1,8 @@
 {
 	"itemName": "knightfall_ruiner",
-	"shortdescription": "^3;Ruiner",
+	"shortdescription": "^1-SG;StormTech SG7 Sunderline",
 	"category": "^#66ccff;Heavy Plasma Shotgun^reset;",
-	"description": "^#66ccff;PRIMARY^reset; - Light Plasma Burst\n>> ^#66ccff;[ Hold to fire ]^reset;\n\n^#66ccff;ALTFIRE^reset; - Absolute Area-Denial\n>> Arcs toward your cursor.\n>> Lasts for 5 seconds.^reset;\n\n^#559fd3;A third generation upgrade of the Fragmenter designed by StormTech, the Ruiner features a 3-barreled area-denial device carrier, giving it excellent area-denial capabilities.^reset;",
+	"description": "^#66ccff;PRIMARY^reset; - Light Plasma Burst\n>> ^#66ccff;[ Hold to fire ]^reset;\n\n^#66ccff;ALTFIRE^reset; - Absolute Area-Denial\n>> Arcs toward your cursor.\n>> Lasts for 5 seconds.^reset;\n\n^#559fd3;StormTech's sixth generation plasma shotgun based on the SG3 Atomizer. Equipped with a triple-barrel area-denial launcher for exceptional crowd control.^reset;",
   
 	"level": 8,
 	"price": 12750,
@@ -30,17 +30,15 @@
 	"cursor" : "/cursors/knightfall/shotgun.cursor",
 	"scripts": ["/scripts/weapons/knightfall_gun.lua"],
 
-	"elementalType": "knightfall_plasma",
+	"elementalType": "fire",
 	
 	"primaryAbility": {
-		"name": "Plasma Buckshots",
-		"description": "Fires plasma buckshots at a steady rate of fire. \n^#66ccff;[ Hold to fire ]^reset;",
 		"scripts": [ "/scripts/weapons/nebkf-enhancedchargefire.lua" ],
 		"class" : "NebKFEnhancedChargeFire",
 
 		"fireTime": 0.4,
 		"baseDps" : 18,
-		"energyUsage" : 25,
+		"energyUsage" : 31.25,
 
 		"chargeLevels" : [
 			{
@@ -55,7 +53,7 @@
 					"speed" : [140, 160]
 				},
 
-				"inaccuracy" : 0.08,
+				"inaccuracy" : 0.06,
 				"spreadAngle" : 0,
 				"baseDamage" : 18,
 				"fireSound" : "fire",
@@ -135,8 +133,6 @@
 	},
 	
 	"altAbility" : {
-		"name": "Absolute Area-Denial",
-		"description": "Fires 3 area-denial devices across a wide area.",
 		"scripts": ["/items/knightfall/active/weapons/ranged/abilities/plungingfire/plunging_fire.lua"],
 		"class": "PlungingFire",
 

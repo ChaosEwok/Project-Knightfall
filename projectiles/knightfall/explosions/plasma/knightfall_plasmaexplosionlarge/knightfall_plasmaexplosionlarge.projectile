@@ -12,9 +12,7 @@
   "bounces" : -1,
   "flippable" : true,
   "lightColor" : [102, 204, 255],
-  "statusEffects" : [
-	"knightfall_melting"
-  ],
+  "statusEffects" : [ "knightfall_plasmaburns" ],
  
   "periodicActions" : [
     {
@@ -26,7 +24,7 @@
       "specification" : {
         "type" : "animated",
 		"looping" : true,
-        "animation" : "/animations/knightfall_energyshock2/knightfall_energyshock2.animation",
+        "animation" : "/animations/knightfall_energyshock/knightfall_energyshock.animation",
         "approach" : [50, 50],
 		"collidesForeground" : false,
         "timeToLive" : 0.425,
@@ -46,5 +44,5 @@
     }
   ],
   "power" : 0,
-  "damageKind" : "knightfall_plasma"
+  "damageKind" : "fireplasma"
 }

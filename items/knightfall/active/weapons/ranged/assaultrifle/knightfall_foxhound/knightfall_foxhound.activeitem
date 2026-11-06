@@ -1,8 +1,8 @@
 {
 	"itemName": "knightfall_foxhound",
-	"shortdescription": "^5;Foxhound",
-	"category": "^orange;Assault Rifle^reset;",
-	"description": "^#66ccff;PRIMARY^reset; - Rifle Bullets\n^#66ccff;ALTFIRE^reset; - Quick Stasis Bolt\n>> ^#a8fff9;Freezes enemies for 3 seconds.^reset;\n\n^#559fd3;An old and reliable service rifle used extensively during the First Ravenous War. It remains as Knightfall's standard-issue rifle for their GIs.^reset;",
+	"shortdescription": "^3-AR;AR-8 Foxhound",
+	"category": "^orange;Carbine^reset;",
+	"description": "^#66ccff;PRIMARY^reset; - Rifle Bullets\n^#66ccff;ALTFIRE^reset; - Quick Stasis Bolt\n>> ^#a8fff9;Freezes enemies for 3 seconds.^reset;\n\n^#559fd3;Knightfall's standard-issue service carbine. Used extensively during the First Ravenous War, and sees continued use today thanks to modernization efforts and its robust design.^reset;",
   
 	"level": 6,
 	"price": 2400,
@@ -44,18 +44,18 @@
 	"cursor" : "/cursors/knightfall/rifle.cursor",
 	"scripts": ["/scripts/weapons/knightfall_gun.lua"],
 
-	"elementalType": "knightfall_bleed",
+	"elementalType": "knightfall_physical",
 
 	"primaryAbility": {
 		"name": "Rifle Bullets",
 		"description": "Fires rifle bullets at a steady rate of fire.",
-		"scripts": ["/items/active/weapons/ranged/gunfire.lua"],
-		"class": "GunFire",
+		"scripts": ["/scripts/weapons/nebkf-gunfire.lua"],
+		"class": "NebKFGunFire",
 
-		"fireTime": 0.11,
-		"baseDps": 13.5,
-		"energyUsage": 91,
-		"inaccuracy": 0.03,
+		"fireTime": 0.15,
+		"baseDps": 18,
+		"energyUsage": 66.67,
+		"inaccuracy": 0.02,
 		"fireType": "auto",
 
 		"projectileCount": 1,
@@ -116,7 +116,7 @@
 
 		"fireTime": 4,
 		"baseDps": 0,
-		"energyUsage": 10,
+		"energyUsage": 0,
 		"inaccuracy": 0,
 		"fireType": "auto",
 

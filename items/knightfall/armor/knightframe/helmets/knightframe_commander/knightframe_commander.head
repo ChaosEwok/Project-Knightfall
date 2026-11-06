@@ -6,8 +6,8 @@
   "rarity" : "Legendary",
   "rarityLabelKind" : "knightfall",
   "category" : "^#66ccff;Decorative Helmet^reset;",
-  "description" : "A unique Knightframe helmet issued to field officers, fitted with additional software for coordinating units.",
-  "shortdescription" : "Knightframe ^#66ccff;'Commander'^reset;",
+  "description" : "Unique helmet variant worn by Knightfall's field officers. Equipped for coordinating units through encrypted long-range communication.",
+  "shortdescription" : "^2-A3;Knight Commander",
   "tooltipKind" : "knightfall_armor",
 
   "maleFrames" : "head.png",
