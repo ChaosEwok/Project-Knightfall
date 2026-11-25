@@ -1,0 +1,66 @@
+{
+  "objectName" : "syndicate_landmine",
+  "colonyTags" : ["combat"],
+  "printable" : false,
+  "rarity" : "Rare",
+  "breakDropOptions" : [],
+
+  "category" : "breakable",
+  "price" : 20,
+  "description" : "Landmines have inflicted more casualties than any other Syndicate weapon during Knightfall's war against insurgency. These weapons may be old, but their effectiveness remains devastating as ever.",
+  "shortdescription" : "Land Mine",
+  "race" : "generic",
+  
+  "tooltipKind": "syndicate_base",
+
+  "apexDescription": "If there's one here, there are probably more nearby.",
+  "avianDescription": "I would rather not find out whether this thing is still active. Best keep my distance.",
+  "floranDescription": "Floran should watch where Floran stepsss...",
+  "glitchDescription": "Wary. There may be more of these buried nearby.",
+  "humanDescription": "I better back off before I get my foot blown sky-high.",
+  "hylotlDescription": "Such an indiscriminate weapon. Even after its maker is gone, it continues to claim lives.",
+  "novakidDescription": "I ain't takin' another step until I'm sure there aren't more of these buried around.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "image.png:<color>.off",
+      "imagePosition" : [-8, 0],
+	  
+	  "animationParts" : {
+        "bg" : "image.png",
+        "fg" : "lit.png"
+      },
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/syndicate/trap/syndicate_landmine/syndicate_landmine.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "image.png",
+    "fg" : "lit.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : ["/sfx/interface/rocket_lockon.ogg"]
+    }
+  },
+  "animationPosition" : [-8, 0],
+
+  "outputNodes" : [ [0, 0] ],
+  
+  "smashable" : true,
+  "smashOnBreak" : false,
+  "smashSounds" : [],
+  "smashDropPool" : "empty",
+
+  "explosionProjectile" : "knightfall_HErocket",
+  "explosionDamage" : 500,
+  "triggerDelay" : 0.25,
+  "detectArea" : [ [-1.0, 0], [1.0, 1.0] ]
+}

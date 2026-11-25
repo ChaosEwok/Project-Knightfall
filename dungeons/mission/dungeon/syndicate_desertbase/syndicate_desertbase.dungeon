@@ -258,6 +258,20 @@
 			],
 			"def" : [ "tmx", "bridge2.json" ],
 			"chance" : 0
+		},
+		{
+			"name" : "bridge3",
+			"rules" : [
+			    [ "ignorePartMaximumRule" ],
+				[ "maxSpawnCount", [1] ],
+				[ "doNotCombineWith", 
+					[ 
+						"bridge3"
+					] 
+				]
+			],
+			"def" : [ "tmx", "bridge3.json" ],
+			"chance" : 0
 		}
 	]
 }
